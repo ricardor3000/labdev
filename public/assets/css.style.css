@@ -48,7 +48,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 :root {
-  --color-primary: #DF0A0A;
+  --color-primary:#425E73;
   --color-primary-2: #0B4DF5;
   --color-primary-3: #F64A00;
   --color-primary-4: #5264F3;
@@ -57,7 +57,7 @@
   --color-primary-7: #E87556;
   --color-primary-8: #845CFF;
   --color-primary-9: #4A3BCA;
-  --color-primary-alta: #FFECEC;
+  --color-primary-alta: #DFE6EC;
   --color-secondary:#111D5E;
   --color-terciary:#90FF03;
   --color-gray: #f6f6f6;
@@ -13614,7 +13614,7 @@ body.sal-disabled [data-sal|=flip] {
   content: "";
   width: 1px;
   height: 14px;
-  background: #F36464;
+  background: #FFF;
   right: 25px;
   top: 50%;
   transform: translateY(-50%);
@@ -13682,7 +13682,7 @@ body.sal-disabled [data-sal|=flip] {
   left: -25px;
   top: 50%;
   transform: translateY(-50%);
-  background: #F36464;
+  background: #FFF;
 }
 .header-top-one.header-top-four {
   border-bottom: 1px solid #EDEDED;
@@ -13767,7 +13767,7 @@ body.sal-disabled [data-sal|=flip] {
 }
 
 .header-main-one .thumbnail a {
-  padding: 36px 0;
+  padding: 25px 0;
   display: block;
   max-width: max-content;
 }

@@ -30,7 +30,7 @@ function ServiceOne() {
                                     </div>
                                     <div className="service-details">
                                         <Link href={'/service-details'}>
-                                            <h5 className="title">Business Planning</h5>
+                                            <h5 className="title">Desarrollo Web (Next.js/React)</h5>
                                         </Link>
                                         <p className="disc">
                                             Sagitis himos pulvinar morb socis laoreet posuere enim non
@@ -58,7 +58,7 @@ function ServiceOne() {
                                     </div>
                                     <div className="service-details">
                                         <Link href={'/service-details'}>
-                                            <h5 className="title">Develop Process</h5>
+                                            <h5 className="title">Backend & APIs</h5>
                                         </Link>
                                         <p className="disc">
                                             Sagitis himos pulvinar morb socis laoreet posuere enim non
@@ -86,7 +86,7 @@ function ServiceOne() {
                                     </div>
                                     <div className="service-details">
                                         <Link href={'/service-details'}>
-                                            <h5 className="title">Strategy &amp; Planning</h5>
+                                            <h5 className="title">Apps Mobile</h5>
                                         </Link>
                                         <p className="disc">
                                             Sagitis himos pulvinar morb socis laoreet posuere enim non
@@ -114,7 +114,7 @@ function ServiceOne() {
                                     </div>
                                     <div className="service-details">
                                         <Link href={'/service-details'}>
-                                            <h5 className="title">Business Support</h5>
+                                            <h5 className="title">UX/UI & Product Design</h5>
                                         </Link>
                                         <p className="disc">
                                             Sagitis himos pulvinar morb socis laoreet posuere enim non
@@ -142,7 +142,7 @@ function ServiceOne() {
                                     </div>
                                     <div className="service-details">
                                         <Link href={'/service-details'}>
-                                            <h5 className="title">Audit &amp; Evaluation</h5>
+                                            <h5 className="title">DevOps/Cloud</h5>
                                         </Link>
                                         <p className="disc">
                                             Sagitis himos pulvinar morb socis laoreet posuere enim non
@@ -170,7 +170,7 @@ function ServiceOne() {
                                     </div>
                                     <div className="service-details">
                                         <Link href={'/service-details'}>
-                                            <h5 className="title">Consultancy &amp; Advice</h5>
+                                            <h5 className="title">Mantenimiento / Soporte / Evolutivos</h5>
                                         </Link>
                                         <p className="disc">
                                             Sagitis himos pulvinar morb socis laoreet posuere enim non

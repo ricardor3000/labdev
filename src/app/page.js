@@ -14,6 +14,8 @@ import ContactForm from "@/components/contactform/ContactForm";
 import MapOne from "@/components/map/MapOne";
 import FooterOne from "@/components/footer/FooterOne";
 import BackToTop from "@/components/BackToTop";
+import BusinessGoalFour from "@/components/businessgoal/BusinessGoalFour";
+
 
 export default function Home() {
   return (
@@ -23,6 +25,7 @@ export default function Home() {
       <BannerOne />
       <AboutOne />
       <ServiceOne />
+      <BusinessGoalFour />
       <BusinessGoalOne />
       <Counterup />
       <GalleryOne />

@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <title>Finbiz Business Consulting NextJs Template</title>
+        <title>Lapdev.cl</title>
         <meta name="author" content="themewant" />
         <meta name="description" content="Finbiz Business Consulting NextJs Template" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

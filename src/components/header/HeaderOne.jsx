@@ -110,7 +110,7 @@ function HeaderOne() {
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
                                 <div className="thumbnail">
                                     <Link href={'/'} >
-                                        <img src="/assets/images/logo/logo-1.svg" alt="finbiz-logo" />
+                                        <img src="/assets/images/logo/lapDevLogo2025.svg" width={220} alt="finbiz-logo" />
                                     </Link>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@ function HeaderOne() {
                                             href={'#'}
                                             className="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn"
                                         >
-                                            Get Quote
+                                            Contáctanos
                                         </Link>
                                         <button
                                             id="menu-btn"
