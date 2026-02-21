@@ -43,16 +43,15 @@ function BannerOne() {
                                 {/* banner single content */}
                                 <div className="banner-one-inner text-start">
                                     <p className="pre-title">
-                                        <span>Welcome!</span> Start Growing Your Business Today
+                                        <span>Desarrollo Web</span> y Apps a Medida para Empresas
                                     </p>
                                     <h1 className="title ">
-                                        Make <span>Business Unique </span> <br />
-                                        With Great Ideas
+                                        <span>Soluciones Digitales,</span> <br />
+                                        Dashboards y Apps
                                     </h1>
                                     <p className="disc banner-para">
-                                        Porttitor ornare fermentum aliquam pharetra facilisis gravida
-                                        risus suscipit <br /> Dui feugiat fusce conubia ridiculus
-                                        tristique parturient
+                                        Creamos sitios web profesionales, aplicaciones móviles, dashboards interactivos y sistemas 
+                                        personalizados adaptados a las necesidades de tu negocio. 
                                     </p>
                                     <a href="#" className="rts-btn btn-primary color-h-black">
                                         Get Consultant
@@ -65,6 +64,7 @@ function BannerOne() {
                                 </div>
                                 {/* banner single content end */}
                             </SwiperSlide>
+
                             <SwiperSlide>
                                 {/* banner single content */}
                                 <div className="banner-one-inner text-start">
@@ -90,6 +90,7 @@ function BannerOne() {
                                 </div>
                                 {/* banner single content end */}
                             </SwiperSlide>
+
                             <SwiperSlide>
                                 {/* banner single content */}
                                 <div className="banner-one-inner text-start">
@@ -115,6 +116,7 @@ function BannerOne() {
                                 </div>
                                 {/* banner single content end */}
                             </SwiperSlide>
+
                         </Swiper>
                     </div>
                     <div className="animation-img">

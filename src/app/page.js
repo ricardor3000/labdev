@@ -15,6 +15,7 @@ import MapOne from "@/components/map/MapOne";
 import FooterOne from "@/components/footer/FooterOne";
 import BackToTop from "@/components/BackToTop";
 import BusinessGoalFour from "@/components/businessgoal/BusinessGoalFour";
+import BannerEight from "@/components/banner/BannerEight";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
     <div className="#">
 
       <HeaderOne />
+      <BannerEight />
       <BannerOne />
       <AboutOne />
       <ServiceOne />

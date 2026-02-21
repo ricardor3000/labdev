@@ -11,8 +11,8 @@ function ServiceOne() {
                         <div className="row">
                             <div className="col-12">
                                 <div className="rts-title-area service text-center">
-                                    <p className="pre-title">Our Services</p>
-                                    <h2 className="title">High Quality Services</h2>
+                                    <p className="pre-title">LapDev Servicios</p>
+                                    <h2 className="title">Nuestros Servicios</h2>
                                 </div>
                             </div>
                         </div>
@@ -33,15 +33,16 @@ function ServiceOne() {
                                             <h5 className="title">Desarrollo Web (Next.js/React)</h5>
                                         </Link>
                                         <p className="disc">
-                                            Sagitis himos pulvinar morb socis laoreet posuere enim non
-                                            auctor etiam pretium libero
+                                            Creamos aplicaciones web modernas, rápidas y escalables utilizando Next.js y React. 
+                                            Desarrollamos experiencias optimizadas para rendimiento, SEO y usabilidad, con 
+                                            arquitecturas limpias y mantenibles.
                                         </p>
                                         <Link
                                             className="rts-read-more btn-primary"
                                             href={'/service-details'}
                                         >
                                             <i className="far fa-arrow-right" />
-                                            Read More
+                                           Más Información
                                         </Link>
                                     </div>
                                 </div>
@@ -61,15 +62,16 @@ function ServiceOne() {
                                             <h5 className="title">Backend & APIs</h5>
                                         </Link>
                                         <p className="disc">
-                                            Sagitis himos pulvinar morb socis laoreet posuere enim non
-                                            auctor etiam pretium libero
+                                            Diseñamos y desarrollamos backends robustos y APIs seguras que garantizan rendimiento,
+                                            escalabilidad e integración eficiente con otros sistemas. Trabajamos con arquitecturas modernas 
+                                            y bases de datos optimizadas.
                                         </p>
                                         <Link
                                             className="rts-read-more btn-primary"
                                             href={'/service-details'}
                                         >
                                             <i className="far fa-arrow-right" />
-                                            Read More
+                                            Más Información
                                         </Link>
                                     </div>
                                 </div>
@@ -89,15 +91,15 @@ function ServiceOne() {
                                             <h5 className="title">Apps Mobile</h5>
                                         </Link>
                                         <p className="disc">
-                                            Sagitis himos pulvinar morb socis laoreet posuere enim non
-                                            auctor etiam pretium libero
+                                            Construimos aplicaciones móviles nativas o multiplataforma con enfoque en rendimiento, experiencia de usuario y estabilidad. 
+                                            Desde el diseño hasta la publicación en stores, acompañamos todo el proceso.
                                         </p>
                                         <Link
                                             className="rts-read-more btn-primary"
                                             href={'/service-details'}
                                         >
                                             <i className="far fa-arrow-right" />
-                                            Read More
+                                            Más Información
                                         </Link>
                                     </div>
                                 </div>
@@ -117,15 +119,15 @@ function ServiceOne() {
                                             <h5 className="title">UX/UI & Product Design</h5>
                                         </Link>
                                         <p className="disc">
-                                            Sagitis himos pulvinar morb socis laoreet posuere enim non
-                                            auctor etiam pretium libero
+                                            Diseñamos productos digitales centrados en el usuario, combinando investigación, estrategia y diseño visual. 
+                                            Creamos experiencias intuitivas que alinean objetivos de negocio con necesidades reales de los usuarios.
                                         </p>
                                         <Link
                                             className="rts-read-more btn-primary"
                                             href={'/service-details'}
                                         >
                                             <i className="far fa-arrow-right" />
-                                            Read More
+                                            Más Información
                                         </Link>
                                     </div>
                                 </div>
@@ -145,15 +147,15 @@ function ServiceOne() {
                                             <h5 className="title">DevOps/Cloud</h5>
                                         </Link>
                                         <p className="disc">
-                                            Sagitis himos pulvinar morb socis laoreet posuere enim non
-                                            auctor etiam pretium libero
+                                            Implementamos infraestructuras en la nube seguras y escalables. Automatizamos procesos de despliegue, 
+                                            integración continua y monitoreo para garantizar eficiencia, estabilidad y crecimiento sostenible.
                                         </p>
                                         <Link
                                             className="rts-read-more btn-primary"
                                             href={'/service-details'}
                                         >
                                             <i className="far fa-arrow-right" />
-                                            Read More
+                                            Más Información
                                         </Link>
                                     </div>
                                 </div>
@@ -173,15 +175,15 @@ function ServiceOne() {
                                             <h5 className="title">Mantenimiento / Soporte / Evolutivos</h5>
                                         </Link>
                                         <p className="disc">
-                                            Sagitis himos pulvinar morb socis laoreet posuere enim non
-                                            auctor etiam pretium libero
+                                            Ofrecemos soporte continuo, mejoras evolutivas y optimización constante de sistemas existentes. Aseguramos estabilidad, 
+                                            actualización tecnológica y adaptación a nuevas necesidades del negocio.
                                         </p>
                                         <Link
                                             className="rts-read-more btn-primary"
                                             href={'/service-details'}
                                         >
                                             <i className="far fa-arrow-right" />
-                                            Read More
+                                            Más Información
                                         </Link>
                                     </div>
                                 </div>
@@ -193,12 +195,12 @@ function ServiceOne() {
                                 <div className="cta-one-inner">
                                     <div className="cta-left">
                                         <h3 className="title">
-                                            Let’s discuss about how we can help make your business better
+                                            Creamos Soluciones Digitales que Transforman Negocios
                                         </h3>
                                     </div>
                                     <div className="cta-right">
                                         <Link className="rts-btn btn-white" href="appoinment.html">
-                                            Lets Work Together
+                                            Contáctanos
                                         </Link>
                                     </div>
                                 </div>

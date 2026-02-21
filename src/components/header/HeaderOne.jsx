@@ -54,12 +54,12 @@ function HeaderOne() {
                                 <div className="left">
                                     <div className="mail">
                                         <Link href={'/about-us'}>
-                                            <i className="fal fa-envelope" /> info@finbiz.com
+                                            <i className="fal fa-envelope" /> contacto@lapdev.cl
                                         </Link>
                                     </div>
                                     <div className="working-time">
                                         <p>
-                                            <i className="fal fa-clock" /> Working: 8.00am - 5.00pm
+                                            <i className="fal fa-clock" /> Horario: 8.00am - 5.00pm
                                         </p>
                                     </div>
                                 </div>
@@ -68,13 +68,13 @@ function HeaderOne() {
                                 <div className="right">
                                     <ul className="top-nav">
                                         <li>
-                                            <Link href={'/about-us'}>About</Link>
+                                            <Link href={'/about-us'}>Nosotros</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/blog-list'}>News</Link>
+                                            <Link href={'/blog-list'}>Blog</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/contactus'}>Contact</Link>
+                                            <Link href={'/contactus'}>Contacto</Link>
                                         </li>
                                     </ul>
                                     <ul className="social-wrapper-one">
@@ -110,7 +110,7 @@ function HeaderOne() {
                             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4">
                                 <div className="thumbnail">
                                     <Link href={'/'} >
-                                        <img src="/assets/images/logo/lapDevLogo2025.svg" width={220} alt="finbiz-logo" />
+                                        <img src="/assets/images/logo/lapDevLogo20266.svg" width={220} alt="finbiz-logo" />
                                     </Link>
                                 </div>
                             </div>

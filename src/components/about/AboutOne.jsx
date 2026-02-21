@@ -15,15 +15,15 @@ function AboutOne() {
                         {/* about left */}
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-md-2 order-sm-2 order-2 mt_md--50 mt_sm--50">
                             <div className="rts-title-area">
-                                <p className="pre-title">More About Us</p>
-                                <h2 className="title">We Provide Best Business Solution in Town</h2>
+                                <p className="pre-title">Acerca de LapDev</p>
+                                <h2 className="title">Impulsamos la Transformación Digital con Tecnología Inteligente</h2>
                             </div>
                             <div className="about-inner">
                                 <p className="disc">
-                                    Porttitor ornare fermentum aliquam pharetra ut facilisis gravida
-                                    risus suscipit. dui feugiat fusce conubia ridiculus tristique
-                                    parturient natoque vulputate risu business solution ceter 24/7
-                                    great support
+                                    Somos una empresa especializada en el desarrollo de software a medida, aplicaciones web y apps móviles 
+                                    diseñadas para potenciar el crecimiento digital de nuestros clientes. Combinamos innovación tecnológica, 
+                                    experiencia en desarrollo y estrategias de posicionamiento SEO para crear soluciones escalables, seguras 
+                                    y orientadas a resultados.
                                 </p>
                                 {/* start about success area */}
                                 <div className="row about-success-wrapper">
@@ -31,30 +31,30 @@ function AboutOne() {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">24/7 Call Services Avilable</p>
+                                            <p className="details">Desarrollo de Software a Medida</p>
                                         </div>
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">Great Skilled Consultant</p>
+                                            <p className="details">Desarrollo de Aplicaciones Web</p>
                                         </div>
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">Expert Team Members</p>
+                                            <p className="details">Desarrollo de Apps Móviles (iOS & Android)</p>
                                         </div>
                                     </div>
                                     {/* left wrapper end */}
                                     <div className="col-lg-6 col-md-6">
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">How to improve business</p>
+                                            <p className="details">Optimización SEO Técnica</p>
                                         </div>
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">Business is the best plan</p>
+                                            <p className="details">Diseño UX/UI Estratégico</p>
                                         </div>
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">Services we provide</p>
+                                            <p className="details">Mantenimiento y Soporte Evolutivo</p>
                                         </div>
                                     </div>
                                 </div>
