@@ -23,7 +23,7 @@ export default function Home() {
     <div className="#">
 
       <HeaderOne />
-      <BannerEight />
+      {/* <BannerEight /> */}
       <BannerOne />
       <AboutOne />
       <ServiceOne />
