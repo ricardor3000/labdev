@@ -19,7 +19,7 @@ function BusinessGoalFour() {
                                             src="assets/images/banner/shape/pre-title.png"
                                             alt="pre-title"
                                         />
-                                        <span className="pre">Business Progress</span>
+                                        <span className="pre">Soluciones digitales de alto impacto</span>
                                         <img
                                             className="two"
                                             src="assets/images/banner/shape/pre-title.png"
@@ -27,8 +27,7 @@ function BusinessGoalFour() {
                                         />
                                     </div>
                                     <h2 className="title">
-                                        Together we can envision <br />
-                                        your business
+                                        Desarrollo integral y <br /> soporte inteligente
                                     </h2>
                                 </div>
                                 <Link href={'#'} className="rts-btn btn-primary-5">
@@ -43,10 +42,10 @@ function BusinessGoalFour() {
                                 <div className="icon">
                                     <img src="assets/images/service/icon/22.svg" alt="service_icon" />
                                 </div>
-                                <h5 className="title">Team Leadership</h5>
+                                <h5 className="title">Prototipado Moderno</h5>
                                 <p className="disc">
-                                    Dictumst enim tristique conubia parturient ornare vivamus euismod
-                                    pulvinar habitasse porttitor aptent dignissim.
+                                    Diseñamos prototipos interactivos y funcionales que validan ideas rápidamente 
+                                    y optimizan la experiencia del usuario.
                                 </p>
                             </div>
                         </div>
@@ -55,10 +54,10 @@ function BusinessGoalFour() {
                                 <div className="icon">
                                     <img src="assets/images/service/icon/23.svg" alt="service_icon" />
                                 </div>
-                                <h5 className="title">People Cohesion</h5>
+                                <h5 className="title">Arquitectura Eficiente</h5>
                                 <p className="disc">
-                                    Dictumst enim tristique conubia parturient ornare vivamus euismod
-                                    pulvinar habitasse porttitor aptent dignissim.
+                                    Construimos estructuras tecnológicas escalables, 
+                                    seguras y optimizadas para alto rendimiento y crecimiento continuo.
                                 </p>
                             </div>
                         </div>
@@ -67,10 +66,10 @@ function BusinessGoalFour() {
                                 <div className="icon">
                                     <img src="assets/images/service/icon/24.svg" alt="service_icon" />
                                 </div>
-                                <h5 className="title">Team Build Up</h5>
+                                <h5 className="title">Asistencia Continua</h5>
                                 <p className="disc">
-                                    Dictumst enim tristique conubia parturient ornare vivamus euismod
-                                    pulvinar habitasse porttitor aptent dignissim.
+                                    Brindamos soporte técnico permanente, mejoras evolutivas y 
+                                    acompañamiento estratégico en cada etapa del proyecto.
                                 </p>
                             </div>
                         </div>

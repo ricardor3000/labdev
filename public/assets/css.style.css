@@ -9366,7 +9366,7 @@ body {
   margin-bottom: 24px;
 }
 .rts-title-area.service::after {
-  content: "Services";
+  content: "Servicios";
   left: 50%;
   transform: translateX(-50%);
 }
@@ -9379,7 +9379,7 @@ body {
   top: -70%;
 }
 .rts-title-area.service-four::after {
-  content: "Services";
+  content: "Servicios";
   left: 50%;
   transform: translateX(-50%);
   top: -20%;
