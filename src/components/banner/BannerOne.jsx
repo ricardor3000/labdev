@@ -22,12 +22,12 @@ function BannerOne() {
                             // install Swiper modules
                             modules={[Navigation, EffectFade, Scrollbar, A11y, Autoplay]}
                             className="rts-brand__slider"
-                            speed={700}
+                            speed={900}
                             slidesPerView={1}
                             spaceBetween={0}
                             loop={true}
                             autoplay={{
-                                delay: 3000,
+                                delay: 4000,
                             }}
                             effect='fade'
                             breakpoints={{
@@ -43,18 +43,19 @@ function BannerOne() {
                                 {/* banner single content */}
                                 <div className="banner-one-inner text-start">
                                     <p className="pre-title">
-                                        <span>Desarrollo Web</span> y Apps a Medida para Empresas
+                                        <span>Desarrollo web & </span> apps a medida
                                     </p>
                                     <h1 className="title ">
-                                        <span>Soluciones Digitales,</span> <br />
-                                        Dashboards y Apps
+                                        <span>Impulsamos tu negocio</span> <br />
+                                         con tecnología que escala
                                     </h1>
                                     <p className="disc banner-para">
-                                        Creamos sitios web profesionales, aplicaciones móviles, dashboards interactivos y sistemas 
-                                        personalizados adaptados a las necesidades de tu negocio. 
+                                        En Lapdev diseñamos y desarrollamos plataformas web y aplicaciones modernas, optimizadas para rendimiento, 
+                                        escalabilidad y conversión. Construimos soluciones sólidas con React, Next.js y arquitecturas preparadas 
+                                        para crecer contigo. 
                                     </p>
                                     <a href="#" className="rts-btn btn-primary color-h-black">
-                                        Get Consultant
+                                        Solicitar asesoría
                                     </a>
                                     <img
                                         className="shape-img one"
@@ -69,18 +70,17 @@ function BannerOne() {
                                 {/* banner single content */}
                                 <div className="banner-one-inner text-start">
                                     <p className="pre-title">
-                                        <span>Welcome!</span> Start Growing Your Business Today
+                                        <span>Arquitectura moderna. Código limpio.</span>  Resultados reales.
                                     </p>
                                     <h1 className="title ">
-                                        Launch <span>Ultra Modern</span> <br /> Effective Business
+                                        Desarrollo Web y Apps <span>con tecnología </span> <br /> de alto rendimiento
                                     </h1>
                                     <p className="disc banner-para">
-                                        Porttitor ornare fermentum aliquam pharetra facilisis gravida
-                                        risus suscipit <br /> Dui feugiat fusce conubia ridiculus
-                                        tristique parturient
+                                        Creamos experiencias digitales rápidas, seguras y escalables utilizando Next.js, React y las mejores 
+                                        prácticas de desarrollo. Desde MVP hasta plataformas complejas, llevamos tu producto al siguiente nivel.
                                     </p>
                                     <a href="#" className="rts-btn btn-primary color-h-black">
-                                        Get Consultant
+                                        Cotizar proyecto
                                     </a>
                                     <img
                                         className="shape-img one"
@@ -95,18 +95,18 @@ function BannerOne() {
                                 {/* banner single content */}
                                 <div className="banner-one-inner text-start">
                                     <p className="pre-title">
-                                        <span>Welcome!</span> Start Growing Your Business Today
+                                        <span>Tu idea merece una</span> ejecución profesional
                                     </p>
                                     <h1 className="title ">
-                                        Make <span>Business Growth</span> <br /> With Next Level
+                                        Transformamos ideas <span>en productos digitales</span> <br />  que venden
                                     </h1>
                                     <p className="disc banner-para">
-                                        Porttitor ornare fermentum aliquam pharetra facilisis gravida
-                                        risus suscipit <br /> Dui feugiat fusce conubia ridiculus
-                                        tristique parturient
+                                        Desarrollamos páginas web y aplicaciones diseñadas para convertir usuarios en clientes. 
+                                        Nos enfocamos en experiencia, velocidad y estrategia digital para que tu 
+                                        proyecto no solo funcione… sino que crezca.
                                     </p>
                                     <a href="#" className="rts-btn btn-primary color-h-black">
-                                        Get Consultant
+                                        Empezar mi proyecto
                                     </a>
                                     <img
                                         className="shape-img one"
