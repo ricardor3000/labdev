@@ -129,7 +129,7 @@ function TestimonialOne() {
                             <div className="col-lg-5">
                                 <div className="rts-test-one-image-inner">
                                     <img
-                                        src="assets/images/testimonials/01.png"
+                                        src="assets/images/testimonials/Testimonios.png"
                                         alt="business_testimobials"
                                     />
                                 </div>

@@ -58,8 +58,8 @@ function BusinessGoalOne() {
                             <div className="col-lg-6 mt--35 mt_md--70 mt_sm--70">
                                 <div className="business-goal-right">
                                     <div className="rts-title-area business text-start pl--30">
-                                        <p className="pre-title">JUST A CONSULTANCY</p>
-                                        <h2 className="title">We know how to manage business globally</h2>
+                                        <p className="pre-title">Desarrollo de Aplicaciones Móviles Modernas</p>
+                                        <h2 className="title">Aplicaciones móviles multiplataforma</h2>
                                     </div>
                                     <div className="rts-business-goal pl--30">
                                         <div className="single-goal">
@@ -69,10 +69,10 @@ function BusinessGoalOne() {
                                                 className="thumb"
                                             />
                                             <div className="goal-wrapper">
-                                                <h6 className="title">Best Business Consulting</h6>
+                                                <h6 className="title">Diseño UX/UI centrado en el usuario</h6>
                                                 <p className="disc">
-                                                    Fusce condimentum mattis placerat odio donec lacus porta
-                                                    torquent, mauris gravida rutrum
+                                                    En Lapdev, entendemos que una aplicación exitosa no solo debe funcionar bien, 
+                                                    sino también sentirse intuitiva y fácil de usar.
                                                 </p>
                                             </div>
                                         </div>
@@ -83,10 +83,10 @@ function BusinessGoalOne() {
                                                 className="thumb"
                                             />
                                             <div className="goal-wrapper">
-                                                <h6 className="title">24/7 Customer Support</h6>
+                                                <h6 className="title">Desarrollo con Expo y React Native</h6>
                                                 <p className="disc">
-                                                    Fusce condimentum mattis placerat odio donec lacus porta
-                                                    torquent, mauris gravida rutrum
+                                                    Ofrecemos servicios integrales de desarrollo de aplicaciones móviles, 
+                                                    desde la idea inicial hasta el lanzamiento y mantenimiento.
                                                 </p>
                                             </div>
                                         </div>
@@ -95,13 +95,13 @@ function BusinessGoalOne() {
                                                 href={'/contactus'}
                                                 className="rts-btn btn-primary color-h-black"
                                             >
-                                                Contact Us
+                                                Contáctanos
                                             </Link>
                                             <div className="vedio-icone">
                                                 {/* Video Play Button */}
                                                 <Link id="play-video" className="video-play-button" href={'#'} onClick={openVideo}>
                                                     <span />
-                                                    <span className="outer-text">Watch Video</span>
+                                                    <span className="outer-text">Play Video</span>
                                                 </Link>
 
                                                 {/* Video Overlay */}
