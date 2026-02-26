@@ -12,28 +12,31 @@ function MapOne() {
                             {/* map area left */}
                             <div className="mapdetails-inner-one">
                                 <div className="left-area single-wized">
-                                    <h5 className="title">Get in touch</h5>
+                                    <h5 className="title">Contacto Ejecutivo</h5>
                                     <div className="details">
-                                        <p>Work and general inquiries</p>
+                                        <p>Proyectos tecnológicos empresariales</p>
                                         <Link className="number" href={'#'}>
-                                            +3509.120-8605
+                                            📞 +56 9 3653 3804
                                         </Link>
-                                        <p className="time-header">Assistance hours:</p>
+                                        <p className="time-header">Horario de atención</p>
                                         <p className="time">
-                                            Monday – Friday <br /> 6 am to 8 pm EST
+                                            Lunes a viernes <br /> 09:00 – 18:00 hrs
                                         </p>
                                     </div>
                                 </div>
                                 <div className="right-area single-wized">
-                                    <h5 className="title">Post Address</h5>
+                                    <h5 className="title">Oficinas</h5>
                                     <div className="details">
-                                        <p>Service Office</p>
+                                        <p>Oficina Las Condes</p>
                                         <Link href={'#'}>
-                                            786 Dortans Ave, Otam Sites, <br />
-                                            CA 36108, United States
+                                            Av. Apoquindo 6410, oficina 212, <br />
+                                            CLas Condes, Santiago, Chile
                                         </Link>
-                                        <p className="headoffice">Head Office</p>
-                                        <p className="office">142 Drive Lane. USA</p>
+                                        <p className="headoffice">Oficina Ñuñoa</p>
+                                        <Link href={'#'}>
+                                            Av. Ricardo Lyon 3521, Of. 02 <br />
+                                            Ñuñoa, Santiago, Chile
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +44,7 @@ function MapOne() {
                         </div>
                         <div className="col-lg-6">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14602.288851207937!2d90.47855065!3d23.798243149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1663151706353!5m2!1sen!2sbd"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.594082124474!2d-70.56684032325394!3d-33.40775277340649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cedd02bdc949%3A0x618b7b7c6f8a64!2sAv.%20Apoquindo%206410%2C%207560903%20Las%20Condes%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1772139591249!5m2!1ses-419!2scl"
                                 width={600}
                                 height={450}
                                 style={{ border: 0 }}

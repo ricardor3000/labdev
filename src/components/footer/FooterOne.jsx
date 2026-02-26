@@ -48,7 +48,7 @@ function FooterOne() {
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12">
                             <div className="footer-one-single-wized">
                                 <div className="wized-title">
-                                    <h5 className="title">Quick Links</h5>
+                                    <h5 className="title">Contacto Ejecutivo</h5>
                                     <img
                                         src="/assets/images/footer/under-title.png"
                                         alt="finbiz_footer"
@@ -113,7 +113,7 @@ function FooterOne() {
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12">
                             <div className="footer-one-single-wized mid-bg">
                                 <div className="wized-title">
-                                    <h5 className="title">Opening Hours</h5>
+                                    <h5 className="title">Horarios</h5>
                                     <img
                                         src="/assets/images/footer/under-title.png"
                                         alt="finbiz_footer"
@@ -143,7 +143,7 @@ function FooterOne() {
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12">
                             <div className="footer-one-single-wized margin-left-65">
                                 <div className="wized-title">
-                                    <h5 className="title">Popular Updates</h5>
+                                    <h5 className="title">Ultimas Noticias</h5>
                                     <img
                                         src="/assets/images/footer/under-title.png"
                                         alt="finbiz_footer"

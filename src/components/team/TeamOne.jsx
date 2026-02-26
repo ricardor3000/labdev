@@ -18,8 +18,8 @@ function TeamOne() {
                     <div className="row">
                         <div className="col-12">
                             <div className="rts-title-area team text-center">
-                                <p className="pre-title">Professionals Team</p>
-                                <h2 className="title">Professionals Team</h2>
+                                <p className="pre-title">Equipo Lapdev</p>
+                                <h2 className="title">Nuestro Equipo de Trabajo</h2>
                             </div>
                         </div>
                     </div>
@@ -68,9 +68,9 @@ function TeamOne() {
                                     </div>
                                     <div className="single-details">
                                         <Link href={'/team-details'}>
-                                            <h5 className="title">Archer Graham</h5>
+                                            <h5 className="title">Adolfo Aliste</h5>
                                         </Link>
-                                        <p>Founder</p>
+                                        <p>Ceo</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -96,9 +96,9 @@ function TeamOne() {
                                     </div>
                                     <div className="single-details">
                                         <Link href={'/team-details'}>
-                                            <h5 className="title">Amelia Clover</h5>
+                                            <h5 className="title">Ricardo Dodriguez</h5>
                                         </Link>
-                                        <p>Co-Founder</p>
+                                        <p>Devs</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
