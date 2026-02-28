@@ -88,7 +88,7 @@ function AboutOne() {
                                                 alt="call_founder"
                                             />
                                             <div className="call-details">
-                                                <span>Call us anytime</span>
+                                                <span>Contáctanos</span>
                                                 <a href="tel:+18475555555">
                                                     <h6 className="title">+256 21458.2146</h6>
                                                 </a>
@@ -110,16 +110,16 @@ function AboutOne() {
                                 />
                                 <img
                                     className="small-img"
-                                    src="assets/images/about/main/about-02.png"
+                                    src="assets/images/about/main/devOps.png"
                                     alt="finbiz-small"
                                 />
-                                <div className="experience">
+                                <div className="experience ">
                                     <div className="left single">
-                                        <h2 className="title">25+</h2>
-                                        <p className="time">Years</p>
+                                        <h2 className="title">5+</h2>
+                                        <p className="time">Años</p>
                                     </div>
                                     <div className="right single">
-                                        <p className="disc">Of experience in consulting service</p>
+                                        <p className="disc">Experiencia en Web y Apps</p>
                                     </div>
                                 </div>
                             </div>

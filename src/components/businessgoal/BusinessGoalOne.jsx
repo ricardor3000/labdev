@@ -48,7 +48,7 @@ function BusinessGoalOne() {
                                     <img src="assets/images/business-goal/App334.jpg" alt="Business_Goal" />
                                     <img
                                         className="small"
-                                        src="assets/images/business-goal/vistas.jpg"
+                                        src="assets/images/business-goal/appPhone.png"
                                         alt="Business_Goal"
                                     />
                                 </div>
