@@ -16,33 +16,33 @@ function ContactForm() {
                         <div className="col-lg-8 col-md-12 col-sm-12 col-12">
                             <div className="contact-form-area-one">
                                 <div className="rts-title-area contact text-start">
-                                    <p className="pre-title">Make An Appointment</p>
-                                    <h2 className="title">Request a free quote</h2>
+                                    <p className="pre-title">Agendar una cita</p>
+                                    <h2 className="title">Solicita un presupuesto de servicios</h2>
                                 </div>
                                 <div id="form-messages" />
                                 <form id="contact-form" action="mailer.php" method="post">
                                     <div className="name-email">
                                         <input
                                             type="text"
-                                            placeholder="Your Name"
+                                            placeholder="Nombre y Apellido"
                                             name="name"
                                             required=""
                                         />
                                         <input
                                             type="email"
-                                            placeholder="Email Address"
+                                            placeholder="Correo Electrónico"
                                             name="email"
                                             required=""
                                         />
                                     </div>
-                                    <input type="text" placeholder="Business Topic" name="subject" />
+                                    <input type="text" placeholder="Asunto" name="subject" />
                                     <textarea
-                                        placeholder="Type Your Message"
+                                        placeholder="Mensaje"
                                         name="message"
                                         defaultValue={""}
                                     />
                                     <button type="submit" className="rts-btn btn-primary">
-                                        Submit Message
+                                        Enviar Mensaje
                                     </button>
                                 </form>
                             </div>

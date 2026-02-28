@@ -9385,7 +9385,7 @@ body {
   top: -20%;
 }
 .rts-title-area.business::after {
-  content: "Business Goal";
+  content: "Apps móviles";
   min-width: max-content;
   min-height: 120px;
   left: 67%;

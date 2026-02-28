@@ -45,10 +45,10 @@ function BusinessGoalOne() {
                             {/* business goal left */}
                             <div className="col-lg-6">
                                 <div className="business-goal-one">
-                                    <img src="assets/images/business-goal/01.jpg" alt="Business_Goal" />
+                                    <img src="assets/images/business-goal/App334.jpg" alt="Business_Goal" />
                                     <img
                                         className="small"
-                                        src="assets/images/business-goal/sm-01.jpg"
+                                        src="assets/images/business-goal/vistas.jpg"
                                         alt="Business_Goal"
                                     />
                                 </div>
