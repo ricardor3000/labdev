@@ -21,8 +21,8 @@ function BlogOne() {
                         <div className="row">
                             <div className="col-12">
                                 <div className="title-area text-center">
-                                    <span>Blog Posts</span>
-                                    <h2 className="title">News &amp; Updates</h2>
+                                    <span>Blog</span>
+                                    <h2 className="title">Noticias e Información Lapdev</h2>
                                 </div>
                             </div>
                         </div>

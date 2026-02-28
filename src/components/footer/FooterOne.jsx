@@ -17,8 +17,8 @@ function FooterOne() {
                                         {/* cta-left */}
                                         <div className="col-lg-6">
                                             <div className="cta-left-wrapepr">
-                                                <p className="cta-disc">Latest Business Ideas</p>
-                                                <h3 className="title">Sign Up Newsletter</h3>
+                                                <p className="cta-disc">Únete gratis y recibe valor real en cada edición</p>
+                                                <h3 className="title">📩 Suscríbete y forma parte de nuestra comunidad tech</h3>
                                             </div>
                                         </div>
                                         {/* cta left end */}
@@ -28,11 +28,11 @@ function FooterOne() {
                                                 <input
                                                     type="email"
                                                     name="email"
-                                                    placeholder="Enter Email Address"
+                                                    placeholder="Ingresa tu E-mail"
                                                     required=""
                                                 />
                                                 <button type="submit" className="rts-btn btn-primary">
-                                                    Subscribe Now
+                                                   Suscríbete ahora
                                                 </button>
                                             </form>
                                             {/* cta right End */}
