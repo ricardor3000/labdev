@@ -58,19 +58,18 @@ function GalleryOne() {
                                                         />
                                                     </div>
                                                     <Link href={'/project/Business-solution'}>
-                                                        <h4 className="title">Pro Business Solution</h4>
+                                                        <h4 className="title">Wellplus</h4>
                                                     </Link>
-                                                    <span>Case Study, Growth</span>
+                                                    <span>Ecommerce</span>
                                                     <p className="disc">
-                                                        Ornare etiam laoreet dictumst nisl quisque scelerisque
-                                                        cras ut porta interdum purus mattis iaculis litora
-                                                        turpis torquent posuere.
+                                                        laboratorio pionero en Nutrición Celular. Ponemos especial énfasis en la 
+                                                        bioacumulación y en la biodisponibilidad de los nutrientes
                                                     </p>
                                                     <Link
                                                         className="rts-btn btn-primary"
                                                         href={'/project/Business-solution'}
                                                     >
-                                                        View Project
+                                                        Ver proyecto
                                                     </Link>
                                                 </div>
                                             </div>

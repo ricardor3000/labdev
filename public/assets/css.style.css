@@ -9393,7 +9393,7 @@ body {
   z-index: -1;
 }
 .rts-title-area.gallery::after {
-  content: "Gallery";
+  content: "Proyectos";
   left: 18%;
   transform: translateX(-50%);
   z-index: -1;
@@ -30646,7 +30646,7 @@ p.disc {
 }
 
 .index-seven .rts-title-area.gallery::after {
-  content: "Gallery";
+  content: "Proyectos";
   left: 18%;
   transform: translateX(-50%);
   z-index: -1;
