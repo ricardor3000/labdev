@@ -21,8 +21,8 @@ function TestimonialOne() {
                             {/* start testimonials area */}
                             <div className="col-lg-7">
                                 <div className="rts-title-area reviews text-start pl--30 pt--70">
-                                    <p className="pre-title">Our Testimonials</p>
-                                    <h2 className="title">Client’s Feedbacks</h2>
+                                    <p className="pre-title">Testimonios de nuestros clientes</p>
+                                    <h2 className="title">Clientess</h2>
                                     {/* swiper area start */}
                                     <div className="swiper mySwipertestimonial">
                                         <Swiper

@@ -191,20 +191,26 @@ function ServiceOne() {
                             {/* end single Services */}
                         </div>
                         <div className="row">
-                            <div className="cta-one-bg col-12">
-                                <div className="cta-one-inner">
-                                    <div className="cta-left">
-                                        <h3 className="title">
-                                            Creamos Soluciones Digitales que Transforman Negocios
-                                        </h3>
-                                    </div>
-                                    <div className="cta-right">
-                                        <Link className="rts-btn btn-white" href="appoinment.html">
-                                            Contáctanos
-                                        </Link>
-                                    </div>
+                             <div
+                               className="cta-one-bg col-12"
+                               style={{
+                                 borderRadius: "20px",
+                                 overflow: "hidden"
+                            }}
+                             >
+                            <div className="cta-one-inner">
+                                <div className="cta-left">
+                                  <h3 className="title">
+                                     Creamos Soluciones Digitales que Transforman Negocios
+                                  </h3>
                                 </div>
-                            </div>
+                                 <div className="cta-right">
+                                   <Link className="rts-btn btn-white" href="appoinment.html">
+                                     Contáctanos
+                                   </Link>
+                                </div>
+                               </div>
+                             </div>
                         </div>
                     </div>
                 </div>
