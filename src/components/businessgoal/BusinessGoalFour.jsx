@@ -31,7 +31,7 @@ function BusinessGoalFour() {
                                     </h2>
                                 </div>
                                 <Link href={'#'} className="rts-btn btn-primary-5">
-                                    View All Services <i className="fal fa-arrow-right" />
+                                    Más informacón <i className="fal fa-arrow-right" />
                                 </Link>
                             </div>
                         </div>

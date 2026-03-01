@@ -20,39 +20,44 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                     <a className="logo-1" href="/">
                         <img
                             className="logo"
-                            src="/assets/images/logo/logo-1.svg"
+                            src="/assets/images/logo/lapDevLogo20266.svg"
                             alt="finbiz_logo"
+                            width={200}
                         />
                     </a>
                     <a className="logo-2" href="/">
                         <img
                             className="logo"
-                            src="/assets/images/logo/logo-4.svg"
+                            src="/assets/images/logo/lapDevLogo20266.svg"
                             alt="finbiz_logo"
+                            width={200}
                         />
                     </a>
                     <a className="logo-3" href="/">
                         <img
                             className="logo"
-                            src="/assets/images/logo/logo-3.svg"
+                            src="/assets/images/logo/lapDevLogo20266.svg"
                             alt="finbiz_logo"
+                            width={200}
                         />
                     </a>
                     <a className="logo-4" href="/">
                         <img
                             className="logo"
-                            src="/assets/images/logo/logo-5.svg"
+                            src="/assets/images/logo/lapDevLogo20266.svg"
                             alt="finbiz_logo"
+                            width={200}
                         />
                     </a>
                     <div className="body d-none d-xl-block">
                         <p className="disc">
-                            We must explain to you how all seds this mistakens idea denouncing
-                            pleasures and praising account.
+                            Somos una empresa especializada en el desarrollo de software a medida, 
+                            aplicaciones web y apps móviles diseñadas para potenciar el 
+                            crecimiento digital de nuestros clientes.
                         </p>
                         <div className="get-in-touch">
                             {/* title */}
-                            <div className="h6 title">Get In Touch</div>
+                            <div className="h6 title">Contáctanos</div>
                             {/* title End */}
                             <div className="wrapper">
                                 {/* single */}

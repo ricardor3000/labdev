@@ -41,13 +41,11 @@ function BannerOne() {
                                     </p>
                                     <h1 className="title">
                                         <span>Impulsamos tu negocio</span> <br />
-                                        con tecnología que escala
+                                        con tecnología que escala <br /> tu empresa
                                     </h1>
                                     <p className="disc banner-para">
-                                        En Lapdev diseñamos y desarrollamos plataformas web y aplicaciones modernas,
+                                        En Lapdev diseñamos y desarrollamos plataformas web y aplicaciones modernas,<br />
                                         optimizadas para rendimiento, escalabilidad y conversión.
-                                        Construimos soluciones sólidas con React, Next.js y arquitecturas preparadas
-                                        para crecer contigo.
                                     </p>
                                     <a href="#" className="rts-btn btn-primary color-h-black">
                                         Solicitar asesoría
@@ -70,7 +68,7 @@ function BannerOne() {
                                         de alto rendimiento
                                     </h1>
                                     <p className="disc banner-para">
-                                        Creamos experiencias digitales rápidas, seguras y escalables utilizando Next.js y React.
+                                        Creamos experiencias digitales rápidas, seguras y escalables utilizando Next.js y React.<br />
                                         Desde MVP hasta plataformas complejas, llevamos tu producto al siguiente nivel.
                                     </p>
                                     <a href="#" className="rts-btn btn-primary color-h-black">
@@ -94,9 +92,8 @@ function BannerOne() {
                                         que venden
                                     </h1>
                                     <p className="disc banner-para">
-                                        Desarrollamos páginas web y aplicaciones diseñadas para convertir usuarios en clientes.
-                                        Nos enfocamos en experiencia, velocidad y estrategia digital
-                                        para que tu proyecto no solo funcione… sino que crezca.
+                                        Desarrollamos páginas web y aplicaciones diseñadas para convertir usuarios en clientes.<br />
+                                        Nos enfocamos en experiencia, velocidad y la estrategia digital.
                                     </p>
                                     <a href="#" className="rts-btn btn-primary color-h-black">
                                         Empezar mi proyecto

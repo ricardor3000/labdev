@@ -22,7 +22,7 @@ function TestimonialOne() {
                             <div className="col-lg-7">
                                 <div className="rts-title-area reviews text-start pl--30 pt--70">
                                     <p className="pre-title">Testimonios de nuestros clientes</p>
-                                    <h2 className="title">Clientess</h2>
+                                    <h2 className="title">Clientes</h2>
                                     {/* swiper area start */}
                                     <div className="swiper mySwipertestimonial">
                                         <Swiper
@@ -127,12 +127,18 @@ function TestimonialOne() {
                             {/* end testimonials are */}
                             {/* images area */}
                             <div className="col-lg-5">
-                                <div className="rts-test-one-image-inner">
-                                    <img
-                                        src="assets/images/testimonials/Testimonios.png"
-                                        alt="business_testimobials"
-                                    />
-                                </div>
+                             <div className="rts-test-one-image-inner">
+                               <img
+                                 src="assets/images/testimonials/Testimonios.png"
+                                 alt="business_testimobials"
+                                  style={{
+                                    width: "80%",       // Cambia este valor (70%, 60%, etc.)
+                                   height: "auto",
+                                  display: "block",
+                                   margin: "0 auto"    // Centra la imagen
+                                 }}
+                               />
+                              </div>
                             </div>
                             {/* image area end */}
                         </div>
