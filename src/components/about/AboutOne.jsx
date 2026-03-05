@@ -15,15 +15,23 @@ function AboutOne() {
                         {/* about left */}
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-md-2 order-sm-2 order-2 mt_md--50 mt_sm--50">
                             <div className="rts-title-area">
-                                <p className="pre-title">Acerca de LapDev</p>
-                                <h2 className="title">Impulsamos la Transformación Digital con Tecnología Inteligente</h2>
+                                <p className="pre-title">ACERCA DE LAPDEV</p>
+                                <h2 className="title">Desarrollamos Tecnología Estratégica para Empresas que Escalan</h2>
                             </div>
                             <div className="about-inner">
                                 <p className="disc">
-                                    Somos una empresa especializada en el desarrollo de software a medida, aplicaciones web y apps móviles 
-                                    diseñadas para potenciar el crecimiento digital de nuestros clientes. Combinamos innovación tecnológica, 
-                                    experiencia en desarrollo y estrategias de posicionamiento SEO para crear soluciones escalables, seguras 
-                                    y orientadas a resultados.
+                                    En Lapdev diseñamos y desarrollamos soluciones digitales de alto impacto para empresas medianas y 
+                                    grandes que buscan evolucionar con tecnología sólida, segura y preparada para el crecimiento. <br />
+
+                                    Combinamos desarrollo a medida, arquitectura moderna, experiencia UX/UI estratégica y visión de negocio 
+                                    para construir plataformas robustas que optimizan procesos, aumentan eficiencia y generan ventaja competitiva. <br />
+
+                                    No construimos sitios web.
+                                    Construimos infraestructura digital preparada para escalar. <br />
+
+                                    Con más de 10 años de experiencia liderados por Adolfo Aliste, 
+                                    trabajamos con foco en excelencia técnica, rendimiento y resultados 
+                                    sostenibles en el tiempo.
                                 </p>
                                 {/* start about success area */}
                                 <div className="row about-success-wrapper">
@@ -31,30 +39,30 @@ function AboutOne() {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">Desarrollo de Software a Medida</p>
+                                            <p className="details">Desarrollo de Software Empresarial a Medida</p>
                                         </div>
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">Desarrollo de Aplicaciones Web</p>
+                                            <p className="details">Aplicaciones Web de Alta Performance</p>
                                         </div>
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">Desarrollo de Apps Móviles (iOS & Android)</p>
+                                            <p className="details">Apps Móviles Corporativas (iOS & Android)</p>
                                         </div>
                                     </div>
                                     {/* left wrapper end */}
                                     <div className="col-lg-6 col-md-6">
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">Optimización SEO Técnica</p>
+                                            <p className="details">Arquitectura Moderna (React, Next.js, APIs escalables)</p>
                                         </div>
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">Diseño UX/UI Estratégico</p>
+                                            <p className="details">Diseño UX/UI Estratégico orientado a negocio</p>
                                         </div>
                                         <div className="single">
                                             <i className="far fa-check" />
-                                            <p className="details">Mantenimiento y Soporte Evolutivo</p>
+                                            <p className="details">Mantenimiento, optimización y evolución continua</p>
                                         </div>
                                     </div>
                                 </div>
@@ -72,9 +80,9 @@ function AboutOne() {
                                             </a>
                                             <div className="founder-details">
                                                 <a href="team-details.html">
-                                                    <h6 className="title">Adrew David</h6>
+                                                    <h6 className="title">Adolfo Aliste</h6>
                                                 </a>
-                                                <span>CEO &amp; Founder</span>
+                                                <span>CEO & Founder</span>
                                             </div>
                                         </div>
                                     </div>
@@ -90,7 +98,7 @@ function AboutOne() {
                                             <div className="call-details">
                                                 <span>Contáctanos</span>
                                                 <a href="tel:+18475555555">
-                                                    <h6 className="title">+256 21458.2146</h6>
+                                                    <h6 className="title">📞 +569 3653 3804</h6>
                                                 </a>
                                             </div>
                                         </div>
@@ -119,7 +127,7 @@ function AboutOne() {
                                         <p className="time">Años</p>
                                     </div>
                                     <div className="right single">
-                                        <p className="disc">Experiencia en Web y Apps</p>
+                                        <p className="disc">Experiencia en desarrollo y Proyectos</p>
                                     </div>
                                 </div>
                             </div>

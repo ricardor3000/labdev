@@ -19,7 +19,7 @@ function BusinessGoalFour() {
                                             src="assets/images/banner/shape/pre-title.png"
                                             alt="pre-title"
                                         />
-                                        <span className="pre">Soluciones digitales de alto impacto</span>
+                                        <span className="pre">NUESTRA METODOLOGÍA</span>
                                         <img
                                             className="two"
                                             src="assets/images/banner/shape/pre-title.png"
@@ -27,11 +27,11 @@ function BusinessGoalFour() {
                                         />
                                     </div>
                                     <h2 className="title">
-                                        Desarrollo integral y <br /> soporte inteligente
+                                        Estrategia, Arquitectura y <br /> Ejecución con Estándar Corporativo
                                     </h2>
                                 </div>
                                 <Link href={'#'} className="rts-btn btn-primary-5">
-                                    Más informacón <i className="fal fa-arrow-right" />
+                                    Ver todas nuestras capacidades → <i className="fal fa-arrow-right" />
                                 </Link>
                             </div>
                         </div>
@@ -42,11 +42,13 @@ function BusinessGoalFour() {
                                 <div className="icon">
                                     <img src="assets/images/service/icon/22.svg" alt="service_icon" />
                                 </div>
-                                <h5 className="title">Prototipado Moderno</h5>
+                                <h5 className="title">Discovery Estratégico</h5>
                                 <p className="disc">
-                                    Diseñamos prototipos interactivos y funcionales que validan ideas rápidamente 
-                                    y optimizan la experiencia del usuario.
+                                    Antes de escribir una sola línea de código, analizamos el negocio, procesos, objetivos y proyección de crecimiento.<br />
+                                    Definimos arquitectura, alcance y roadmap tecnológico con visión a largo plazo.<br />
+                                  <strong>No improvisamos proyectos. Diseñamos sistemas.</strong> 
                                 </p>
+                             
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
@@ -54,10 +56,12 @@ function BusinessGoalFour() {
                                 <div className="icon">
                                     <img src="assets/images/service/icon/23.svg" alt="service_icon" />
                                 </div>
-                                <h5 className="title">Arquitectura Eficiente</h5>
+                                <h5 className="title">Arquitectura & Desarrollo</h5>
                                 <p className="disc">
-                                    Construimos estructuras tecnológicas escalables, 
-                                    seguras y optimizadas para alto rendimiento y crecimiento continuo.
+                                    Construimos soluciones con arquitecturas modernas, escalables y seguras.<br />
+                                    Aplicamos buenas prácticas, estándares de calidad y metodologías ágiles que 
+                                    garantizan eficiencia y control.<br />
+                                    <strong>Cada decisión técnica tiene un propósito estratégico.</strong> 
                                 </p>
                             </div>
                         </div>
@@ -66,10 +70,11 @@ function BusinessGoalFour() {
                                 <div className="icon">
                                     <img src="assets/images/service/icon/24.svg" alt="service_icon" />
                                 </div>
-                                <h5 className="title">Asistencia Continua</h5>
+                                <h5 className="title">Evolución Continua</h5>
                                 <p className="disc">
-                                    Brindamos soporte técnico permanente, mejoras evolutivas y 
-                                    acompañamiento estratégico en cada etapa del proyecto.
+                                    Una plataforma empresarial no termina en el lanzamiento.<br />
+                                    Implementamos monitoreo, optimización, mejoras evolutivas y soporte estratégico para garantizar estabilidad y crecimiento sostenido.<br />
+                                    <strong>Nos convertimos en partner tecnológico, no en proveedor puntual.</strong> 
                                 </p>
                             </div>
                         </div>

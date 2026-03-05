@@ -58,8 +58,8 @@ function BusinessGoalOne() {
                             <div className="col-lg-6 mt--35 mt_md--70 mt_sm--70">
                                 <div className="business-goal-right">
                                     <div className="rts-title-area business text-start pl--30">
-                                        <p className="pre-title">Desarrollo de Aplicaciones Móviles Modernas</p>
-                                        <h2 className="title">Aplicaciones móviles multiplataforma</h2>
+                                        <p className="pre-title">ENFOQUE ESTRATÉGICO</p>
+                                        <h2 className="title">Tecnología alineada a decisiones de negocio</h2>
                                     </div>
                                     <div className="rts-business-goal pl--30">
                                         <div className="single-goal">
@@ -69,10 +69,10 @@ function BusinessGoalOne() {
                                                 className="thumb"
                                             />
                                             <div className="goal-wrapper">
-                                                <h6 className="title">Diseño UX/UI centrado en el usuario</h6>
+                                                <h6 className="title">Consultoría Tecnológica Empresarial</h6>
                                                 <p className="disc">
-                                                    En Lapdev, entendemos que una aplicación exitosa no solo debe funcionar bien, 
-                                                    sino también sentirse intuitiva y fácil de usar.
+                                                    Analizamos procesos, evaluamos arquitectura actual y diseñamos roadmaps 
+                                                    tecnológicos alineados a objetivos corporativos.
                                                 </p>
                                             </div>
                                         </div>
@@ -83,10 +83,10 @@ function BusinessGoalOne() {
                                                 className="thumb"
                                             />
                                             <div className="goal-wrapper">
-                                                <h6 className="title">Desarrollo con Expo y React Native</h6>
+                                                <h6 className="title">Soporte Estratégico Continuo</h6>
                                                 <p className="disc">
-                                                    Ofrecemos servicios integrales de desarrollo de aplicaciones móviles, 
-                                                    desde la idea inicial hasta el lanzamiento y mantenimiento.
+                                                    Más allá del lanzamiento, ofrecemos acompañamiento técnico, optimización y 
+                                                    evolución constante de la plataforma.
                                                 </p>
                                             </div>
                                         </div>
@@ -95,7 +95,7 @@ function BusinessGoalOne() {
                                                 href={'/contactus'}
                                                 className="rts-btn btn-primary color-h-black"
                                             >
-                                                Contáctanos
+                                                Hablemos de tu proyecto
                                             </Link>
                                             <div className="vedio-icone">
                                                 {/* Video Play Button */}

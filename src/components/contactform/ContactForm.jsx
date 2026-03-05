@@ -16,8 +16,8 @@ function ContactForm() {
                         <div className="col-lg-8 col-md-12 col-sm-12 col-12">
                             <div className="contact-form-area-one">
                                 <div className="rts-title-area contact text-start">
-                                    <p className="pre-title">Agendar una cita</p>
-                                    <h2 className="title">Solicita un presupuesto de servicios</h2>
+                                    <p className="pre-title">INICIEMOS UNA CONVERSACIÓN</p>
+                                    <h2 className="title">Solicita una evaluación estratégica de tu proyecto</h2>
                                 </div>
                                 <div id="form-messages" />
                                 <form id="contact-form" action="mailer.php" method="post">
