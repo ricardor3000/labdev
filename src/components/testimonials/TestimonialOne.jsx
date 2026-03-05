@@ -42,12 +42,10 @@ function TestimonialOne() {
                                             <SwiperSlide>
                                                 <div className="testimonial-inner">
                                                     <p className="disc text-start">
-                                                        “Consectetur adipiscing elit velit porta sapien purus erat
-                                                        nec, a ornare laoreet sem gravida accumsan in commodo
-                                                        aliquet nascetur maecenas. Sem tempus hendrerit diam
-                                                        mauris leo magna sociosqu viverra, accumsan massa
-                                                        tristique egestas cum sodales hac lacinia feugiat
-                                                        scelerisque porttitor”
+                                                        “Lapdev no solo desarrolló Chattark, construyó una arquitectura sólida que nos permitió integrar inteligencia 
+                                                        artificial con WhatsApp y automatizaciones avanzadas de forma estable y escalable. 
+                                                        El nivel técnico, la visión estratégica y la calidad del desarrollo marcaron la diferencia. 
+                                                        Hoy contamos con una plataforma robusta preparada para crecer.”
                                                     </p>
                                                     <div className="testimonial-bottom-one">
                                                         <div className="thumbnail">
@@ -58,9 +56,9 @@ function TestimonialOne() {
                                                         </div>
                                                         <div className="details">
                                                             <a href="#">
-                                                                <h5 className="title">David Smith</h5>
+                                                                <h5 className="title">Luciano Reyes</h5>
                                                             </a>
-                                                            <span>JHKL Owner</span>
+                                                            <span> </span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -68,12 +66,10 @@ function TestimonialOne() {
                                             <SwiperSlide>
                                                 <div className="testimonial-inner">
                                                     <p className="disc text-start">
-                                                        “Consectetur adipiscing elit velit porta sapien purus erat
-                                                        nec, a ornare laoreet sem gravida accumsan in commodo
-                                                        aliquet nascetur maecenas. Sem tempus hendrerit diam
-                                                        mauris leo magna sociosqu viverra, accumsan massa
-                                                        tristique egestas cum sodales hac lacinia feugiat
-                                                        scelerisque porttitor”
+                                                        “Para el desarrollo de Vizta necesitábamos más que una aplicación funcional; requeríamos una plataforma SaaS sólida, 
+                                                        escalable y preparada para crecer. Lapdev diseñó una arquitectura moderna, optimizó la experiencia de usuario y 
+                                                        construyó una base tecnológica estable que hoy nos permite proyectar el producto a gran escala. 
+                                                        Su enfoque estratégico fue clave en cada decisión.”
                                                     </p>
                                                     <div className="testimonial-bottom-one">
                                                         <div className="thumbnail">
@@ -84,9 +80,9 @@ function TestimonialOne() {
                                                         </div>
                                                         <div className="details">
                                                             <a href="#">
-                                                                <h5 className="title">David Smith</h5>
+                                                                <h5 className="title">Elizabeth Quintanilla</h5>
                                                             </a>
-                                                            <span>JHKL Owner</span>
+                                                            <span> </span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -94,12 +90,9 @@ function TestimonialOne() {
                                             <SwiperSlide>
                                                 <div className="testimonial-inner">
                                                     <p className="disc text-start">
-                                                        “Consectetur adipiscing elit velit porta sapien purus erat
-                                                        nec, a ornare laoreet sem gravida accumsan in commodo
-                                                        aliquet nascetur maecenas. Sem tempus hendrerit diam
-                                                        mauris leo magna sociosqu viverra, accumsan massa
-                                                        tristique egestas cum sodales hac lacinia feugiat
-                                                        scelerisque porttitor”
+                                                       “Para ATODOMOTOR necesitábamos más que desarrollo web: requeríamos arquitectura, integración y visión estratégica de crecimiento. 
+                                                       Lapdev construyó una plataforma tecnológica preparada para alto tráfico, múltiples integraciones y evolución constante. 
+                                                       Su enfoque técnico y estructural fue determinante para consolidar el proyecto.”
                                                     </p>
                                                     <div className="testimonial-bottom-one">
                                                         <div className="thumbnail">
@@ -110,9 +103,9 @@ function TestimonialOne() {
                                                         </div>
                                                         <div className="details">
                                                             <a href="#">
-                                                                <h5 className="title">David Smith</h5>
+                                                                <h5 className="title">Agustin Araya</h5>
                                                             </a>
-                                                            <span>JHKL Owner</span>
+                                                            <span> </span>
                                                         </div>
                                                     </div>
                                                 </div>
