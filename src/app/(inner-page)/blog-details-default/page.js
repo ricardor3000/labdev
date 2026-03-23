@@ -10,15 +10,15 @@ import post from "@/data/Posts.json";
 
 export default function Home() {
     const breadcrumbs = [
-        { label: 'Home', link: '/' },
-        { label: 'Blog Details' }
+        { label: 'Inicio', link: '/' },
+        { label: 'Blog Lapdev' }
     ];
     return (
 
         <div className="">
             <HeaderOne />
 
-            <Breadcrumb title="Blog Details" breadcrumbs={breadcrumbs} />
+            <Breadcrumb title="Blog Lapdev" breadcrumbs={breadcrumbs} />
 
 
 

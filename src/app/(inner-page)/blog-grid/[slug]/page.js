@@ -11,8 +11,8 @@ import Posts from "@/data/Posts.json";
 
 export default function Home() {
     const breadcrumbs = [
-        { label: 'Home', link: '/' },
-        { label: 'Blog Details' }
+        { label: 'Inicio', link: '/' },
+        { label: 'Blog Detalle' }
     ];
 
 
@@ -20,7 +20,7 @@ export default function Home() {
     const blogPost = Posts.find(post => post.slug === slug);
 
     if (!blogPost) {
-        return <div>Post not found Man!</div>;
+        return <div>Post no encontrado!</div>;
     }
 
 
@@ -32,7 +32,7 @@ export default function Home() {
         <div className="">
             <HeaderOne />
             <BackToTop />
-            <Breadcrumb title="Blog Details" breadcrumbs={breadcrumbs} />
+            <Breadcrumb title="Blog Detalle" breadcrumbs={breadcrumbs} />
 
 
 
@@ -54,7 +54,7 @@ export default function Home() {
                                         {/* single info */}
                                         <div className="single">
                                             <i className="far fa-user-circle" />
-                                            <span>by David Smith</span>
+                                            <span>by Lapdev</span>
                                         </div>
                                         {/* single infoe end */}
                                         {/* single info */}
@@ -72,24 +72,13 @@ export default function Home() {
                                     </div>
                                     <h3 className="title">{blogPost.title}</h3>
                                     <p className="disc para-1">
-                                        Collaboratively pontificate bleeding edge resources with
-                                        inexpensive methodologies globally initiate multidisciplinary
-                                        compatible architectures pidiously repurpose leading edge growth
-                                        strategies with just in time web readiness communicate timely
-                                        meta services
+                                        {blogPost.descripTion}
                                     </p>
                                     <p className="disc">
-                                        Onubia semper vel donec torquent fusce mauris felis aptent
-                                        lacinia nisl, lectus himenaeos euismod molestie iaculis interdum
-                                        in laoreet condimentum dictum, quisque quam risus sollicitudin
-                                        gravida ut odio per a et. Gravida maecenas lobortis suscipit mus
-                                        sociosqu convallis, mollis vestibulum donec aliquam risus sapien
-                                        ridiculus, nulla sollicitudin eget in venenatis. Tortor montes
-                                        platea iaculis posuere per mauris, eros porta blandit curabitur
-                                        ullamcorper varius
+                                        {blogPost.description2}
                                     </p>
                                     {/* quote area start */}
-                                    <div className="rts-quote-area text-center">
+                                   {/*  <div className="rts-quote-area text-center">
                                         <h5 className="title">
                                             “Placerat pretium tristique mattis tellus accuan metus
                                             dictumst vivamus odio nulla fusce auctor into suscipit
@@ -99,19 +88,51 @@ export default function Home() {
                                             Daniel X. Horrar
                                         </a>
                                         <span>Author</span>
-                                    </div>
+                                    </div> */}
+
+                                    <h4 className="title mt--40 mt_sm--20">
+                                        {blogPost.section1Title}
+                                    </h4>
+
                                     {/* quote area end */}
                                     <p className="disc">
-                                        Ultrices iaculis commodo parturient euismod pulvinar donec cum
-                                        eget a, accumsan viverra cras praesent cubilia dignissim ad
-                                        rhoncus. Gravida maecenas lobortis suscipit mus sociosqu
-                                        convallis, mollis vestibulum donec aliquam risus sapien
-                                        ridiculus, nulla sollicitudin eget in venenatis. Tortor montes
-                                        platea iaculis posuere per mauris, eros porta blandit curabitur
-                                        ullamcorper varius, nostra ante risus egestas suscipit. Quisque
-                                        interdum nec parturient facilisis nunc ac quam, ad est cubilia
-                                        mauris himenaeos nascetur vestibulum.
+                                        {blogPost.section1description}
                                     </p>
+
+                                    <h5 className="title mt--40 mt_sm--20">
+                                        {blogPost.subtitleDescription}
+                                    </h5>
+
+                                    <p className="disc">
+                                        {blogPost.section1description2}
+                                    </p>
+
+                                    <h5 className="title mt--40 mt_sm--20">
+                                        {blogPost.subtitle2Description}
+                                    </h5>
+
+                                    <div className="row align-items-center mb--40">
+                                        
+                                        <div className="col-lg-12">
+                                            <div className="check-area-details">
+                                                {/* single check */}
+                                                <div className="single-check">
+                                                    {/* <i className="far fa-check-circle" /> */}
+                                                    <span>{blogPost.listDescription1}</span>
+                                                </div>
+                                                {/* single check End */}
+                                                {/* single check */}
+                                                <div className="single-check">
+                                                   {/*  <i className="far fa-check-circle" /> */}
+                                                    <span>{blogPost.listDescription2}</span>
+                                                </div>
+                                                {/* single check End */}
+                                                {/* single check */}
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <div className="row g-5">
                                         <div className="col-lg-6 col-md-6">
                                             <div className="thumbnail details">
@@ -131,73 +152,163 @@ export default function Home() {
                                         </div>
                                     </div>
                                     <h4 className="title mt--40 mt_sm--20">
-                                        Ultimate Business Strategy Solution
+                                        {blogPost.subtitleDescription3}
                                     </h4>
                                     <p className="disc mb--25">
-                                        Gravida maecenas lobortis suscipit mus sociosqu convallis,
-                                        mollis vestibulum donec aliquam risus sapien ridiculus, nulla
-                                        sollicitudin eget in venenatis. Tortor montes platea iaculis
-                                        posuere per mauris, eros porta blandit curabitur ullamcorper
-                                        varius nostra ante risus egestas.
+                                         {blogPost.description3}
                                     </p>
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-5">
-                                            <div className="thumbnail details mb_sm--15">
-                                                <img
-                                                    src="/assets/images/blog/details/03.jpg"
-                                                    alt="finbiz_buseness"
-                                                />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-7">
+
+                                    <h4 className="title mt--40 mt_sm--20">
+                                        {blogPost.section2Title}
+                                    </h4>
+                                    
+                                    <p className="disc mt--30">
+                                        {blogPost.section2description}
+                                    </p>
+
+                                    <p className="disc mt--30">
+                                        {blogPost.description4}
+                                    </p>
+
+                                    <div className="row align-items-center mb--40">
+                                        
+                                        <div className="col-lg-12">
                                             <div className="check-area-details">
                                                 {/* single check */}
                                                 <div className="single-check">
-                                                    <i className="far fa-check-circle" />
-                                                    <span>How will activities traditional manufacturing</span>
+                                                   {/*  <i className="far fa-check-circle" /> */}
+                                                    <span>{blogPost.section2Description2List1}</span>
                                                 </div>
                                                 {/* single check End */}
                                                 {/* single check */}
                                                 <div className="single-check">
-                                                    <i className="far fa-check-circle" />
-                                                    <span>All these digital and projects aim to enhance</span>
+                                                    {/* <i className="far fa-check-circle" /> */}
+                                                    <span>{blogPost.section2Description2List2}</span>
                                                 </div>
                                                 {/* single check End */}
                                                 {/* single check */}
-                                                <div className="single-check">
-                                                    <i className="far fa-check-circle" />
-                                                    <span>I monitor my software that takes screenshots</span>
-                                                </div>
-                                                {/* single check End */}
-                                                {/* single check */}
-                                                <div className="single-check">
-                                                    <i className="far fa-check-circle" />
-                                                    <span>Laoreet dolore niacin sodium glutimate</span>
-                                                </div>
-                                                {/* single check End */}
-                                                {/* single check */}
-                                                <div className="single-check">
-                                                    <i className="far fa-check-circle" />
-                                                    <span>Minim veniam sodium glutimate nostrud</span>
-                                                </div>
-                                                {/* single check End */}
+                                                
                                             </div>
                                         </div>
                                     </div>
+
                                     <p className="disc mt--30">
-                                        Cubilia hendrerit luctus sem aptent curae gravida maecenas
-                                        eleifend nunc nec vitae morbi sodales fusce tristique aenean
-                                        habitasse mattis sociis feugiat conubia mus auctor praesent urna
-                                        tincidunt taciti dui lobortis nullam. Mattis placerat feugiat
-                                        ridiculus sed a per curae fermentum aenean facilisi, vitae urna
-                                        imperdiet ac mauris non inceptos luctus hac odio.
+                                        {blogPost.description5}
                                     </p>
+
+                                    <h4 className="title mt--40 mt_sm--20">
+                                        {blogPost.section3Title}
+                                    </h4>
+
+                                    <p className="disc mt--30">
+                                        {blogPost.section3description}
+                                    </p>
+
+                                    <h5 className="title mt--40 mt_sm--20">
+                                        {blogPost.subtitle3Description3}
+                                    </h5>
+
+                                    <p className="disc mt--30">
+                                        {blogPost.description6}
+                                    </p>
+
+                                    <div className="row align-items-center mb--40">
+                                        
+                                        <div className="col-lg-12">
+                                            <div className="check-area-details">
+                                                {/* single check */}
+                                                <div className="single-check">
+                                                   {/*  <i className="far fa-check-circle" /> */}
+                                                    <span>{blogPost.section3Description3List1}</span>
+                                                </div>
+                                                {/* single check End */}
+                                                {/* single check */}
+                                                <div className="single-check">
+                                                    {/* <i className="far fa-check-circle" /> */}
+                                                    <span>{blogPost.section3Description3List2}</span>
+                                                </div>
+                                                {/* single check End */}
+                                                {/* single check */}
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <h4 className="title mt--40 mt_sm--20">
+                                        {blogPost.section4Title}
+                                    </h4>
+
+                                    <p className="disc mt--30">
+                                        {blogPost.description7}
+                                    </p>
+
+                                    <h6 className="title mt--40 mt_sm--20">
+                                        {blogPost.subtitle1Description4}
+                                    </h6>
+
+                                    <p className="disc mt--30">
+                                        {blogPost.description8}
+                                    </p>
+
+                                     <h6 className="title mt--40 mt_sm--20">
+                                        {blogPost.subtitle2Description4}
+                                    </h6>
+
+                                    <p className="disc mt--30">
+                                        {blogPost.description9}
+                                    </p>
+
+                                    <h4 className="title mt--40 mt_sm--20">
+                                        {blogPost.section5Title}
+                                    </h4>
+
+                                    <p className="disc mt--30">
+                                        {blogPost.description10}
+                                    </p>
+
+                                    <div className="row align-items-center mb--40">
+                                        
+                                        <div className="col-lg-12">
+                                            <div className="check-area-details">
+                                                {/* single check */}
+                                                <div className="single-check">
+                                                   {/*  <i className="far fa-check-circle" /> */}
+                                                    <span>{blogPost.section5Description1List1}</span>
+                                                </div>
+                                                {/* single check End */}
+                                                {/* single check */}
+                                                <div className="single-check">
+                                                    {/* <i className="far fa-check-circle" /> */}
+                                                    <span>{blogPost.section5Description1List2}</span>
+                                                </div>
+                                                {/* single check End */}
+                                                {/* single check */}
+                                                <div className="single-check">
+                                                    {/* <i className="far fa-check-circle" /> */}
+                                                    <span>{blogPost.section5Description1List3}</span>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <h4 className="title mt--40 mt_sm--20">
+                                        {blogPost.conclusionTitle}
+                                    </h4>
+
+                                    <p className="disc mt--30">
+                                        {blogPost.conclusion}
+                                    </p>
+
+
+                            
+
                                     <div className="row  align-items-center">
                                         <div className="col-lg-6 col-md-12">
                                             {/* tags details */}
                                             <div className="details-tag">
                                                 <h6>Tags:</h6>
-                                                <button>Services</button>
+                                                <button>Servicios</button>
                                                 <button>Business</button>
                                                 <button>Growth</button>
                                             </div>
@@ -264,12 +375,15 @@ export default function Home() {
                             {/* single post End*/}
                         </div>
                         {/* rts-blog post end area */}
+
+       {/*  SIDE BAR INICIO */}
+        
                         {/*rts blog wizered area */}
                         <div className="col-xl-4 col-md-12 col-sm-12 col-12">
                             {/* single wizered start */}
                             <div className="rts-single-wized search">
                                 <div className="wized-header">
-                                    <h5 className="title">Search Hear</h5>
+                                    <h5 className="title">Buscar Post</h5>
                                 </div>
                                 <div className="wized-body">
                                     <div className="rts-search-wrapper">
@@ -288,7 +402,7 @@ export default function Home() {
                             {/* single wizered start */}
                             <div className="rts-single-wized Categories">
                                 <div className="wized-header">
-                                    <h5 className="title">Categories</h5>
+                                    <h5 className="title">Categorias</h5>
                                 </div>
                                 <div className="wized-body">
                                     {/* single categoris */}
@@ -346,7 +460,7 @@ export default function Home() {
                             {/* single wizered start */}
                             <div className="rts-single-wized Recent-post">
                                 <div className="wized-header">
-                                    <h5 className="title">Recent Posts</h5>
+                                    <h5 className="title">Post Recientes</h5>
                                 </div>
                                 <div className="wized-body">
                                     {/* recent-post */}

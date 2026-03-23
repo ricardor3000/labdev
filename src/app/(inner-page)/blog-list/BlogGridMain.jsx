@@ -14,7 +14,7 @@ const BlogGridMain = (props) => {
                     {/* single info */}
                     <div className="single">
                         <i className="far fa-user-circle" />
-                        <span>by David Smith</span>
+                        <span>Lapdev</span>
                     </div>
                     {/* single infoe end */}
                     {/* single info */}
@@ -39,7 +39,7 @@ const BlogGridMain = (props) => {
                     {descripTion ? descripTion : "How to growing your business"}
                 </p>
                 <a className="rts-btn btn-primary" href={`/blog-list/${Slug}`}>
-                    Read Details
+                    Seguir leyendo
                 </a>
             </div>
         </>

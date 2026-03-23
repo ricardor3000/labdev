@@ -14,7 +14,7 @@ const BlogGridMain = (props) => {
                 </div>
                 <div className="blog-content">
                     <p>
-                        <span>Business Solution </span>/ by David Dolean
+                        <span>Noticias y Tecnología </span>/ by Lapdev
                     </p>
                     <Link href={`/blog-grid/${blogID}`}>
                         <h5 className="title">
@@ -26,7 +26,7 @@ const BlogGridMain = (props) => {
                         href={`/blog-grid/${blogID}`}
                     >
                         <i className="far fa-arrow-right" />
-                        Read More
+                        Seguir Leyendo
                     </Link>
                 </div>
             </div>

@@ -10,21 +10,21 @@ import post from '@/data/Posts.json';
 
 function BlogGrid() {
     const breadcrumbs = [
-        { label: 'Home', link: '/' },
-        { label: 'Blog Details' }
+        { label: 'Inicio', link: '/' },
+        { label: 'Blog Noticias' }
     ];
     const { id } = useParams();
     const blogPost = post.find(post => post.id === parseInt(id));
 
     if (!blogPost) {
-        return <div>Post not found!</div>
+        return <div>Página no encontrada!</div>
     }
     return (
         <div className=''>
 
             <HeaderOne />
 
-            <Breadcrumb title="Blog Details" breadcrumbs={breadcrumbs} />
+            <Breadcrumb title="Blog Informativo" breadcrumbs={breadcrumbs} />
 
             {/* rts blog mlist area */}
             <div className="rts-blog-list-area rts-section-gap">

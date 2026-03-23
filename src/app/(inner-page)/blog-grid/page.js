@@ -11,15 +11,15 @@ import Posts from "@/data/Posts.json";
 
 export default function Home() {
     const breadcrumbs = [
-        { label: 'Home', link: '/' },
-        { label: 'Blog Post' }
+        { label: 'Inicio', link: '/' },
+        { label: 'Blog Lapdev' }
     ];
     return (
 
         <div className="">
             <HeaderOne />
 
-            <Breadcrumb title="Blog Post" breadcrumbs={breadcrumbs} />
+            <Breadcrumb title="Blog Lapdev" breadcrumbs={breadcrumbs} />
 
             <BackToTop />
 
@@ -49,7 +49,7 @@ export default function Home() {
 
                                         </div>
                                     )
-                                }).slice(4, 16)}
+                                }).slice(1, 5)}
 
                             </div>
                             {/* pagination area */}

@@ -75,7 +75,7 @@ function BlogOne() {
                                                 }
                                             </SwiperSlide>
                                         )
-                                    }).slice(17, 21)}
+                                    }).slice(1, 5)}
                                 </Swiper>
                             </div>
                         </div>

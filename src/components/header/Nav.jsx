@@ -6,11 +6,16 @@ function Nav() {
         <div>
             <nav className="nav-main mainmenu-nav d-none d-xl-block">
                 <ul className="mainmenu">
-                    <li className="has-droupdown">
-                        <Link className="nav-link" href={'#'} >
-                            Home
+                    <li >
+                        <Link className="nav-item menu-link1" href={'/'} >
+                            Inicio
                         </Link>
-                        <ul className="submenu menu-link1">
+                        {/* <ul className="submenu menu-link1">
+                            <li>
+                                <Link className="nav-item" href={'/blog-grid'}>
+                                        Inicio
+                                </Link>
+                            </li>
                             <li className="menu-item">
                                 <Link className="tag" href={'#'} >
                                     Multi Pages
@@ -85,7 +90,7 @@ function Nav() {
                                     </li>
                                 </ul>
                             </li>
-                        </ul>
+                        </ul> */}
                     </li>
                    {/*  <li className="has-droupdown">
                         <Link className="nav-link" href={'#'}>
@@ -113,12 +118,12 @@ function Nav() {
                             </li>
                         </ul>
                     </li> */}
-                       <li>
+                    <li>
                         <Link className="nav-item" href={'/our-service'}>
                             Servicios
                         </Link>
                     </li>
-                    <li className="has-droupdown">
+                    {/* <li className="has-droupdown">
                         <Link className="nav-link" href={'#'}>
                             Pages
                         </Link>
@@ -207,8 +212,13 @@ function Nav() {
                                 </ul>
                             </li>
                         </ul>
+                    </li> */}
+                    <li>
+                        <Link className="nav-item" href={'/blog-grid'}>
+                                Blog
+                        </Link>
                     </li>
-                    <li className="has-droupdown">
+                  {/*   <li className="has-droupdown">
                         <Link className="nav-link" href={'#'}>
                             Blog
                         </Link>
@@ -223,7 +233,7 @@ function Nav() {
                                 <Link href={'/blog-details-default'}>Blog Details</Link>
                             </li>
                         </ul>
-                    </li>
+                    </li> */}
                    {/*  <li >
                         <Link className="nav-item" href={'/pricing-plane'}>
                             Pricing Plan
