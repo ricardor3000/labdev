@@ -6,23 +6,25 @@ import ServiceEleven from "@/components/service/ServiceEleven";
 import FaqTwo from "@/components/faq/FaqTwo";
 import FooterOne from "@/components/footer/FooterOne";
 import PricingThree from "@/components/pricing/PricingThree";
+import AboutFive from "@/components/about/AboutFive";
+import ServiceOne from "@/components/service/ServiceOne";
+import AboutCompany from "@/components/about/AboutCompany";
 
 export default function Home() {
     const breadcrumbs = [
-        { label: 'Home', link: '/' },
-        { label: 'Our Service' }
+        { label: 'Inicio', link: '/' },
+        { label: 'Servicios' }
     ];
     return (
 
         <div className="">
             <HeaderOne />
-            <Breadcrumb title="Our Service" breadcrumbs={breadcrumbs} />
-            <ServiceEleven />
-            <FaqTwo />
-            <PricingThree />
-
-
-
+            <Breadcrumb title="Nuestros Servicios" breadcrumbs={breadcrumbs} />
+             <AboutFive />
+             <ServiceOne />
+             <AboutCompany />
+           {/*  <ServiceEleven />   */}          
+           {/*  <FaqTwo /> */}
 
             <FooterOne />
 

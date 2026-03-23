@@ -12,18 +12,21 @@ function AboutCompany() {
                     <div className="row">
                         <div className="col-12 mt_sm--30">
                             <div className="title-area about-company">
-                                <span>Our Services Area</span>
+                                <span>SECTORES ESTRATÉGICOS</span>
                                 <h2 className="title">
-                                    Industries Hiring &amp; Services area <br />
-                                    with different companies
+                                    Industrias donde la arquitectura digital <br />
+                                    es un activo crítico
                                 </h2>
                             </div>
                             <div className="about-company-wrapper">
                                 <p className="disc">
-                                    We are licensed and insured with over 14 years of experience in
-                                    providing <br /> United States with top-rated USA business
-                                    services
+                                    En Lapdev desarrollamos soluciones tecnológicas empresariales para 
+                                    organizaciones que requieren <br /> sistemas sólidos, escalables 
+                                    y preparados para crecimiento sostenido.
+                                    Trabajamos en industrias donde la infraestructura<br /> digital impacta directamente en operaciones, eficiencia y competitividad.
+                                    Nuestra experiencia combina arquitectura moderna, <br /> desarrollo a medida, integración de sistemas y visión estratégica de largo plazo.
                                 </p>
+                            
                                 <div className="rts-tab-style-one">
                                     <div className="d-flex align-items-start contoler-company">
                                         <div className="nav flex-column nav-pills me-3 button-area" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -32,12 +35,12 @@ function AboutCompany() {
                                                 onSelect={(k) => setActiveKey(k)}
                                                 id="controlled-tab-example"
                                                 className="mb-3">
-                                                <Tab eventKey="home" title="01. Information Technology" />
-                                                <Tab eventKey="two" title="02. Hospitality" />
-                                                <Tab eventKey="three" title="03. Hospitality Busi" />
-                                                <Tab eventKey="four" title="04. Business Man Busi" />
-                                                <Tab eventKey="five" title="05. Business Man Busi" />
-                                                <Tab eventKey="six" title="06. Bor Man Busi" />
+                                                <Tab eventKey="home" title="Logística & Transporte" />
+                                                <Tab eventKey="two" title="Industria & Manufactura" />
+                                                <Tab eventKey="three" title="Salud Privada & Clínicas" />
+                                                <Tab eventKey="four" title="Energía & Utilities" />
+                                                <Tab eventKey="five" title="Alimentos & Bebidas (Industrial y Comercial)" />
+                                                <Tab eventKey="six" title="Fintech & Servicios Financieros" />
                                             </Tabs>
                                         </div>
                                         <div className="tab-content-wrapper">
@@ -49,28 +52,46 @@ function AboutCompany() {
                                                             <img src="assets/images/faq/info.webp" alt="image" />
                                                         </p>
                                                         <p className="disc">
-                                                            Massa laoreet lacinia placerat eleifend cs curae
-                                                            imperdiet mattis taciti, scelerisque elementum velit
-                                                            ullamcorper praesent enim temp
+                                                            La industria logística requiere trazabilidad en tiempo real, integración entre sistemas y control operativo constante. En Lapdev desarrollamos plataformas digitales que centralizan información, automatizan procesos críticos y permiten visualizar operaciones desde un entorno unificado y escalable.
+                                                        </p>
+                                                        <p className="disc">
+                                                            Diseñamos arquitecturas backend robustas, dashboards ejecutivos y sistemas integrados con ERP, GPS y plataformas externas, preparados para soportar alto volumen de datos y crecimiento sostenido.
                                                         </p>
                                                         <div className="check-area">
                                                             <i className="fas fa-check-circle" />
                                                             <p className="disc">
-                                                                Ultricies tellus cubilia at rutrum lobortis dui quis
-                                                                aliquam
+                                                                Gestión de flotas
                                                             </p>
                                                         </div>
                                                         <div className="check-area">
                                                             <i className="fas fa-check-circle" />
                                                             <p className="disc">
-                                                                Eu nisi quam senectus odio commodo quam pellente
+                                                                Trazabilidad en tiempo real
+                                                            </p>
+                                                        </div>
+                                                         <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Integraciones con ERP y bodegas
+                                                            </p>
+                                                        </div>
+                                                         <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Dashboards operativos
+                                                            </p>
+                                                        </div>
+                                                         <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Automatización de procesos logísticos
                                                             </p>
                                                         </div>
                                                         <a
                                                             className="rts-btn btn-primary-2 color-h-black"
                                                             href="#"
                                                         >
-                                                            Contact Us
+                                                            Contáctanos
                                                         </a>
                                                     </div>
                                                     {/* start tab content End */}
@@ -87,21 +108,39 @@ function AboutCompany() {
                                                             />
                                                         </p>
                                                         <p className="disc">
-                                                            Massa laoreet lacinia placerat eleifend cs curae
-                                                            imperdiet mattis taciti, scelerisque elementum velit
-                                                            ullamcorper praesent enim temp
+                                                            Las empresas industriales enfrentan desafíos de control productivo, trazabilidad y digitalización de procesos. Construimos plataformas internas que conectan áreas operativas, automatizan reportes y mejoran la eficiencia productiva bajo estándares empresariales.
+                                                        </p>
+                                                        <p className="disc">
+                                                            Desarrollamos soluciones integradas con maquinaria, ERP y sistemas internos, diseñadas para soportar operaciones complejas y escalar con la compañía.
                                                         </p>
                                                         <div className="check-area">
                                                             <i className="fas fa-check-circle" />
                                                             <p className="disc">
-                                                                Ultricies tellus cubilia at rutrum lobortis dui quis
-                                                                aliquam
+                                                               Sistemas de trazabilidad productiva
                                                             </p>
                                                         </div>
                                                         <div className="check-area">
                                                             <i className="fas fa-check-circle" />
                                                             <p className="disc">
-                                                                Eu nisi quam senectus odio commodo quam pellente
+                                                                Plataformas internas de control
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Integración con maquinaria y ERP
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Reportes en tiempo real
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Digitalización de procesos operativos
                                                             </p>
                                                         </div>
                                                         <a
@@ -125,28 +164,46 @@ function AboutCompany() {
                                                             />
                                                         </p>
                                                         <p className="disc">
-                                                            Massa laoreet lacinia placerat eleifend cs curae
-                                                            imperdiet mattis taciti, scelerisque elementum velit
-                                                            ullamcorper praesent enim temp
+                                                            El sector salud requiere estabilidad, seguridad y continuidad operativa. Diseñamos plataformas que optimizan la gestión de pacientes, digitalizan procesos internos y mejoran la experiencia tanto para usuarios como para equipos clínicos.
+                                                        </p>
+                                                         <p className="disc">
+                                                            Desarrollamos sistemas seguros y escalables, preparados para integrarse con laboratorios, sistemas médicos y herramientas administrativas.
                                                         </p>
                                                         <div className="check-area">
                                                             <i className="fas fa-check-circle" />
                                                             <p className="disc">
-                                                                Ultricies tellus cubilia at rutrum lobortis dui quis
-                                                                aliquam
+                                                                Sistemas de agenda avanzada
                                                             </p>
                                                         </div>
                                                         <div className="check-area">
                                                             <i className="fas fa-check-circle" />
                                                             <p className="disc">
-                                                                Eu nisi quam senectus odio commodo quam pellente
+                                                                Portales de pacientes
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Integración con sistemas clínicos
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Automatización de comunicación
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Gestión interna y reportes operativos
                                                             </p>
                                                         </div>
                                                         <a
                                                             className="rts-btn btn-primary-2 color-h-black"
                                                             href="#"
                                                         >
-                                                            Contact Us
+                                                            Contáctanos
                                                         </a>
                                                     </div>
                                                     {/* start tab content End */}
@@ -163,28 +220,46 @@ function AboutCompany() {
                                                             />
                                                         </p>
                                                         <p className="disc">
-                                                            Massa laoreet lacinia placerat eleifend cs curae
-                                                            imperdiet mattis taciti, scelerisque elementum velit
-                                                            ullamcorper praesent enim temp
+                                                            Las empresas del sector energético operan con infraestructuras críticas que requieren monitoreo constante e integración de múltiples sistemas. Diseñamos plataformas que centralizan información operativa, automatizan reportes y permiten análisis en tiempo real bajo arquitecturas de alta disponibilidad.
+                                                        </p>
+                                                        <p className="disc">
+                                                            Nuestras soluciones están preparadas para operar 24/7, integrarse con sistemas industriales y soportar grandes volúmenes de datos.
                                                         </p>
                                                         <div className="check-area">
                                                             <i className="fas fa-check-circle" />
                                                             <p className="disc">
-                                                                Ultricies tellus cubilia at rutrum lobortis dui quis
-                                                                aliquam
+                                                                Plataformas de monitoreo en tiempo real
                                                             </p>
                                                         </div>
                                                         <div className="check-area">
                                                             <i className="fas fa-check-circle" />
                                                             <p className="disc">
-                                                                Eu nisi quam senectus odio commodo quam pellente
+                                                                Dashboards ejecutivos
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Integración con sistemas industriales
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Automatización de reportes regulatorios
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Gestión técnica interna
                                                             </p>
                                                         </div>
                                                         <a
                                                             className="rts-btn btn-primary-2 color-h-black"
                                                             href="#"
                                                         >
-                                                            Contact Us
+                                                            Contáctanos
                                                         </a>
                                                     </div>
                                                     {/* start tab content End */}
@@ -201,28 +276,46 @@ function AboutCompany() {
                                                             />
                                                         </p>
                                                         <p className="disc">
-                                                            Massa laoreet lacinia placerat eleifend cs curae
-                                                            imperdiet mattis taciti, scelerisque elementum velit
-                                                            ullamcorper praesent enim temp
+                                                            Las empresas del sector alimentos y bebidas gestionan procesos productivos, trazabilidad, inventario y distribución bajo estándares exigentes. En Lapdev desarrollamos plataformas que integran producción, logística y canales comerciales en un ecosistema digital escalable.
+                                                        </p>
+                                                        <p className="disc">
+                                                            Diseñamos soluciones que mejoran la visibilidad operativa y permiten tomar decisiones basadas en datos en tiempo real.
                                                         </p>
                                                         <div className="check-area">
                                                             <i className="fas fa-check-circle" />
                                                             <p className="disc">
-                                                                Ultricies tellus cubilia at rutrum lobortis dui quis
-                                                                aliquam
+                                                               Sistemas de trazabilidad de producción
                                                             </p>
                                                         </div>
                                                         <div className="check-area">
                                                             <i className="fas fa-check-circle" />
                                                             <p className="disc">
-                                                                Eu nisi quam senectus odio commodo quam pellente
+                                                                Gestión de inventario y distribución
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Integración con ERP
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Dashboards comerciales
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Ecommerce B2B/B2C integrado
                                                             </p>
                                                         </div>
                                                         <a
                                                             className="rts-btn btn-primary-2 color-h-black"
                                                             href="#"
                                                         >
-                                                            Contact Us
+                                                            Contáctanos
                                                         </a>
                                                     </div>
                                                     {/* start tab content End */}
@@ -239,28 +332,46 @@ function AboutCompany() {
                                                             />
                                                         </p>
                                                         <p className="disc">
-                                                            Massa laoreet lacinia placerat eleifend cs curae
-                                                            imperdiet mattis taciti, scelerisque elementum velit
-                                                            ullamcorper praesent enim temp
+                                                            La industria financiera exige arquitectura segura, alto rendimiento y capacidad de integración avanzada. Desarrollamos plataformas transaccionales, sistemas de análisis y APIs robustas bajo estándares empresariales de seguridad y disponibilidad.
+                                                        </p>
+                                                        <p className="disc">
+                                                            Cada solución se diseña con enfoque en escalabilidad, gobernanza técnica y sostenibilidad tecnológica.
                                                         </p>
                                                         <div className="check-area">
                                                             <i className="fas fa-check-circle" />
                                                             <p className="disc">
-                                                                Ultricies tellus cubilia at rutrum lobortis dui quis
-                                                                aliquam
+                                                                Plataformas financieras
                                                             </p>
                                                         </div>
                                                         <div className="check-area">
                                                             <i className="fas fa-check-circle" />
                                                             <p className="disc">
-                                                                Eu nisi quam senectus odio commodo quam pellente
+                                                                Sistemas de scoring y análisis
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Integraciones con APIs bancarias
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Automatización de procesos financieros
+                                                            </p>
+                                                        </div>
+                                                        <div className="check-area">
+                                                            <i className="fas fa-check-circle" />
+                                                            <p className="disc">
+                                                                Dashboards ejecutivos
                                                             </p>
                                                         </div>
                                                         <a
                                                             className="rts-btn btn-primary-2 color-h-black"
                                                             href="#"
                                                         >
-                                                            Contact Us
+                                                            Contáctanos
                                                         </a>
                                                     </div>
                                                     {/* start tab content End */}

@@ -17,7 +17,7 @@ function ServiceThree() {
                     <div className="row">
                         <div className="col-12">
                             <div className="text-center title-service-three">
-                                <p className="pre-title">Our Services</p>
+                                <p className="pre-title">Nuestros Servicios</p>
                                 <h2 className="title">What We Do</h2>
                             </div>
                         </div>

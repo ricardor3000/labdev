@@ -87,7 +87,7 @@ function Nav() {
                             </li>
                         </ul>
                     </li>
-                    <li className="has-droupdown">
+                   {/*  <li className="has-droupdown">
                         <Link className="nav-link" href={'#'}>
                             Services
                         </Link>
@@ -112,6 +112,11 @@ function Nav() {
                                 <Link href={'/service-details'}>Service Details</Link>
                             </li>
                         </ul>
+                    </li> */}
+                       <li>
+                        <Link className="nav-item" href={'/our-service'}>
+                            Servicios
+                        </Link>
                     </li>
                     <li className="has-droupdown">
                         <Link className="nav-link" href={'#'}>
@@ -219,14 +224,14 @@ function Nav() {
                             </li>
                         </ul>
                     </li>
-                    <li >
+                   {/*  <li >
                         <Link className="nav-item" href={'/pricing-plane'}>
                             Pricing Plan
                         </Link>
-                    </li>
+                    </li> */}
                     <li>
                         <Link className="nav-item" href={'/contactus'}>
-                            Contact
+                            Contacto
                         </Link>
                     </li>
                 </ul>
