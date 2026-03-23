@@ -63,25 +63,29 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-phone-alt" />
-                                    <Link href="#">+8801234566789</Link>
+                                    <Link href="#">+56 9 3653 3804</Link>
                                 </div>
                                 {/* single ENd */}
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-envelope" />
-                                    <Link href="#">example@gmail.com</Link>
+                                    <Link href="#">contacto@lapdev.cl</Link>
                                 </div>
                                 {/* single ENd */}
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-globe" />
-                                    <Link href="#">www.webexample.com</Link>
+                                    <Link href="#">www.lapdev.cl</Link>
                                 </div>
                                 {/* single ENd */}
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-map-marker-alt" />
-                                    <Link href="#">13/A, New Pro State, NYC</Link>
+                                    <Link href="#">Av. Apoquindo 6410, oficina 212, Las Condes, Santiago, Chile</Link>
+                                </div>
+                                <div className="single">
+                                    <i className="fas fa-map-marker-alt" />
+                                    <Link href="#">Av. Ricardo Lyon 3521, Of. 02 Ñuñoa, Santiago, Chile</Link>
                                 </div>
                                 {/* single ENd */}
                             </div>
