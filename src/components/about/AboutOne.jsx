@@ -113,12 +113,12 @@ function AboutOne() {
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-md-1 order-sm-1 order-1">
                             <div className="about-one-thumbnail">
                                 <img
-                                    src=" assets/images/about/main/about-01.png"
+                                    src=" assets/images/about/main/foto77.png"
                                     alt="about-finbiz"
                                 />
                                 <img
                                     className="small-img"
-                                    src="assets/images/about/main/devOps.png"
+                                    src="assets/images/about/main/devOps44.png"
                                     alt="finbiz-small"
                                 />
                                 <div className="experience ">
