@@ -75,7 +75,7 @@ export default function Home() {
                             {/* single wized start */}
                             <div className="rts-single-wized search">
                                 <div className="wized-header">
-                                    <h5 className="title">Search Hear</h5>
+                                    <h5 className="title">Buscar</h5>
                                 </div>
                                 <div className="wized-body">
                                     <div className="rts-search-wrapper">

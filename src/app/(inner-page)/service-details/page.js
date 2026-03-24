@@ -3,17 +3,18 @@ import HeaderOne from "@/components/header/HeaderOne";
 import BackToTop from "@/components/BackToTop";
 import Breadcrumb from "@/components/Breadcrumb";
 import FooterOne from "@/components/footer/FooterOne";
+import Services from "@/data/Services.json";
 
 export default function Home() {
     const breadcrumbs = [
-        { label: 'Home', link: '/' },
-        { label: 'Our Service' }
+        { label: 'Inicio', link: '/' },
+        { label: 'Nuestros Servicios' }
     ];
     return (
 
         <div className="">
             <HeaderOne />
-            <Breadcrumb title="Our Service" breadcrumbs={breadcrumbs} />
+            <Breadcrumb title="Nuestros Servicios" breadcrumbs={breadcrumbs} />
             {/* start service details area */}
             <div className="rts-service-details-area rts-section-gap">
                 <div className="container">
@@ -40,97 +41,16 @@ export default function Home() {
                                     e-tailers for business data restore fully researched relationships
                                     through resource maximizing results.
                                 </p>
-                                <div className="row g-5 mt--30 mb--40">
-                                    <div className="col-lg-6">
-                                        {/* single service details card */}
-                                        <div className="service-details-card">
-                                            <div className="thumbnail">
-                                                <img
-                                                    src="assets/images/service/icon/09.svg"
-                                                    alt=""
-                                                    className="icon"
-                                                />
-                                            </div>
-                                            <div className="details">
-                                                <h6 className="title">Instant Business Growth</h6>
-                                                <p className="disc">
-                                                    Maintain wireless scerios after sure quality vectors
-                                                    future
-                                                </p>
-                                            </div>
-                                        </div>
-                                        {/* single service details card End */}
-                                    </div>
-                                    <div className="col-lg-6">
-                                        {/* single service details card */}
-                                        <div className="service-details-card">
-                                            <div className="thumbnail">
-                                                <img
-                                                    src="assets/images/service/icon/10.svg"
-                                                    alt=""
-                                                    className="icon"
-                                                />
-                                            </div>
-                                            <div className="details">
-                                                <h6 className="title">24/7 Quality Service</h6>
-                                                <p className="disc">
-                                                    Maintain wireless scerios after sure quality vectors
-                                                    future
-                                                </p>
-                                            </div>
-                                        </div>
-                                        {/* single service details card End */}
-                                    </div>
-                                    <div className="col-lg-6">
-                                        {/* single service details card */}
-                                        <div className="service-details-card">
-                                            <div className="thumbnail">
-                                                <img
-                                                    src="assets/images/service/icon/11.svg"
-                                                    alt=""
-                                                    className="icon"
-                                                />
-                                            </div>
-                                            <div className="details">
-                                                <h6 className="title">Easy Customer Service</h6>
-                                                <p className="disc">
-                                                    Maintain wireless scerios after sure quality vectors
-                                                    future
-                                                </p>
-                                            </div>
-                                        </div>
-                                        {/* single service details card End */}
-                                    </div>
-                                    <div className="col-lg-6">
-                                        {/* single service details card */}
-                                        <div className="service-details-card">
-                                            <div className="thumbnail">
-                                                <img
-                                                    src="assets/images/service/icon/12.svg"
-                                                    alt=""
-                                                    className="icon"
-                                                />
-                                            </div>
-                                            <div className="details">
-                                                <h6 className="title">Quality Cost Service</h6>
-                                                <p className="disc">
-                                                    Maintain wireless scerios after sure quality vectors
-                                                    future
-                                                </p>
-                                            </div>
-                                        </div>
-                                        {/* single service details card End */}
-                                    </div>
-                                </div>
                                 <p className="disc">
-                                    Phosfluorescently maintain wireless scenarios after intermandated
-                                    applications. Conveniently unique predominate revolutionary
-                                    quality vectors through future-proof manufactured products.
-                                    Objectively envisioneer high solution convergence through
-                                    collaborative networks. Interactively generate B2C e-tailers for
-                                    business data restore fully researched relationships through
-                                    resource maximizing results.
+                                    Intrinsicly coordinate multifunctional functionalities reliable
+                                    potentialities. Objectively envisioneer high in convergence
+                                    through collaborative networks. Interactively generate B2C
+                                    e-tailers for business data restore fully researched relationships
+                                    through resource maximizing results.
                                 </p>
+                                
+                                
+                               
                             </div>
                             <div className="service-detials-step-2 mt--40">
                                 <h4 className="title">3 Simple Steps to Process</h4>
@@ -141,41 +61,16 @@ export default function Home() {
                                     revolutionary quality vectors through future-proof manufactured
                                     products. Enthusiastically transform distinctive collaboration.
                                 </p>
-                                <p className="disc">
+                                 <p className="disc">
                                     Phosfluorescently maintain wireless scenarios after intermandated
-                                    applications. Conveniently predominate misslat revolutionary
+                                    applications. Conveniently unique predominate revolutionary
                                     quality vectors through future-proof manufactured products.
+                                    Objectively envisioneer high solution convergence through
+                                    collaborative networks. Interactively generate B2C e-tailers for
+                                    business data restore fully researched relationships through
+                                    resource maximizing results.
                                 </p>
-                                {/* stem-area start */}
-                                <div className="row  mb--40 g-5 mb_md--20 mb_sm--20">
-                                    <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-                                        <div className="single-service-step text-center">
-                                            <p className="step">01</p>
-                                            <h6 className="title">STEP ONE</h6>
-                                            <p className="disc">
-                                                Tactical services through market web services
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-                                        <div className="single-service-step text-center">
-                                            <p className="step">02</p>
-                                            <h6 className="title">STEP TWO</h6>
-                                            <p className="disc">
-                                                Tactical services through market web services
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 col-md-6 col-sm-12 col-12">
-                                        <div className="single-service-step text-center">
-                                            <p className="step">03</p>
-                                            <h6 className="title">STEP THREE</h6>
-                                            <p className="disc">
-                                                Tactical services through market web services
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                               
                                 <p className="disc">
                                     Conveniently predominate revolutionary quality vectors through
                                     future-proof manufactured products. Objectively envisioneer high
@@ -186,36 +81,70 @@ export default function Home() {
                                 {/* stem-area End */}
                             </div>
                             {/* service details left area end */}
-                            <div className="service-detials-step-3 mt--70 mt_md--50">
-                                <div className="row g-5 align-items-center">
-                                    <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div className="thumbnail sm-thumb-service">
-                                            <img src="assets/images/service/sm-01.jpg" alt="Service" />
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb_md--20 mb_sm--20">
-                                        <h4 className="title">Customer Benefits</h4>
-                                        <p className="disc">
-                                            Catalysts for change before fully tested markets are maintain
-                                            wireless scenarios after intermandated applications
-                                            predominate revolutionary.
-                                        </p>
-                                        <div className="single-banifits">
-                                            <i className="far fa-check-circle" />
-                                            <span>We use the latest diagnostic equipment</span>
-                                        </div>
-                                        <div className="single-banifits">
-                                            <i className="far fa-check-circle" />
-                                            <span>We are a member of Professional Service</span>
-                                        </div>
-                                        <div className="single-banifits">
-                                            <i className="far fa-check-circle" />
-                                            <span>Automotive service our clients receive</span>
-                                        </div>
-                                    </div>
-                                </div>
+
+
+                             <div className="service-detials-step-2 mt--40">
+                                <h4 className="title">3 Simple Steps to Process</h4>
+                                <p className="disc mb--25">
+                                    Assertively e-enable catalysts for change before fully tested
+                                    markets. Phosfluo rescently is maintain solve wireless scenarios
+                                    after intermandated applications. Conveniently predominate busin
+                                    revolutionary quality vectors through future-proof manufactured
+                                    products. Enthusiastically transform distinctive collaboration.
+                                </p>
+                                 <p className="disc">
+                                    Phosfluorescently maintain wireless scenarios after intermandated
+                                    applications. Conveniently unique predominate revolutionary
+                                    quality vectors through future-proof manufactured products.
+                                    Objectively envisioneer high solution convergence through
+                                    collaborative networks. Interactively generate B2C e-tailers for
+                                    business data restore fully researched relationships through
+                                    resource maximizing results.
+                                </p>
+                               
+                                <p className="disc">
+                                    Conveniently predominate revolutionary quality vectors through
+                                    future-proof manufactured products. Objectively envisioneer high
+                                    in convergence through collaborative networks. Interactively
+                                    generate B2C tailers for business data restore fully researched
+                                    relationships through
+                                </p>
+                                {/* stem-area End */}
                             </div>
+                            {/* service details left area end */}
+
+                             <div className="service-detials-step-2 mt--40">
+                                <h4 className="title">3 Simple Steps to Process</h4>
+                                <p className="disc mb--25">
+                                    Assertively e-enable catalysts for change before fully tested
+                                    markets. Phosfluo rescently is maintain solve wireless scenarios
+                                    after intermandated applications. Conveniently predominate busin
+                                    revolutionary quality vectors through future-proof manufactured
+                                    products. Enthusiastically transform distinctive collaboration.
+                                </p>
+                                 <p className="disc">
+                                    Phosfluorescently maintain wireless scenarios after intermandated
+                                    applications. Conveniently unique predominate revolutionary
+                                    quality vectors through future-proof manufactured products.
+                                    Objectively envisioneer high solution convergence through
+                                    collaborative networks. Interactively generate B2C e-tailers for
+                                    business data restore fully researched relationships through
+                                    resource maximizing results.
+                                </p>
+                               
+                                <p className="disc">
+                                    Conveniently predominate revolutionary quality vectors through
+                                    future-proof manufactured products. Objectively envisioneer high
+                                    in convergence through collaborative networks. Interactively
+                                    generate B2C tailers for business data restore fully researched
+                                    relationships through
+                                </p>
+                                {/* stem-area End */}
+                            </div>
+                            {/* service details left area end */}
+                            
                         </div>
+
                         {/*rts blog wizered area */}
                         <div className="col-xl-4 col-md-12 col-sm-12 col-12 mt_lg--60 pl--50 pl_md--0 pl-lg-controler pl_sm--0">
                             {/* single wizered start */}
