@@ -332,44 +332,8 @@ export default function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="author-area">
-                                        <div className="thumbnail details mb_sm--15">
-                                            <img
-                                                src="/assets/images/blog/details/author.jpg"
-                                                alt="finbiz_buseness"
-                                            />
-                                        </div>
-                                        <div className="author-details team">
-                                            <span>Brand Designer</span>
-                                            <h5>Angelina H. Dekato</h5>
-                                            <p className="disc">
-                                                Nullam varius luctus pharetra ultrices volpat facilisis
-                                                donec tortor, nibhkisys habitant curabitur at nunc nisl
-                                                magna ac rhoncus vehicula sociis tortor nist hendrerit
-                                                molestie integer.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="replay-area-details">
-                                        <h4 className="title">Leave a Reply</h4>
-                                        <form action="#">
-                                            <div className="row g-4">
-                                                <div className="col-lg-6">
-                                                    <input type="text" placeholder="Your Name" />
-                                                </div>
-                                                <div className="col-lg-6">
-                                                    <input type="text" placeholder="Your Name" />
-                                                </div>
-                                                <div className="col-12">
-                                                    <input type="text" placeholder="Select Topic" />
-                                                    <textarea defaultValue={""} />
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <a className="rts-btn btn-primary" href="#">
-                                        Submit Message
-                                    </a>
+                                   
+                                
                                 </div>
                             </div>
                             {/* single post End*/}
