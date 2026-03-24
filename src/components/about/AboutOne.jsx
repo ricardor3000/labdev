@@ -74,7 +74,7 @@ function AboutOne() {
                                         <div className="author-inner">
                                             <a className="thumbnail" href="#">
                                                 <img
-                                                    src="assets/images/about/sm-01.png"
+                                                    src="assets/images/about/avatar321.png"
                                                     alt="finbiz_founder"
                                                 />
                                             </a>
@@ -97,7 +97,7 @@ function AboutOne() {
                                             />
                                             <div className="call-details">
                                                 <span>Contáctanos</span>
-                                                <a href="tel:+18475555555">
+                                                <a href="tel:+569 3653 3804">
                                                     <h6 className="title">📞 +569 3653 3804</h6>
                                                 </a>
                                             </div>
