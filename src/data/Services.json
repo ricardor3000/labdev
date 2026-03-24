@@ -1,172 +1,266 @@
 [
-    {
-        "id": 1,
-        "slug": "Desarrollo-Web",
-        "image": "06.jpg",
-        "bannerImg": "06.jpg",
-        "category": "Business Solution",
-        "title": "Servicio: Desarrollo Web (Next.js / React)",
-
-        "title1": "Problemas que resolvemos",
-        "descripTion1": "Las empresas que operan con plataformas digitales suelen enfrentar limitaciones críticas: sitios lentos, dificultad para escalar, problemas de integración con otros sistemas y experiencias de usuario que no acompañan el crecimiento del negocio.",
-        "descripTion2": "En muchos casos, las soluciones existentes no fueron diseñadas con una arquitectura adecuada, lo que genera dependencia técnica, altos costos de mantenimiento y dificultad para evolucionar la plataforma en el tiempo.",
-        "descripTion3": "Además, el rendimiento, el posicionamiento SEO y la experiencia del usuario se ven afectados cuando no existe una base tecnológica moderna, impactando directamente en la conversión y la eficiencia operativa.",
-
-        "title2": "La solución que ofrecemos",
-        "descripTion2-1": "En Lapdev desarrollamos aplicaciones web modernas utilizando Next.js y React, diseñadas para ofrecer alto rendimiento, escalabilidad y una experiencia de usuario optimizada.",
-        "descripTion2-2": "Construimos plataformas bajo arquitecturas limpias y desacopladas, permitiendo integraciones eficientes con APIs, sistemas internos y servicios externos. Cada desarrollo está orientado a soportar crecimiento, adaptarse a nuevas necesidades y mantener un alto estándar técnico.",
-        "descripTion2-3": "Nuestro enfoque combina desarrollo frontend avanzado, optimización SEO técnica, rendimiento y diseño UX/UI estratégico, asegurando que la plataforma no solo funcione correctamente, sino que también aporte valor real al negocio.",
-
-        "title3": "Metodología de trabajo",
-        "descripTion3-1": "Iniciamos cada proyecto con una etapa de análisis estratégico, donde comprendemos los objetivos del negocio, los flujos operativos y los requerimientos técnicos. Esto nos permite definir una arquitectura adecuada desde el inicio.",
-        "descripTion3-2": "Luego avanzamos hacia el diseño de experiencia (UX/UI), prototipado y validación de estructura, asegurando que la solución esté alineada con los usuarios y los objetivos del proyecto.",
-        "descripTion3-3": "El desarrollo se ejecuta bajo metodologías ágiles, con entregas iterativas, control de calidad continuo y foco en rendimiento, seguridad y mantenibilidad. Finalmente, implementamos la solución en entornos cloud optimizados y preparamos la base para evolución futura.",
-
-        "title4": "Conclusión + CTA",
-        "descripTion4-1": "El desarrollo web moderno no se trata solo de construir interfaces, sino de crear plataformas digitales que soporten crecimiento, integración y evolución constante.",
-        "descripTion4-2": "En Lapdev diseñamos soluciones que funcionan hoy y están preparadas para el futuro, combinando tecnología, arquitectura y visión estratégica.",
-        "descripTion4-3": "👉 Agenda una evaluación estratégica y definamos la mejor solución para tu proyecto."
-    },
-     {
-        "id": 2,
-        "slug": "backend-APIs",
-        "image": "06.jpg",
-        "bannerImg": "06.jpg",
-        "category": "Business Solution",
-        "title": "Servicio: Backend & APIs",
-
-        "title1": "Problemas que resolvemos",
-        "descripTion1": "Muchas organizaciones operan con sistemas fragmentados, donde la información no fluye correctamente entre plataformas, generando procesos manuales, errores operativos y pérdida de eficiencia.",
-        "descripTion2": "Los backends mal diseñados suelen convertirse en cuellos de botella: problemas de rendimiento, dificultad para escalar, integraciones inestables y alta dependencia técnica que limita la evolución del negocio.",
-        "descripTion3": "Además, la falta de APIs bien estructuradas impide conectar sistemas internos, herramientas externas y nuevos desarrollos, dificultando la automatización y la toma de decisiones basada en datos.",
-
-        "title2": "La solución que ofrecemos",
-        "descripTion2-1": "En Lapdev diseñamos y desarrollamos backends robustos y APIs seguras, pensadas como la base estructural de la operación digital de la empresa.",
-        "descripTion2-2": "Construimos arquitecturas desacopladas, escalables y orientadas a integración, que permiten conectar sistemas, automatizar procesos y gestionar grandes volúmenes de información de forma eficiente.",
-        "descripTion2-3": "Trabajamos con bases de datos optimizadas, control de acceso seguro y diseño de APIs claras, consistentes y preparadas para ser consumidas por múltiples aplicaciones, tanto internas como externas.",
-
-        "title3": "Metodología de trabajo",
-        "descripTion3-1": "Comenzamos con una definición clara de arquitectura, identificando flujos de datos, sistemas involucrados y necesidades de integración. Esto nos permite diseñar una estructura backend alineada al negocio y preparada para crecer.",
-        "descripTion3-2": "Luego definimos el modelo de datos, la lógica de negocio y los endpoints necesarios, asegurando consistencia, seguridad y rendimiento desde el inicio.",
-        "descripTion3-3": "El desarrollo se realiza bajo estándares de calidad estrictos, con validaciones, control de versiones y pruebas continuas. Finalmente, implementamos la solución en entornos escalables y dejamos preparada la base para futuras integraciones y evolución.",
-
-        "title4": "Conclusión + CTA",
-        "descripTion4-1": "Un backend bien diseñado no es solo soporte técnico: es el núcleo que permite escalar, integrar y evolucionar cualquier plataforma digital.",
-        "descripTion4-2": "En Lapdev construimos la base tecnológica que sostiene operaciones complejas y crecimiento sostenido.",
-        "descripTion4-3": "👉 Conversemos sobre la arquitectura que tu proyecto necesita."
-    },
-     {
-        "id": 3,
-        "slug": "apps-Mobile",
-        "image": "06.jpg",
-        "bannerImg": "06.jpg",
-        "category": "Business Solution",
-        "title": "Servicio: Apps Mobile",
-
-        "title1": "Problemas que resolvemos",
-        "descripTion1": "Muchas empresas enfrentan dificultades al desarrollar aplicaciones móviles que realmente soporten su operación: bajo rendimiento, problemas de estabilidad, mala experiencia de usuario y dificultades para mantener o escalar la solución en el tiempo.",
-        "descripTion2": "En otros casos, las aplicaciones no están correctamente integradas con los sistemas internos de la empresa, lo que genera procesos duplicados, inconsistencias en los datos y una experiencia fragmentada para el usuario final.",
-        "descripTion3": "Además, desarrollar una app sin una visión estratégica suele derivar en productos difíciles de evolucionar, con altos costos de mantenimiento y poca adopción por parte de los usuarios.",
-
-        "title2": "La solución que ofrecemos",
-        "descripTion2-1": "En Lapdev desarrollamos aplicaciones móviles nativas o multiplataforma, diseñadas para ofrecer rendimiento, estabilidad y una experiencia de usuario alineada a los objetivos del negocio.",
-        "descripTion2-2": "Construimos soluciones integradas con backend y APIs robustas, permitiendo una operación fluida entre sistemas, plataformas web y servicios externos.",
-        "descripTion2-3": "Nuestro enfoque combina diseño UX/UI estratégico, desarrollo técnico de alto nivel y arquitectura escalable, asegurando que la aplicación no solo funcione correctamente, sino que también pueda evolucionar y crecer junto al negocio.",
-
-        "title3": "Metodología de trabajo",
-        "descripTion3-1": "Iniciamos con una etapa de definición estratégica, donde identificamos el propósito de la aplicación, los flujos de usuario y las integraciones necesarias con sistemas existentes.",
-        "descripTion3-2": "Luego avanzamos al diseño de experiencia (UX/UI), prototipado y validación, asegurando una interfaz clara, intuitiva y alineada a las necesidades reales de los usuarios.",
-        "descripTion3-3": "El desarrollo se realiza bajo metodologías ágiles, con pruebas constantes de rendimiento, estabilidad y seguridad. Finalmente, acompañamos el proceso de publicación en App Store y Google Play, además de dejar preparada la base para futuras mejoras y evolución continua.",
-
-        "title4": "Conclusión + CTA",
-        "descripTion4-1": "Una aplicación móvil bien desarrollada no es solo un canal adicional, sino una extensión directa de la operación y la estrategia digital de la empresa.",
-        "descripTion4-2": "En Lapdev creamos aplicaciones que combinan tecnología, experiencia de usuario y arquitectura para generar valor real y sostenido.",
-        "descripTion4-3": "👉 Agenda una evaluación y definamos la mejor solución móvil para tu negocio."
-    },
-     {
-        "id": 4,
-        "slug": "UX/UI",
-        "image": "06.jpg",
-        "bannerImg": "06.jpg",
-        "category": "Business Solution",
-        "title": "Servicio: UX/UI & Product Design",
-
-        "title1": "Problemas que resolvemos",
-        "descripTion1": "Muchas plataformas digitales fallan no por la tecnología, sino por la falta de una experiencia de usuario clara y bien diseñada. Interfaces confusas, flujos poco intuitivos y decisiones de diseño sin base estratégica generan baja adopción, errores operativos y pérdida de oportunidades de negocio.",
-        "descripTion2": "En entornos empresariales, esto se traduce en sistemas que los equipos evitan usar, procesos ineficientes y dificultades para escalar soluciones digitales de forma efectiva.",
-        "descripTion3": "Además, cuando el diseño no está alineado con los objetivos del negocio, las plataformas pierden foco, afectando conversión, productividad y toma de decisiones.",
-
-        "title2": "La solución que ofrecemos",
-        "descripTion2-1": "En Lapdev diseñamos productos digitales centrados en el usuario, combinando investigación, estrategia y diseño visual con una comprensión profunda del negocio.",
-        "descripTion2-2": "Creamos experiencias que no solo son intuitivas, sino que también responden a objetivos concretos: optimizar procesos, mejorar la interacción y aumentar la eficiencia operativa.",
-        "descripTion2-3": "Nuestro enfoque integra UX (experiencia de usuario) y UI (interfaz visual) dentro de una visión de producto, asegurando consistencia, claridad y alineación con la arquitectura tecnológica de la solución.",
-
-        "title3": "Metodología de trabajo",
-        "descripTion3-1": "Comenzamos con una fase de investigación y análisis, donde identificamos usuarios, flujos críticos, puntos de fricción y objetivos del negocio. Esto permite definir una base sólida antes de diseñar.",
-        "descripTion3-2": "Luego desarrollamos arquitectura de información, wireframes y prototipos, validando la experiencia antes de pasar a diseño visual. Esta etapa asegura claridad, eficiencia y coherencia en la navegación.",
-        "descripTion3-3": "Finalmente, diseñamos interfaces de alto estándar visual, alineadas con la identidad de la marca y preparadas para ser implementadas correctamente por el equipo de desarrollo.",
-
-        "title4": "Conclusión + CTA",
-        "descripTion4-1": "Un buen diseño no es solo estética, es una herramienta estratégica que impacta directamente en la eficiencia, adopción y resultados de una plataforma digital.",
-        "descripTion4-2": "En Lapdev diseñamos experiencias que conectan usuarios, procesos y objetivos de negocio de forma clara y escalable.",
-        "descripTion4-3": "👉 Conversemos sobre cómo optimizar la experiencia de tu producto digital."
-    },
-     {
-        "id": 5,
-        "slug": "DevOps",
-        "image": "06.jpg",
-        "bannerImg": "06.jpg",
-        "category": "Business Solution",
-        "title": "Servicio: DevOps & Cloud",
-
-        "title1": "Problemas que resolvemos",
-        "descripTion1": "Muchas plataformas digitales fallan no por el desarrollo, sino por una infraestructura mal diseñada: caídas del sistema, tiempos de respuesta lentos, problemas de despliegue y entornos poco estables que afectan la operación diaria.",
-        "descripTion2": "La falta de automatización en procesos de integración y despliegue genera errores, dependencia de tareas manuales y retrasos en la entrega de nuevas funcionalidades.",
-        "descripTion3": "Además, sin monitoreo adecuado y una arquitectura cloud bien estructurada, las empresas pierden visibilidad sobre su sistema, lo que impacta directamente en la continuidad operativa y la capacidad de escalar.",
-
-        "title2": "La solución que ofrecemos",
-        "descripTion2-1": "En Lapdev diseñamos e implementamos infraestructuras cloud seguras, escalables y preparadas para crecimiento sostenido.",
-        "descripTion2-2": "Automatizamos procesos de despliegue (CI/CD), configuramos entornos robustos y establecemos sistemas de monitoreo que permiten anticipar problemas y optimizar el rendimiento de la plataforma.",
-        "descripTion2-3": "Trabajamos con arquitecturas modernas que aseguran alta disponibilidad, eficiencia en costos y capacidad de adaptación a nuevas demandas del negocio.",
-
-        "title3": "Metodología de trabajo",
-        "descripTion3-1": "Comenzamos evaluando la arquitectura actual, identificando puntos críticos, riesgos y oportunidades de mejora en la infraestructura existente.",
-        "descripTion3-2": "Luego diseñamos una estrategia cloud alineada a los requerimientos del negocio, definiendo entornos, automatización de despliegues y configuración de monitoreo.",
-        "descripTion3-3": "La implementación se realiza bajo buenas prácticas de seguridad, control de versiones y automatización, asegurando estabilidad y continuidad operativa. Finalmente, dejamos preparada la infraestructura para escalar y evolucionar sin fricciones.",
-
-        "title4": "Conclusión + CTA",
-        "descripTion4-1": "Una infraestructura bien diseñada no solo soporta el sistema, sino que permite que el negocio crezca sin límites técnicos.",
-        "descripTion4-2": "En Lapdev construimos entornos cloud que garantizan estabilidad, eficiencia y evolución constante.",
-        "descripTion4-3": "👉 Conversemos sobre cómo optimizar la experiencia de tu producto digital."
-    },
-    {
-        "id": 6,
-        "slug": "Soporte",
-        "image": "06.jpg",
-        "bannerImg": "06.jpg",
-        "category": "Business Solution",
-        "title": "Servicio: Mantenimiento / Soporte / Evolución",
-
-        "title1": "Problemas que resolvemos",
-        "descripTion1": "Muchas empresas enfrentan dificultades al mantener sus plataformas digitales operativas en el tiempo: errores recurrentes, lentitud, fallas en integraciones y falta de actualización tecnológica que impacta directamente en la operación.",
-        "descripTion2": "Además, los sistemas suelen quedar obsoletos rápidamente cuando no existe una estrategia de evolución continua, lo que genera acumulación de deuda técnica, riesgos de seguridad y dificultad para implementar nuevas funcionalidades.",
-        "descripTion3": "La ausencia de soporte especializado también provoca dependencia de equipos externos o internos sin contexto del sistema, aumentando tiempos de respuesta y afectando la continuidad del negocio.",
-
-        "title2": "La solución que ofrecemos",
-        "descripTion2-1": "En Lapdev ofrecemos un servicio de mantenimiento, soporte y evolución continua, orientado a garantizar estabilidad, rendimiento y adaptación constante de las plataformas digitales.",
-        "descripTion2-2": "Nos encargamos de monitorear, corregir, optimizar y mejorar sistemas existentes, asegurando que se mantengan actualizados tecnológicamente y alineados a las necesidades del negocio.",
-        "descripTion2-3": "Nuestro enfoque no es solo reactivo, sino también evolutivo: identificamos oportunidades de mejora, optimización y crecimiento para que la plataforma continúe generando valor en el tiempo.",
-
-        "title3": "Metodología de trabajo",
-        "descripTion3-1": "Comenzamos con una evaluación técnica del sistema existente, identificando riesgos, deuda técnica, oportunidades de optimización y necesidades de evolución.",
-        "descripTion3-2": "Luego definimos un modelo de soporte continuo, con monitoreo, gestión de incidencias, mejoras iterativas y planificación de nuevas funcionalidades según prioridades del negocio.",
-        "descripTion3-3": "Trabajamos con procesos estructurados, control de cambios y seguimiento constante, asegurando estabilidad operativa mientras la plataforma evoluciona de forma ordenada.",
-
-        "title4": "Conclusión + CTA",
-        "descripTion4-1": "La tecnología no termina en el lanzamiento. Las plataformas que evolucionan son las que sostienen el crecimiento.",
-        "descripTion4-2": "En Lapdev nos convertimos en el partner tecnológico que asegura continuidad, mejora constante y adaptación estratégica.",
-        "descripTion4-3": "👉 Conversemos sobre cómo mantener y evolucionar tu plataforma digital."
-    }
-
-
+  {
+    "id": 1,
+    "slug": "desarrollo-web",
+    "icon": "01.svg",
+    "image": "06.jpg",
+    "bannerImg": "06.jpg",
+    "category": "Business Solution",
+    "title": "Desarrollo Web (Next.js / React)",
+    "summary": "Creamos aplicaciones web modernas, rápidas y escalables utilizando Next.js y React, optimizadas para rendimiento, SEO y usabilidad.",
+    "sections": [
+      {
+        "title": "Problemas que resolvemos",
+        "paragraphs": [
+          "Las empresas que operan con plataformas digitales suelen enfrentar limitaciones críticas: sitios lentos, dificultad para escalar, problemas de integración con otros sistemas y experiencias de usuario que no acompañan el crecimiento del negocio.",
+          "En muchos casos, las soluciones existentes no fueron diseñadas con una arquitectura adecuada, lo que genera dependencia técnica, altos costos de mantenimiento y dificultad para evolucionar la plataforma en el tiempo.",
+          "Además, el rendimiento, el posicionamiento SEO y la experiencia del usuario se ven afectados cuando no existe una base tecnológica moderna, impactando directamente en la conversión y la eficiencia operativa."
+        ]
+      },
+      {
+        "title": "La solución que ofrecemos",
+        "paragraphs": [
+          "En Lapdev desarrollamos aplicaciones web modernas utilizando Next.js y React, diseñadas para ofrecer alto rendimiento, escalabilidad y una experiencia de usuario optimizada.",
+          "Construimos plataformas bajo arquitecturas limpias y desacopladas, permitiendo integraciones eficientes con APIs, sistemas internos y servicios externos. Cada desarrollo está orientado a soportar crecimiento, adaptarse a nuevas necesidades y mantener un alto estándar técnico.",
+          "Nuestro enfoque combina desarrollo frontend avanzado, optimización SEO técnica, rendimiento y diseño UX/UI estratégico, asegurando que la plataforma no solo funcione correctamente, sino que también aporte valor real al negocio."
+        ]
+      },
+      {
+        "title": "Metodología de trabajo",
+        "paragraphs": [
+          "Iniciamos cada proyecto con una etapa de análisis estratégico, donde comprendemos los objetivos del negocio, los flujos operativos y los requerimientos técnicos. Esto nos permite definir una arquitectura adecuada desde el inicio.",
+          "Luego avanzamos hacia el diseño de experiencia (UX/UI), prototipado y validación de estructura, asegurando que la solución esté alineada con los usuarios y los objetivos del proyecto.",
+          "El desarrollo se ejecuta bajo metodologías ágiles, con entregas iterativas, control de calidad continuo y foco en rendimiento, seguridad y mantenibilidad. Finalmente, implementamos la solución en entornos cloud optimizados y preparamos la base para evolución futura."
+        ]
+      },
+      {
+        "title": "Conclusión + CTA",
+        "paragraphs": [
+          "El desarrollo web moderno no se trata solo de construir interfaces, sino de crear plataformas digitales que soporten crecimiento, integración y evolución constante.",
+          "En Lapdev diseñamos soluciones que funcionan hoy y están preparadas para el futuro, combinando tecnología, arquitectura y visión estratégica.",
+          "👉 Agenda una evaluación estratégica y definamos la mejor solución para tu proyecto."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "backend-apis",
+    "icon": "02.svg",
+    "image": "06.jpg",
+    "bannerImg": "06.jpg",
+    "category": "Business Solution",
+    "title": "Backend & APIs",
+    "summary": "Diseñamos y desarrollamos backends robustos y APIs seguras que garantizan rendimiento, escalabilidad e integración eficiente con otros sistemas.",
+    "sections": [
+      {
+        "title": "Problemas que resolvemos",
+        "paragraphs": [
+          "Muchas organizaciones operan con sistemas fragmentados, donde la información no fluye correctamente entre plataformas, generando procesos manuales, errores operativos y pérdida de eficiencia.",
+          "Los backends mal diseñados suelen convertirse en cuellos de botella: problemas de rendimiento, dificultad para escalar, integraciones inestables y alta dependencia técnica que limita la evolución del negocio.",
+          "Además, la falta de APIs bien estructuradas impide conectar sistemas internos, herramientas externas y nuevos desarrollos, dificultando la automatización y la toma de decisiones basada en datos."
+        ]
+      },
+      {
+        "title": "La solución que ofrecemos",
+        "paragraphs": [
+          "En Lapdev diseñamos y desarrollamos backends robustos y APIs seguras, pensadas como la base estructural de la operación digital de la empresa.",
+          "Construimos arquitecturas desacopladas, escalables y orientadas a integración, que permiten conectar sistemas, automatizar procesos y gestionar grandes volúmenes de información de forma eficiente.",
+          "Trabajamos con bases de datos optimizadas, control de acceso seguro y diseño de APIs claras, consistentes y preparadas para ser consumidas por múltiples aplicaciones, tanto internas como externas."
+        ]
+      },
+      {
+        "title": "Metodología de trabajo",
+        "paragraphs": [
+          "Comenzamos con una definición clara de arquitectura, identificando flujos de datos, sistemas involucrados y necesidades de integración. Esto nos permite diseñar una estructura backend alineada al negocio y preparada para crecer.",
+          "Luego definimos el modelo de datos, la lógica de negocio y los endpoints necesarios, asegurando consistencia, seguridad y rendimiento desde el inicio.",
+          "El desarrollo se realiza bajo estándares de calidad estrictos, con validaciones, control de versiones y pruebas continuas. Finalmente, implementamos la solución en entornos escalables y dejamos preparada la base para futuras integraciones y evolución."
+        ]
+      },
+      {
+        "title": "Conclusión + CTA",
+        "paragraphs": [
+          "Un backend bien diseñado no es solo soporte técnico: es el núcleo que permite escalar, integrar y evolucionar cualquier plataforma digital.",
+          "En Lapdev construimos la base tecnológica que sostiene operaciones complejas y crecimiento sostenido.",
+          "👉 Conversemos sobre la arquitectura que tu proyecto necesita."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "apps-mobile",
+    "icon": "03.svg",
+    "image": "06.jpg",
+    "bannerImg": "06.jpg",
+    "category": "Business Solution",
+    "title": "Apps Mobile",
+    "summary": "Construimos aplicaciones móviles nativas o multiplataforma con enfoque en rendimiento, experiencia de usuario y estabilidad.",
+    "sections": [
+      {
+        "title": "Problemas que resolvemos",
+        "paragraphs": [
+          "Muchas empresas enfrentan dificultades al desarrollar aplicaciones móviles que realmente soporten su operación: bajo rendimiento, problemas de estabilidad, mala experiencia de usuario y dificultades para mantener o escalar la solución en el tiempo.",
+          "En otros casos, las aplicaciones no están correctamente integradas con los sistemas internos de la empresa, lo que genera procesos duplicados, inconsistencias en los datos y una experiencia fragmentada para el usuario final.",
+          "Además, desarrollar una app sin una visión estratégica suele derivar en productos difíciles de evolucionar, con altos costos de mantenimiento y poca adopción por parte de los usuarios."
+        ]
+      },
+      {
+        "title": "La solución que ofrecemos",
+        "paragraphs": [
+          "En Lapdev desarrollamos aplicaciones móviles nativas o multiplataforma, diseñadas para ofrecer rendimiento, estabilidad y una experiencia de usuario alineada a los objetivos del negocio.",
+          "Construimos soluciones integradas con backend y APIs robustas, permitiendo una operación fluida entre sistemas, plataformas web y servicios externos.",
+          "Nuestro enfoque combina diseño UX/UI estratégico, desarrollo técnico de alto nivel y arquitectura escalable, asegurando que la aplicación no solo funcione correctamente, sino que también pueda evolucionar y crecer junto al negocio."
+        ]
+      },
+      {
+        "title": "Metodología de trabajo",
+        "paragraphs": [
+          "Iniciamos con una etapa de definición estratégica, donde identificamos el propósito de la aplicación, los flujos de usuario y las integraciones necesarias con sistemas existentes.",
+          "Luego avanzamos al diseño de experiencia (UX/UI), prototipado y validación, asegurando una interfaz clara, intuitiva y alineada a las necesidades reales de los usuarios.",
+          "El desarrollo se realiza bajo metodologías ágiles, con pruebas constantes de rendimiento, estabilidad y seguridad. Finalmente, acompañamos el proceso de publicación en App Store y Google Play, además de dejar preparada la base para futuras mejoras y evolución continua."
+        ]
+      },
+      {
+        "title": "Conclusión + CTA",
+        "paragraphs": [
+          "Una aplicación móvil bien desarrollada no es solo un canal adicional, sino una extensión directa de la operación y la estrategia digital de la empresa.",
+          "En Lapdev creamos aplicaciones que combinan tecnología, experiencia de usuario y arquitectura para generar valor real y sostenido.",
+          "👉 Agenda una evaluación y definamos la mejor solución móvil para tu negocio."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "ux-ui",
+    "icon": "04.svg",
+    "image": "06.jpg",
+    "bannerImg": "06.jpg",
+    "category": "Business Solution",
+    "title": "UX/UI & Product Design",
+    "summary": "Diseñamos productos digitales centrados en el usuario, combinando investigación, estrategia y diseño visual.",
+    "sections": [
+      {
+        "title": "Problemas que resolvemos",
+        "paragraphs": [
+          "Muchas plataformas digitales fallan no por la tecnología, sino por la falta de una experiencia de usuario clara y bien diseñada. Interfaces confusas, flujos poco intuitivos y decisiones de diseño sin base estratégica generan baja adopción, errores operativos y pérdida de oportunidades de negocio.",
+          "En entornos empresariales, esto se traduce en sistemas que los equipos evitan usar, procesos ineficientes y dificultades para escalar soluciones digitales de forma efectiva.",
+          "Además, cuando el diseño no está alineado con los objetivos del negocio, las plataformas pierden foco, afectando conversión, productividad y toma de decisiones."
+        ]
+      },
+      {
+        "title": "La solución que ofrecemos",
+        "paragraphs": [
+          "En Lapdev diseñamos productos digitales centrados en el usuario, combinando investigación, estrategia y diseño visual con una comprensión profunda del negocio.",
+          "Creamos experiencias que no solo son intuitivas, sino que también responden a objetivos concretos: optimizar procesos, mejorar la interacción y aumentar la eficiencia operativa.",
+          "Nuestro enfoque integra UX (experiencia de usuario) y UI (interfaz visual) dentro de una visión de producto, asegurando consistencia, claridad y alineación con la arquitectura tecnológica de la solución."
+        ]
+      },
+      {
+        "title": "Metodología de trabajo",
+        "paragraphs": [
+          "Comenzamos con una fase de investigación y análisis, donde identificamos usuarios, flujos críticos, puntos de fricción y objetivos del negocio. Esto permite definir una base sólida antes de diseñar.",
+          "Luego desarrollamos arquitectura de información, wireframes y prototipos, validando la experiencia antes de pasar a diseño visual. Esta etapa asegura claridad, eficiencia y coherencia en la navegación.",
+          "Finalmente, diseñamos interfaces de alto estándar visual, alineadas con la identidad de la marca y preparadas para ser implementadas correctamente por el equipo de desarrollo."
+        ]
+      },
+      {
+        "title": "Conclusión + CTA",
+        "paragraphs": [
+          "Un buen diseño no es solo estética, es una herramienta estratégica que impacta directamente en la eficiencia, adopción y resultados de una plataforma digital.",
+          "En Lapdev diseñamos experiencias que conectan usuarios, procesos y objetivos de negocio de forma clara y escalable.",
+          "👉 Conversemos sobre cómo optimizar la experiencia de tu producto digital."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "devops",
+    "icon": "05.svg",
+    "image": "06.jpg",
+    "bannerImg": "06.jpg",
+    "category": "Business Solution",
+    "title": "DevOps & Cloud",
+    "summary": "Implementamos infraestructuras en la nube seguras y escalables, automatizando despliegues, integración continua y monitoreo.",
+    "sections": [
+      {
+        "title": "Problemas que resolvemos",
+        "paragraphs": [
+          "Muchas plataformas digitales fallan no por el desarrollo, sino por una infraestructura mal diseñada: caídas del sistema, tiempos de respuesta lentos, problemas de despliegue y entornos poco estables que afectan la operación diaria.",
+          "La falta de automatización en procesos de integración y despliegue genera errores, dependencia de tareas manuales y retrasos en la entrega de nuevas funcionalidades.",
+          "Además, sin monitoreo adecuado y una arquitectura cloud bien estructurada, las empresas pierden visibilidad sobre su sistema, lo que impacta directamente en la continuidad operativa y la capacidad de escalar."
+        ]
+      },
+      {
+        "title": "La solución que ofrecemos",
+        "paragraphs": [
+          "En Lapdev diseñamos e implementamos infraestructuras cloud seguras, escalables y preparadas para crecimiento sostenido.",
+          "Automatizamos procesos de despliegue (CI/CD), configuramos entornos robustos y establecemos sistemas de monitoreo que permiten anticipar problemas y optimizar el rendimiento de la plataforma.",
+          "Trabajamos con arquitecturas modernas que aseguran alta disponibilidad, eficiencia en costos y capacidad de adaptación a nuevas demandas del negocio."
+        ]
+      },
+      {
+        "title": "Metodología de trabajo",
+        "paragraphs": [
+          "Comenzamos evaluando la arquitectura actual, identificando puntos críticos, riesgos y oportunidades de mejora en la infraestructura existente.",
+          "Luego diseñamos una estrategia cloud alineada a los requerimientos del negocio, definiendo entornos, automatización de despliegues y configuración de monitoreo.",
+          "La implementación se realiza bajo buenas prácticas de seguridad, control de versiones y automatización, asegurando estabilidad y continuidad operativa. Finalmente, dejamos preparada la infraestructura para escalar y evolucionar sin fricciones."
+        ]
+      },
+      {
+        "title": "Conclusión + CTA",
+        "paragraphs": [
+          "Una infraestructura bien diseñada no solo soporta el sistema, sino que permite que el negocio crezca sin límites técnicos.",
+          "En Lapdev construimos entornos cloud que garantizan estabilidad, eficiencia y evolución constante.",
+          "👉 Conversemos sobre cómo optimizar la experiencia de tu producto digital."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "soporte",
+    "icon": "06.svg",
+    "image": "06.jpg",
+    "bannerImg": "06.jpg",
+    "category": "Business Solution",
+    "title": "Mantenimiento / Soporte / Evolución",
+    "summary": "Ofrecemos soporte continuo, mejoras evolutivas y optimización constante de sistemas existentes para asegurar estabilidad y adaptación al negocio.",
+    "sections": [
+      {
+        "title": "Problemas que resolvemos",
+        "paragraphs": [
+          "Muchas empresas enfrentan dificultades al mantener sus plataformas digitales operativas en el tiempo: errores recurrentes, lentitud, fallas en integraciones y falta de actualización tecnológica que impacta directamente en la operación.",
+          "Además, los sistemas suelen quedar obsoletos rápidamente cuando no existe una estrategia de evolución continua, lo que genera acumulación de deuda técnica, riesgos de seguridad y dificultad para implementar nuevas funcionalidades.",
+          "La ausencia de soporte especializado también provoca dependencia de equipos externos o internos sin contexto del sistema, aumentando tiempos de respuesta y afectando la continuidad del negocio."
+        ]
+      },
+      {
+        "title": "La solución que ofrecemos",
+        "paragraphs": [
+          "En Lapdev ofrecemos un servicio de mantenimiento, soporte y evolución continua, orientado a garantizar estabilidad, rendimiento y adaptación constante de las plataformas digitales.",
+          "Nos encargamos de monitorear, corregir, optimizar y mejorar sistemas existentes, asegurando que se mantengan actualizados tecnológicamente y alineados a las necesidades del negocio.",
+          "Nuestro enfoque no es solo reactivo, sino también evolutivo: identificamos oportunidades de mejora, optimización y crecimiento para que la plataforma continúe generando valor en el tiempo."
+        ]
+      },
+      {
+        "title": "Metodología de trabajo",
+        "paragraphs": [
+          "Comenzamos con una evaluación técnica del sistema existente, identificando riesgos, deuda técnica, oportunidades de optimización y necesidades de evolución.",
+          "Luego definimos un modelo de soporte continuo, con monitoreo, gestión de incidencias, mejoras iterativas y planificación de nuevas funcionalidades según prioridades del negocio.",
+          "Trabajamos con procesos estructurados, control de cambios y seguimiento constante, asegurando estabilidad operativa mientras la plataforma evoluciona de forma ordenada."
+        ]
+      },
+      {
+        "title": "Conclusión + CTA",
+        "paragraphs": [
+          "La tecnología no termina en el lanzamiento. Las plataformas que evolucionan son las que sostienen el crecimiento.",
+          "En Lapdev nos convertimos en el partner tecnológico que asegura continuidad, mejora constante y adaptación estratégica.",
+          "👉 Conversemos sobre cómo mantener y evolucionar tu plataforma digital."
+        ]
+      }
+    ]
+  }
 ]
