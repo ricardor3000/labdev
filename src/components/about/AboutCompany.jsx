@@ -49,7 +49,7 @@ function AboutCompany() {
                                                     {/* start tab content */}
                                                     <div className="rts-tab-content-one">
                                                         <p>
-                                                            <img src="assets/images/faq/info.webp" alt="image" />
+                                                            <img style={{ borderRadius: 20 }} src="https://trdsf.com/cdn/shop/articles/transportation-logistics.png?v=1704913187" alt="image" />
                                                         </p>
                                                         <p className="disc">
                                                             La industria logística requiere trazabilidad en tiempo real, integración entre sistemas y control operativo constante. En Lapdev desarrollamos plataformas digitales que centralizan información, automatizan procesos críticos y permiten visualizar operaciones desde un entorno unificado y escalable.
@@ -103,7 +103,8 @@ function AboutCompany() {
                                                     <div className="rts-tab-content-one">
                                                         <p>
                                                             <img
-                                                                src="assets/images/faq/hospitality-1.webp"
+                                                                style={{ borderRadius: 20 }}
+                                                                src="https://www.plaremesa.net/wp-content/uploads/2020/12/SISTEMAS-VISION-AUTOMOTRIZ-FANUC-GR.jpg.webp"
                                                                 alt="image"
                                                             />
                                                         </p>
@@ -159,7 +160,8 @@ function AboutCompany() {
                                                     <div className="rts-tab-content-one">
                                                         <p>
                                                             <img
-                                                                src="assets/images/faq/logistics.webp"
+                                                                style={{ borderRadius: 20 }}
+                                                                src="https://www.vitalseguro.com/wp-content/uploads/2022/02/centros-de-salud-privados.png"
                                                                 alt="image"
                                                             />
                                                         </p>
@@ -215,6 +217,7 @@ function AboutCompany() {
                                                     <div className="rts-tab-content-one">
                                                         <p>
                                                             <img
+                                                                style={{ borderRadius: 20 }}
                                                                 src="assets/images/faq/steel-factory.webp"
                                                                 alt="image"
                                                             />
@@ -271,7 +274,8 @@ function AboutCompany() {
                                                     <div className="rts-tab-content-one">
                                                         <p>
                                                             <img
-                                                                src="assets/images/faq/education.webp"
+                                                                style={{ borderRadius: 20 }}
+                                                                src="https://img.interempresas.net/fotos/3285929.jpeg"
                                                                 alt="image"
                                                             />
                                                         </p>
@@ -327,7 +331,8 @@ function AboutCompany() {
                                                     <div className="rts-tab-content-one">
                                                         <p>
                                                             <img
-                                                                src="assets/images/faq/customer.webp"
+                                                                style={{ borderRadius: 20 }}
+                                                                src="https://unidadlatina.org/wp-content/uploads/2024/04/fintech_america-960x540.jpg"
                                                                 alt="image"
                                                             />
                                                         </p>
