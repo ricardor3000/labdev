@@ -50,8 +50,8 @@
     {
         "id": 2,
         "slug": "2",
-        "image": "blog-lg-2.jpg",
-        "bannerImg": "blog-lg-2.jpg",
+        "image": "backendEmpresas.webp",
+        "bannerImg": "backendEmpresas.webp",
         "category": "Business Solution",
         "title": "Desarrollo de Backend Robusto para Plataformas Empresariales",
         "author": "Lapdev",
@@ -99,8 +99,8 @@
     {
         "id": 3,
         "slug": "3",
-        "image": "blog-lg-3.jpg",
-        "bannerImg": "blog-lg-3.jpg",
+        "image": "APIREST2.png",
+        "bannerImg": "APIREST2.png",
         "category": "Business Solution",
         "title": "APIs Seguras y Escalables para Integración de Sistemas: El Cimiento de la Agilidad Empresarial",
         "author": "Lapdev",
@@ -149,8 +149,8 @@
     {
         "id": 4,
         "slug": "4",
-        "image": "blog-lg-4.jpg",
-        "bannerImg": "blog-lg-4.jpg",
+        "image": "desarrollo-backend.jpg",
+        "bannerImg": "desarrollo-backend.jpg",
         "category": "Business Solution",
         "title": "Infraestructura Backend para Operaciones Digitales Complejas",
         "author": "Lapdev",
@@ -198,8 +198,8 @@
     {
         "id": 5,
         "slug": "5",
-        "image": "blog-lg-3.jpg",
-        "bannerImg": "grid/01.jpg",
+        "image": "backend.jpeg",
+        "bannerImg": "backend.jpeg",
         "category": "Business",
         "title": "Infraestructura Backend para Operaciones Digitales Complejas",
         "author": "Lapdev",
