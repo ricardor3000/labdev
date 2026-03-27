@@ -251,7 +251,7 @@ export default function Home() {
                             </div>
                             {/* single wized End */}
                             {/* single wized start */}
-                            <div className="rts-single-wized Recent-post">
+                          {/*   <div className="rts-single-wized Recent-post">
                                 <div className="wized-header">
                                     <h5 className="title">Recent Posts</h5>
                                 </div>
@@ -299,39 +299,35 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* single wized End */}
                             {/* single wized start */}
                             <div className="rts-single-wized">
                                 <div className="wized-header">
-                                    <h5 className="title">Popular Tags</h5>
+                                    <h5 className="title">Enlaces</h5>
                                 </div>
                                 <div className="wized-body">
                                     <div className="tags-wrapper">
-                                        <Link href={'#'}>Services</Link>
-                                        <Link href={'#'}>Business</Link>
-                                        <Link href={'#'}>Growth</Link>
-                                        <Link href={'#'}>Finance</Link>
-                                        <Link href={'#'}>UI/UX Design</Link>
-                                        <Link href={'#'}>Solution</Link>
-                                        <Link href={'#'}>Speed</Link>
-                                        <Link href={'#'}>Strategy</Link>
-                                        <Link href={'#'}>Technology</Link>
+                                        <Link href={'#'}>Servicios</Link>
+                                        <Link href={'#'}>Contacto</Link>
+                                        <Link href={'#'}>Noticias</Link>
+                                        <Link href={'#'}>Inicio</Link>
+                                        
                                     </div>
                                 </div>
                             </div>
                             {/* single wized End */}
                             {/* single wized start */}
-                            <div className="rts-single-wized contact">
+                            <div className="rts-single-wized contact" style={{backgroundColor:"#f2f2f2"}}>
                                 <div className="wized-header">
-                                    <Link href="/">
-                                        <img src="assets/images/logo/logo-2.svg" alt="Business_logo" />
+                                    <Link target='blank' href="https://api.whatsapp.com/send?phone=+56936533800&text=Quiero%20informaci%C3%B3n">
+                                        <img src="assets/images/logo/lapDevLogo20266.svg" alt="Business_logo" width={240} />
                                     </Link>
                                 </div>
                                 <div className="wized-body">
-                                    <h5 className="title">Need Help? We Are Here To Help You</h5>
-                                    <Link className="rts-btn btn-primary" href="/contactus">
-                                        Contact Us
+                                    <h5 className="title" style={{color:"#1D2539"}}>Necesitas ayuda. Tenemos la solución que necesitas.?</h5>
+                                    <Link className="rts-btn btn-primary" target='blank' href="https://api.whatsapp.com/send?phone=+56936533800&text=Quiero%20informaci%C3%B3n">
+                                        Contáctanos
                                     </Link>
                                 </div>
                             </div>
