@@ -9,6 +9,9 @@ import PricingThree from "@/components/pricing/PricingThree";
 import AboutFive from "@/components/about/AboutFive";
 import ServiceOne from "@/components/service/ServiceOne";
 import AboutCompany from "@/components/about/AboutCompany";
+import ContactTwo from "@/components/contactform/ContactTwo";
+import ContactFormThree from "@/components/contactform/ContactFormThree";
+import ContactFormFour from "@/components/contactform/ContactFormFour";
 
 export default function Home() {
     const breadcrumbs = [
@@ -25,7 +28,9 @@ export default function Home() {
              <AboutCompany />
            {/*  <ServiceEleven />   */}          
            {/*  <FaqTwo /> */}
-
+            {/* <ContactTwo /> */}
+            {/* <ContactFormThree /> */}
+            <ContactFormFour />
             <FooterOne />
 
             <BackToTop />
