@@ -23,16 +23,13 @@ function BrandOne() {
                                 <img src="assets/images/client/aTodoMotor.png" alt="business_finbiz" />
                             </a>
                             <a href="#">
-                                <img src="assets/images/client/03.png" alt="business_finbiz" />
+                                <img src="assets/images/client/ipyme2026.png" alt="business_finbiz" />
                             </a>
                             <a href="#">
-                                <img src="assets/images/client/04.png" alt="business_finbiz" />
+                                <img src="assets/images/client/climatrade2026.png" alt="business_finbiz" />
                             </a>
                             <a href="#">
-                                <img src="assets/images/client/05.png" alt="business_finbiz" />
-                            </a>
-                            <a href="#">
-                                <img src="assets/images/client/06.png" alt="business_finbiz" />
+                                <img src="assets/images/client/wellplus.png" alt="business_finbiz" />
                             </a>
                         </div>
                     </div>
