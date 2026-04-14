@@ -19,7 +19,7 @@ export default function Home() {
         <div className="">
             <HeaderOne />
 
-            <Breadcrumb title="Blog Lapdev" breadcrumbs={breadcrumbs} />
+           {/*  <Breadcrumb title="Blog Lapdev" breadcrumbs={breadcrumbs} /> */}
 
             <BackToTop />
 
