@@ -278,7 +278,7 @@ function Nav() {
                         </Link>
                     </li> */}
                     <li>
-                        <Link className="nav-item" href={'/contactus'}>
+                        <Link className="nav-item" href={'/contacto'}>
                             Contacto
                         </Link>
                     </li>

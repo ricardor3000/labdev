@@ -8,15 +8,15 @@ import Breadcrumb from "@/components/Breadcrumb";
 
 export default function Home() {
     const breadcrumbs = [
-        { label: 'Home', link: '/' },
-        { label: 'Contact Us' }
+        { label: 'Inicio', link: '/' },
+        { label: 'Contacto' }
     ];
     return (
 
         <div className="">
             <HeaderOne />
 
-            <Breadcrumb title="Contact Us" breadcrumbs={breadcrumbs} />
+            <Breadcrumb title="Contacto" breadcrumbs={breadcrumbs} />
 
 
             {/* contact single area start */}
@@ -34,9 +34,9 @@ export default function Home() {
                                         <img src="assets/images/contact/shape/01.svg" alt="" />
                                     </div>
                                     <div className="info">
-                                        <span>Call Us 24/7</span>
+                                        <span>Teléfono</span>
                                         <Link href={'tel:+18475555555'}>
-                                            <h5>+584 (25) 21453</h5>
+                                            <h5>+56 9 3653 3804</h5>
                                         </Link>
                                     </div>
                                 </div>
@@ -54,9 +54,9 @@ export default function Home() {
                                         <img src="assets/images/contact/shape/02.svg" alt="" />
                                     </div>
                                     <div className="info">
-                                        <span>MAke A Quote</span>
+                                        <span>Correo electrónico</span>
                                         <Link href={'mailto:someone@example.com'}>
-                                            <h5>info@finbiz.com</h5>
+                                            <h5>contacto@lapdev.cl</h5>
                                         </Link>
                                     </div>
                                 </div>
@@ -74,9 +74,9 @@ export default function Home() {
                                         <img src="assets/images/contact/shape/03.svg" alt="" />
                                     </div>
                                     <div className="info">
-                                        <span>Service Station</span>
+                                        <span>Oficina</span>
                                         <Link href={'#'}>
-                                            <h5>25 Hilton Street.</h5>
+                                            <h5>Av. Apoquindo 6410</h5>
                                         </Link>
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@ export default function Home() {
                             <div className="contact-map-area-fluid">
                                 <iframe
                                     className="contact-map"
-                                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14602.288851207937!2d90.47855065!3d23.798243149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1663151706353!5m2!1sen!2sbd"
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.6031765495604!2d-70.56707978768301!3d-33.407515573295626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cedd02bdc949%3A0x618b7b7c6f8a64!2sAv.%20Apoquindo%206410%2C%207550000%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1776209076311!5m2!1ses-419!2scl"
                                     style={{ border: 0 }}
                                     allowFullScreen=""
                                     loading="lazy"
@@ -119,7 +119,7 @@ export default function Home() {
                         <div className="col-12">
                             <div className="rts-contact-fluid rts-section-gap">
                                 <div className="rts-title-area contact-fluid text-center mb--50">
-                                    <p className="pre-title">Get In Touch</p>
+                                    <p className="pre-title">Contáctanos</p>
                                     <h2 className="title">Needs Help? Let’s Get in Touch</h2>
                                 </div>
                                 <div className="form-wrapper">
@@ -146,7 +146,7 @@ export default function Home() {
                                             defaultValue={""}
                                         />
                                         <button type="submit" className="rts-btn btn-primary">
-                                            Send Message
+                                            Enviar Mensaje
                                         </button>
                                     </form>
                                 </div>
