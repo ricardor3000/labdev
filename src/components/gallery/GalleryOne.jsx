@@ -44,7 +44,7 @@ function GalleryOne() {
                                             <div className="col-lg-7 col-md-12 col-sm-12 col-12">
                                                 <div className="thumbnail-gallery">
                                                     <img
-                                                        src="assets/images/gallery/well-plusDemo.png"
+                                                        src="assets/images/gallery/wellPlusBanner.png"
                                                         alt="business-images"
                                                     />
                                                 </div>
@@ -80,7 +80,7 @@ function GalleryOne() {
                                             <div className="col-lg-7 col-md-12 col-sm-12 col-12">
                                                 <div className="thumbnail-gallery">
                                                     <img
-                                                        src="assets/images/gallery/well-plusDemo.png"
+                                                        src="assets/images/gallery/wellPlusBanner.png"
                                                         alt="business-images"
                                                     />
                                                 </div>
