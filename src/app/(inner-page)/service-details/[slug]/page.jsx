@@ -40,6 +40,8 @@ export default async function ServiceDetailsPage({ params }) {
               <div className="service-detials-step-1">
                 <div className="thumbnail">
                   <img
+                    className="shadow-lg"
+                    style={{borderRadius:20}}
                     src={`/assets/images/service/${service.image}`}
                     alt={service.title}
                   />
@@ -98,22 +100,21 @@ export default async function ServiceDetailsPage({ params }) {
                 </div>
               </div>
 
-              <div className="rts-single-wized contact service mt--30">
-                <div className="wized-header">
-                  <Link href="/">
-                    <img
-                      src="/assets/images/logo/logo-2.svg"
-                      alt="Business_logo"
-                    />
-                  </Link>
+               {/* single wizered start */}
+                <div className="rts-single-wized contact" style={{backgroundColor:"#f2f2f2"}}>
+                    <div className="wized-header">
+                        <a href="#">
+                            <img src="/assets/images/logo/lapDevLogo20266.svg" alt="Business_logo" width={180} />
+                        </a>
+                    </div>
+                    <div className="wized-body">
+                        <h5 className="title" style={{color:"#1D2539"}}>Necesitas ayuda. Tenemos la solución que necesitas.?</h5>
+                        <Link className="rts-btn btn-primary" target='blank' href="https://api.whatsapp.com/send?phone=+56936533800&text=Quiero%20informaci%C3%B3n">
+                            Contáctanos
+                        </Link>
+                    </div>
                 </div>
-                <div className="wized-body">
-                  <h5 className="title">Need Help? We Are Here To Help You</h5>
-                  <Link className="rts-btn btn-primary" href="/contact">
-                    Contact Us
-                  </Link>
-                </div>
-              </div>
+                {/* single wizered End */}
             </div>
           </div>
         </div>

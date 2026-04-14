@@ -119,7 +119,7 @@ function Nav() {
                         </ul>
                     </li> */}
                     <li>
-                        <Link className="nav-item" href={'/our-service'}>
+                        <Link className="nav-item" href={'/servicios'}>
                             Servicios
                         </Link>
                     </li>
