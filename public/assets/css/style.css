@@ -19986,7 +19986,7 @@ body.thirteen-body .title-area span {
 .about-home-seven .thumbnail img.small {
   position: absolute;
   z-index: 1;
-  bottom: 0;
+  top: 15px;
   right: 80px;
   animation: floating 5s linear infinite;
 }
@@ -19995,7 +19995,7 @@ body.thirteen-body .title-area span {
   background: #fff;
   width: 70%;
   bottom: 0;
-  left: 60px;
+  left: 30px;
   position: absolute;
   box-shadow: 0px 16px 29px rgba(0, 0, 0, 0.12);
 }

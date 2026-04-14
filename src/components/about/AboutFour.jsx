@@ -8,56 +8,44 @@ function AboutFour() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="thumbnail">
-                                <img src="assets/images/about/main/06.jpg" alt="about_image" />
+                                <img src="assets/images/about/main/nosotros2.png" className='shadow-lg' style={{borderRadius:20}} alt="about_image" />
                                 <img
                                     src="assets/images/about/main/about-02-sm.jpg"
                                     alt="small"
                                     className="small"
                                 />
-                                <div className="experience-area six">
-                                    <h2 className="title">25</h2>
-                                    <span>Years Of Experience</span>
-                                </div>
+                               {/*  <div className="experience-area four">
+                                    <h2 className="title">+5</h2>
+                                    <span>Años de experiencia</span>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="text-start home-seven-about">
-                                <p className="pre-title">More About Finbiz</p>
+                                <p className="pre-title">MÁS QUE CÓDIGO, CONSTRUIMOS PRODUCTOS</p>
                                 <h3 className="title">
-                                    Our Consulting For All Kind Of Finance Services
+                                    Ingeniería de Software diseñada para escalar tu visión de negocio.
                                 </h3>
                             </div>
                             <div className="inner-about-home-7">
                                 <p className="disc">
-                                    Molestie velit imperdiet porttitor at taciti, aptent semper primis
-                                    nisl ut. Inceptos velit penatibus tortor in sed curae urna
-                                    lobortis ultricies aptent integer bibendum parturient molestie
-                                    risus
+                                    En LapDev, no solo desarrollamos aplicaciones; resolvemos cuellos de botella tecnológicos. 
+                                    Nos especializamos en modernizar infraestructuras digitales utilizando ecosistemas 
+                                    de alto rendimiento como React y Next.js. Ayudamos a empresas B2B a transformar 
+                                    procesos complejos en experiencias de usuario fluidas, robustas y, sobre todo, rentables.
                                 </p>
-                                {/* ingle about start */}
-                                <div className="about-single-home-7">
-                                    <div className="icon">
-                                        <img src="assets/images/about/main/icon/01.svg" alt="" />
-                                    </div>
-                                    <div className="discription">
-                                        <h6 className="title">Global Insights</h6>
-                                        <p className="disc">
-                                            Aliquet bibendum duis diam ultricies rutrum vulputate, platea
-                                            lacinia tortor mollis nam dis.
-                                        </p>
-                                    </div>
-                                </div>
-                                {/* ingle about end */}
+                               
                                 {/* ingle about start */}
                                 <div className="about-single-home-7">
                                     <div className="icon">
                                         <img src="assets/images/about/main/icon/02.svg" alt="" />
                                     </div>
                                     <div className="discription">
-                                        <h6 className="title">Business Investment</h6>
+                                        <h6 className="title">Arquitectura Next.js & React de Alto Nivel</h6>
                                         <p className="disc">
-                                            Aliquet bibendum duis diam ultricies rutrum vulputate, platea
-                                            lacinia tortor mollis nam dis.
+                                            Implementamos soluciones con renderizado del lado del servidor (SSR) y 
+                                            generación estática (SSG) para garantizar tiempos de carga instantáneos 
+                                            y un SEO técnico impecable que posiciona tu marca.
                                         </p>
                                     </div>
                                 </div>
@@ -68,10 +56,26 @@ function AboutFour() {
                                         <img src="assets/images/about/main/icon/03.svg" alt="" />
                                     </div>
                                     <div className="discription">
-                                        <h6 className="title">Yearly Calculation</h6>
+                                        <h6 className="title">Diseño UI/UX Centrado en la Conversión</h6>
                                         <p className="disc">
-                                            Aliquet bibendum duis diam ultricies rutrum vulputate, platea
-                                            lacinia tortor mollis nam dis.
+                                             Nuestras interfaces no solo son atractivas; están diseñadas bajo principios 
+                                             de usabilidad B2B para reducir la fricción en el funnel de ventas y 
+                                             mejorar la retención de tus usuarios.
+                                        </p>
+                                    </div>
+                                </div>
+                                {/* ingle about end */}
+                                 {/* ingle about start */}
+                                <div className="about-single-home-7">
+                                    <div className="icon">
+                                        <img src="assets/images/about/main/icon/01.svg" alt="" />
+                                    </div>
+                                    <div className="discription">
+                                        <h6 className="title">Integración y Escalabilidad Ágil </h6>
+                                        <p className="disc">
+                                            Desplegamos microservicios y APIs robustas que permiten que tu 
+                                            software crezca al mismo ritmo que tu empresa, 
+                                            sin deudas técnicas ni re-trabajos costosos.
                                         </p>
                                     </div>
                                 </div>

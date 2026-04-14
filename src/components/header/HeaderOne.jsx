@@ -59,7 +59,7 @@ function HeaderOne() {
                                     </div>
                                     <div className="working-time">
                                         <p>
-                                            <i className="fal fa-clock" /> Horario: 8.00am - 5.00pm
+                                            <i className="fal fa-clock" /> Horario: 9.00am - 18.00pm
                                         </p>
                                     </div>
                                 </div>
@@ -68,10 +68,10 @@ function HeaderOne() {
                                 <div className="right">
                                     <ul className="top-nav">
                                         <li>
-                                            <Link href={'/about-us'}>Nosotros</Link>
+                                            <Link href={'/nosotros'}>Nosotros</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/blog-list'}>Blog</Link>
+                                            <Link href={'/blog-grid'}>Blog</Link>
                                         </li>
                                         <li>
                                             <Link href={'/contactus'}>Contacto</Link>

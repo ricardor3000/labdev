@@ -7,9 +7,10 @@ import Breadcrumb from "@/components/Breadcrumb";
 import TeamTwo from "@/components/team/TeamTwo";
 import FooterOne from "@/components/footer/FooterOne";
 import Accordion from 'react-bootstrap/Accordion';
+import AboutFour from '@/components/about/AboutFour';
 export default function Home() {
         const breadcrumbs = [
-            { label: 'Home', link: '/' },
+            { label: 'Inicio', link: '/' },
             { label: 'About Us' }
         ];
         const [isVideoOpen, setIsVideoOpen] = useState(false);
@@ -46,9 +47,10 @@ export default function Home() {
 
         <div className="">
             <HeaderOne />
-            <Breadcrumb title="About Us" breadcrumbs={breadcrumbs} />
+            <Breadcrumb title="Nosotros" breadcrumbs={breadcrumbs} />
+             <AboutFour />
             {/* rts about us section start */}
-            <div className="rts-about-area rts-section-gap">
+            {/* <div className="rts-about-area rts-section-gap">
                 <div className="container">
                     <div className="row g-5 align-items-center">
                         <div className="col-lg-6">
@@ -67,19 +69,19 @@ export default function Home() {
                                     <div className="goal-button-wrapper">
                                         <Link href={'#'} className="vedio-icone">
                                             <span id="play-video" className="video-play-button" onClick={openVideo}>
-                                                {/* <img
+                                                <img
                                                     src="assets/images/about/shape/play-btn.png"
                                                     alt="Play btn"
-                                                /> */}
+                                                />
                                                 <span />
                                             </span>
                                             {isVideoOpen && (
                                                 <div id="video-overlay" className="video-overlay open">
-                                                    {/* Close button for the video overlay */}
+                                        
                                                     <Link className="video-overlay-close" href={'#'} onClick={closeVideo}>
                                                         ×
                                                     </Link>
-                                                    {/* Video iframe */}
+                                              
                                                     <iframe
                                                         width="560"
                                                         height="315"
@@ -104,7 +106,7 @@ export default function Home() {
                                         Get Consulting For Better Business Growth
                                     </h2>
                                 </div>
-                                {/* inner start */}
+                         
                                 <div className="inner">
                                     <p className="disc">
                                         Dapibus curae risus rutrum curabitur nunc sociis nullam nisl,
@@ -136,17 +138,18 @@ export default function Home() {
                                         Make an Appointment
                                     </Link>
                                 </div>
-                                {/* end */}
+                              
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* rts about us section end */}
-
+            
+           
 
             {/* rts services area start */}
-            <div className="rts-service-area rts-section-gapBottom">
+           {/*  <div className="rts-service-area rts-section-gapBottom">
                 <div className="container-fluid service-main about-service-width-controler">
                     <div className="background-service service-three row">
                         <div className="row g-5">
@@ -154,7 +157,7 @@ export default function Home() {
                                 <p className="pre-title">Our Services</p>
                                 <h2 className="title">What We Provide</h2>
                             </div>
-                            {/* start single Service */}
+                          
                             <div className="col-xl-4 col-md-6 col-sm-12 col-12 pt--15 mb--80 mb_md--40 mb_sm--30">
                                 <div className="service-one-inner-four">
                                     <div className="big-thumbnail-area">
@@ -184,7 +187,7 @@ export default function Home() {
                                     </Link>
                                 </div>
                             </div>
-                            {/* start single Service */}
+                          
                             <div className="col-xl-4 col-md-6 col-sm-12 col-12 pt--15 mb--80 mb_md--40 mb_sm--30">
                                 <div className="service-one-inner-four">
                                     <div className="big-thumbnail-area">
@@ -214,7 +217,7 @@ export default function Home() {
                                     </Link>
                                 </div>
                             </div>
-                            {/* start single Service */}
+                   
                             <div className="col-xl-4 col-md-6 col-sm-12 col-12 pt--15 mb--80">
                                 <div className="service-one-inner-four">
                                     <div className="big-thumbnail-area">
@@ -263,14 +266,14 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* rts services area End */}
 
-            <TeamTwo />
+          {/*   <TeamTwo /> */}
 
 
             {/* rts faq section area */}
-            <div className="rts-faq-section rts-section-gap rts-faq-bg bg_image">
+            {/* <div className="rts-faq-section rts-section-gap rts-faq-bg bg_image">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
@@ -284,7 +287,7 @@ export default function Home() {
                                         </span>
                                     </h2>
                                 </div>
-                                {/* faq accordion area */}
+                      
                                 <div className="faq-accordion-area">
                                     <div className="accordion" id="accordionExample">
                                         <div className="accordion-item">
@@ -347,7 +350,7 @@ export default function Home() {
                                         </Accordion.Item>
                                     </Accordion>
                                 </div>
-                                {/* faq accordion area end */}
+                             
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -357,12 +360,12 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* rts faq section area End */}
 
 
             {/* customers feed back area start */}
-            <div className="rts-customer-feedback-area rts-section-gap bg-customer-feedback">
+            {/* <div className="rts-customer-feedback-area rts-section-gap bg-customer-feedback">
                 <div className="container">
                     <div className="row">
                         <div className="rts-title-area feedback team text-center">
@@ -417,7 +420,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* customers feed back area end */}
             <FooterOne />
             <BackToTop />
