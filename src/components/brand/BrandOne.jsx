@@ -10,7 +10,7 @@ function BrandOne() {
                     <div className="row">
                         <div className="col-12">
                             <div className="title-area-client text-center">
-                                <p className="client-title">Our Trusted Clients</p>
+                                <p className="client-title">Nuestros Clientes y Partners</p>
                             </div>
                         </div>
                     </div>

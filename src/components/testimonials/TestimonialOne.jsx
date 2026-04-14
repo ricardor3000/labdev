@@ -50,7 +50,7 @@ function TestimonialOne() {
                                                     <div className="testimonial-bottom-one">
                                                         <div className="thumbnail">
                                                             <img
-                                                                src="assets/images/testimonials/02.png"
+                                                                src="assets/images/testimonials/avatar2.png"
                                                                 alt="business-testimonials"
                                                             />
                                                         </div>
@@ -74,7 +74,7 @@ function TestimonialOne() {
                                                     <div className="testimonial-bottom-one">
                                                         <div className="thumbnail">
                                                             <img
-                                                                src="assets/images/testimonials/02.png"
+                                                                src="assets/images/testimonials/avatar1.png"
                                                                 alt="business-testimonials"
                                                             />
                                                         </div>
@@ -97,7 +97,7 @@ function TestimonialOne() {
                                                     <div className="testimonial-bottom-one">
                                                         <div className="thumbnail">
                                                             <img
-                                                                src="assets/images/testimonials/02.png"
+                                                                src="assets/images/testimonials/avatar3.png"
                                                                 alt="business-testimonials"
                                                             />
                                                         </div>
@@ -122,7 +122,7 @@ function TestimonialOne() {
                             <div className="col-lg-5">
                              <div className="rts-test-one-image-inner">
                                <img
-                                 src="assets/images/testimonials/Testimonios.png"
+                                 src="assets/images/testimonials/joven_like.png"
                                  alt="business_testimobials"
                                   style={{
                                     width: "80%",       // Cambia este valor (70%, 60%, etc.)

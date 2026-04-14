@@ -69,13 +69,13 @@ function GalleryOne() {
                                                         className="rts-btn btn-primary"
                                                         href={'/project/Business-solution'}
                                                     >
-                                                       Explorar proyectos →
+                                                       Evaluamos tu proyecto →
                                                     </Link>
                                                 </div>
                                             </div>
                                         </div>
                                     </SwiperSlide>
-                                    <SwiperSlide>
+                                   {/*  <SwiperSlide>
                                         <   div className="row g-5 w-g-100">
                                             <div className="col-lg-7 col-md-12 col-sm-12 col-12">
                                                 <div className="thumbnail-gallery">
@@ -110,7 +110,7 @@ function GalleryOne() {
                                                 </div>
                                             </div>
                                         </div>
-                                    </SwiperSlide>
+                                    </SwiperSlide> */}
                                     <SwiperSlide>
                                         <div className="row g-5 w-g-100">
                                             <div className="col-lg-7">
@@ -142,7 +142,7 @@ function GalleryOne() {
                                                         className="rts-btn btn-primary"
                                                         href={'/project/Invent-Workd'}
                                                     >
-                                                        Ir a proyecto
+                                                        Evaluamos tu proyecto →
                                                     </Link>
                                                 </div>
                                             </div>
