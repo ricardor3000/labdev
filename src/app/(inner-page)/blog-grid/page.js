@@ -82,7 +82,7 @@ export default function Home() {
                                         <input
                                             className="Search"
                                             type="text"
-                                            placeholder="Enter Keyword"
+                                            placeholder="Buscador"
                                         />
                                         <button>
                                             <i className="fal fa-search" />
@@ -94,14 +94,14 @@ export default function Home() {
                             {/* single wized start */}
                             <div className="rts-single-wized Categories">
                                 <div className="wized-header">
-                                    <h5 className="title">Categories</h5>
+                                    <h5 className="title">Categorias</h5>
                                 </div>
                                 <div className="wized-body">
                                     {/* single categoris */}
                                     <ul className="single-categories">
                                         <li>
                                             <Link href={'#'}>
-                                                Business Solution <i className="far fa-long-arrow-right" />
+                                                Tecnología <i className="far fa-long-arrow-right" />
                                             </Link>
                                         </li>
                                     </ul>
@@ -110,7 +110,7 @@ export default function Home() {
                                     <ul className="single-categories">
                                         <li>
                                             <Link href={'#'}>
-                                                Solution Model
+                                                Desarrollo
                                                 <i className="far fa-long-arrow-right" />
                                             </Link>
                                         </li>
@@ -120,7 +120,7 @@ export default function Home() {
                                     <ul className="single-categories">
                                         <li>
                                             <Link href={'#'}>
-                                                Business Advantage
+                                                Devops
                                                 <i className="far fa-long-arrow-right" />
                                             </Link>
                                         </li>
@@ -130,7 +130,7 @@ export default function Home() {
                                     <ul className="single-categories">
                                         <li>
                                             <Link href={'#'}>
-                                                Feature Product
+                                                Apps
                                                 <i className="far fa-long-arrow-right" />
                                             </Link>
                                         </li>
@@ -140,7 +140,7 @@ export default function Home() {
                                     <ul className="single-categories">
                                         <li>
                                             <Link href={'#'}>
-                                                Catagory Thury
+                                                Diseño web
                                                 <i className="far fa-long-arrow-right" />
                                             </Link>
                                         </li>
@@ -152,7 +152,7 @@ export default function Home() {
                             {/* single wizered start */}
                             <div className="rts-single-wized Recent-post">
                                 <div className="wized-header">
-                                    <h5 className="title">Recent Posts</h5>
+                                    <h5 className="title">Ùltimas Noticias</h5>
                                 </div>
                                 <div className="wized-body">
                                     {/* recent-post */}
