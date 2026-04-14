@@ -118,12 +118,47 @@ function Nav() {
                             </li>
                         </ul>
                     </li> */}
-                    <li>
+                   {/*  <li>
                         <Link className="nav-item" href={'/servicios'}>
                             Servicios
                         </Link>
+                    </li> */}
+
+
+                    <li className="has-droupdown">
+                        <Link className="nav-link" href={'/servicios'}>
+                            Servicios
+                        </Link>
+                        <ul className="submenu menu-link">
+                            <li className="menu-item">
+                               
+                                <ul>
+                                    <li>
+                                        <Link href={'/service-details/desarrollo-web'}>Desarrollo Web (Next.js / React)</Link>
+                                    </li>
+                                    <li>
+                                        <Link href={'/service-details/backend-apis'}>Backend & APIs</Link>
+                                    </li>
+                                    <li>
+                                        <Link href={'/service-details/apps-mobile'}>Apps Mobile</Link>
+                                    </li>
+                                    <li>
+                                        <Link href={'/service-details/ux-ui'}>UX/UI</Link>
+                                    </li>
+                                    <li>
+                                        <Link href={'/service-details/devops'}>DevOps & Cloud</Link>
+                                    </li>
+                                    <li>
+                                        <Link href={'/service-details/soporte'}>Mantenimiento / Soporte</Link>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
                     </li>
-                    {/* <li className="has-droupdown">
+
+
+                   {/*  <li className="has-droupdown">
                         <Link className="nav-link" href={'#'}>
                             Pages
                         </Link>
@@ -213,6 +248,9 @@ function Nav() {
                             </li>
                         </ul>
                     </li> */}
+
+
+
                     <li>
                         <Link className="nav-item" href={'/blog-grid'}>
                                 Blog
