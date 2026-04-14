@@ -4,9 +4,9 @@ function AboutFive() {
     return (
         <div>
             {/* rts about area start */}
-            <div className="rts-about-area-start rts-section-gapBottom" id="about">
+            <div className="rts-about-area-start rts-section-gapBottom" id="about" style={{backgroundColor:"#f8f8f8"}}>
                 <div className="container">
-                    <div className="row align-items-center"  style={{marginTop:100}}>
+                    <div className="row align-items-center"  style={{paddingTop:100}}>
                         <div className="col-lg-6 pr--70 pr_md--0 pr_sm--0">
                             <div className="title-area-style-six text-start">
                                 <div className="pre-title">

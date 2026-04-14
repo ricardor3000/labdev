@@ -22,7 +22,7 @@ export default function Home() {
 
         <div className="">
             <HeaderOne />
-            <Breadcrumb title="Nuestros Servicios" breadcrumbs={breadcrumbs} />
+            {/* <Breadcrumb title="Nuestros Servicios" breadcrumbs={breadcrumbs} /> */}
              <AboutFive />
              <ServiceOne />
              <AboutCompany />

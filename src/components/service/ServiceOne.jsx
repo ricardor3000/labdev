@@ -11,7 +11,7 @@ function ServiceOne() {
     <div>
       <>
         {/* rts service post area Start */}
-        <div className="rts-service-area rts-section-gapBottom" id="service">
+        <div className="rts-service-area rts-section-gapBottom" id="service" style={{marginTop:90}}>
           <div className="container">
             <div className="row">
               <div className="col-12">
