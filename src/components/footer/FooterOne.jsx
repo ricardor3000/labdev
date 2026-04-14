@@ -48,7 +48,7 @@ function FooterOne() {
                         <div className="col-xl-4 col-md-6 col-sm-12 col-12">
                             <div className="footer-one-single-wized">
                                 <div className="wized-title">
-                                    <h5 className="title">Contacto Ejecutivo</h5>
+                                    <h5 className="title">Menú</h5>
                                     <img
                                         src="/assets/images/footer/under-title.png"
                                         alt="finbiz_footer"
@@ -57,52 +57,58 @@ function FooterOne() {
                                 <div className="quick-link-inner">
                                     <ul className="links">
                                         <li>
-                                            <Link href={'#'}>
-                                                <i className="far fa-arrow-right" /> Forum Support
+                                            <Link href={'/'}>
+                                                <i className="far fa-arrow-right" /> Inicio
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href={'#'}>
-                                                <i className="far fa-arrow-right" /> Help &amp; FAQ
+                                                <i className="far fa-arrow-right" /> Servicios
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href={'#'}>
-                                                <i className="far fa-arrow-right" /> Contact Us
+                                                <i className="far fa-arrow-right" /> Desarrollo Web - Next.js
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href={'#'}>
-                                                <i className="far fa-arrow-right" /> Pricing &amp; Plans
+                                                <i className="far fa-arrow-right" /> Backend & APIs
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href={'#'}>
-                                                <i className="far fa-arrow-right" /> Cookie Policy
+                                                <i className="far fa-arrow-right" /> Apps Mobile
                                             </Link>
                                         </li>
                                     </ul>
                                     <ul className="links margin-left-70">
                                         <li>
                                             <Link href={'#'}>
-                                                <i className="far fa-arrow-right" /> About Us
+                                                <i className="far fa-arrow-right" /> UX/UI
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href={'#'}>
-                                                <i className="far fa-arrow-right" /> My Account
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href={'#'}>
-                                                <i className="far fa-arrow-right" />
-                                                Our Company
+                                                <i className="far fa-arrow-right" /> DevOps
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href={'#'}>
                                                 <i className="far fa-arrow-right" />
-                                                Service
+                                                Soporte
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href={'#'}>
+                                                <i className="far fa-arrow-right" />
+                                                Blog
+                                            </Link>
+                                        </li>
+                                         <li>
+                                            <Link href={'#'}>
+                                                <i className="far fa-arrow-right" />
+                                                Contacto
                                             </Link>
                                         </li>
                                     </ul>
@@ -121,19 +127,19 @@ function FooterOne() {
                                 </div>
                                 <div className="opening-time-inner">
                                     <div className="single-opening">
-                                        <p className="day">Week Days</p>
-                                        <p className="time">09.00 - 24:00</p>
+                                        <p className="day">Lunes a Viernes</p>
+                                        <p className="time">09.00 - 18:00</p>
                                     </div>
                                     <div className="single-opening">
-                                        <p className="day">Saturday</p>
-                                        <p className="time">08:00 - 03.00</p>
+                                        <p className="day">Sabados</p>
+                                        <p className="time">09:00 - 01.00</p>
                                     </div>
-                                    <div className="single-opening mb--30 mb_sm--10">
-                                        <p className="day">Sunday</p>
+                                  {/*   <div className="single-opening mb--30 mb_sm--10">
+                                        <p className="day">Domingos</p>
                                         <p className="time">Day Off</p>
-                                    </div>
+                                    </div> */}
                                     <Link href={'/contactus'} className="rts-btn btn-primary contact-us">
-                                        Contact Us
+                                        Contáctanos
                                     </Link>
                                 </div>
                             </div>
@@ -152,9 +158,9 @@ function FooterOne() {
                                 <div className="post-wrapper">
                                     {/* single post */}
                                     <div className="single-footer-post mb--30">
-                                        <div className="left-thumbnail">
+                                        <div className="left-thumbnail" style={{width:190}}>
                                             <img
-                                                src="/assets/images/footer/post/01.png"
+                                                src="/assets/images/blog/APIREST2.png"
                                                 alt="finbiz_business-post"
                                             />
                                         </div>
@@ -163,13 +169,13 @@ function FooterOne() {
                                                 {" "}
                                                 <i className="fal fa-clock" /> 15th April, 2024
                                             </p>
-                                            <Link href={'/blog-details-default'}>
+                                            <Link href={'/blog-grid/3'}>
                                                 <h6 className="title">
-                                                    Best Business Ideas For Getting Solution
+                                                    APIs Seguras y Escalables para Integración
                                                 </h6>
                                             </Link>
-                                            <Link className="red-more" href={'/blog-details-default'}>
-                                                Read More
+                                            <Link className="red-more" href={'/blog-grid/3'}>
+                                               Seguir Leyendo
                                                 <i className="far fa-arrow-right" />
                                             </Link>
                                         </div>
@@ -177,9 +183,9 @@ function FooterOne() {
                                     {/* single post End */}
                                     {/* single post */}
                                     <div className="single-footer-post">
-                                        <div className="left-thumbnail">
+                                        <div className="left-thumbnail" style={{width:140}}>
                                             <img
-                                                src="/assets/images/footer/post/02.png"
+                                                src="/assets/images/blog/backendEmpresas.webp"
                                                 alt="finbiz_business-post"
                                             />
                                         </div>
@@ -188,13 +194,13 @@ function FooterOne() {
                                                 {" "}
                                                 <i className="fal fa-clock" /> 15th April, 2022
                                             </p>
-                                            <Link href={'/blog-details-default'}>
+                                            <Link href={'/blog-grid/2'}>
                                                 <h6 className="title">
-                                                    Best Business Ideas For Getting Solution
+                                                    Desarrollo de Backend Robusto
                                                 </h6>
                                             </Link>
-                                            <Link className="red-more" href={'/blog-details-default'}>
-                                                Read More
+                                            <Link className="red-more" href={'/blog-grid/2'}>
+                                                Seguir Leyendo
                                                 <i className="far fa-arrow-right" />
                                             </Link>
                                         </div>
