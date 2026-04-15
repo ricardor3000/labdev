@@ -160,7 +160,7 @@ export default function Home() {
                                         <div className="thumbnail">
                                             <Link href={'#'}>
                                                 <img
-                                                    src="assets/images/blog/details/recent-post/01.png"
+                                                    src="assets/images/blog/backendEmpresas.webp"
                                                     alt="Blog_post"
                                                 />
                                             </Link>
@@ -168,11 +168,34 @@ export default function Home() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 feb, 2025</span>
                                             </div>
                                             <Link className="post-title" href={'#'}>
                                                 <h6 className="title">
-                                                    We would love to share a similar experience
+                                                    Desarrollo de Backend Robusto para Plataformas Empresariales
+                                                </h6>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    {/* recent-post End */}
+                                    {/* recent-post */}
+                                    <div className="recent-post-single">
+                                        <div className="thumbnail" style={{width:"490px"}}>
+                                            <Link href={'#'}>
+                                                <img
+                                                     src="assets/images/blog/APIREST2.png"
+                                                    alt="Blog_post"
+                                                />
+                                            </Link>
+                                        </div>
+                                        <div className="content-area">
+                                            <div className="user">
+                                                <i className="fal fa-clock" />
+                                                <span>15 Feb, 2025</span>
+                                            </div>
+                                            <Link className="post-title" href={'#'}>
+                                                <h6 className="title">
+                                                    APIs Seguras y Escalables para Integración de Sistemas: El Cimiento de la Agilidad Empresarial
                                                 </h6>
                                             </Link>
                                         </div>
@@ -183,7 +206,7 @@ export default function Home() {
                                         <div className="thumbnail">
                                             <Link href={'#'}>
                                                 <img
-                                                    src="assets/images/blog/details/recent-post/02.png"
+                                                    src="assets/images/blog/desarrollo-backend.jpg"
                                                     alt="Blog_post"
                                                 />
                                             </Link>
@@ -191,41 +214,18 @@ export default function Home() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2025</span>
                                             </div>
                                             <Link className="post-title" href={'#'}>
                                                 <h6 className="title">
-                                                    We would love to share a similar experience
+                                                   Infraestructura Backend para Operaciones Digitales Complejas
                                                 </h6>
                                             </Link>
                                         </div>
                                     </div>
                                     {/* recent-post End */}
                                     {/* recent-post */}
-                                    <div className="recent-post-single">
-                                        <div className="thumbnail">
-                                            <Link href={'#'}>
-                                                <img
-                                                    src="assets/images/blog/details/recent-post/03.png"
-                                                    alt="Blog_post"
-                                                />
-                                            </Link>
-                                        </div>
-                                        <div className="content-area">
-                                            <div className="user">
-                                                <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
-                                            </div>
-                                            <Link className="post-title" href={'#'}>
-                                                <h6 className="title">
-                                                    We would love to share a similar experience
-                                                </h6>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                    {/* recent-post End */}
-                                    {/* recent-post */}
-                                    <div className="recent-post-single">
+                               {/*      <div className="recent-post-single">
                                         <div className="thumbnail">
                                             <Link href={'#'}>
                                                 <img
@@ -237,15 +237,15 @@ export default function Home() {
                                         <div className="content-area">
                                             <div className="user">
                                                 <i className="fal fa-clock" />
-                                                <span>15 Jan, 2023</span>
+                                                <span>15 Feb, 2026</span>
                                             </div>
                                             <Link className="post-title" href={'#'}>
                                                 <h6 className="title">
-                                                    We would love to share a similar experience
+                                                    Infraestructura Backend para Operaciones Digitales Complejas
                                                 </h6>
                                             </Link>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     {/* recent-post End */}
                                 </div>
                             </div>

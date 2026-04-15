@@ -26,7 +26,7 @@ const BlogGridMain = (props) => {
                 </div>
                 <div className="date">
                     <h6 className="title">15</h6>
-                    <span>Jan</span>
+                    <span>Feb</span>
                 </div>
             </div>
             <div className="blog-body">
