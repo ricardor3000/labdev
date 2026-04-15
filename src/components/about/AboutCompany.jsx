@@ -148,7 +148,7 @@ function AboutCompany() {
                                                             className="rts-btn btn-primary-2 color-h-black"
                                                             href="/contacto"
                                                         >
-                                                            Contact Us
+                                                            Contáctanos
                                                         </a>
                                                     </div>
                                                     {/* start tab content End */}
