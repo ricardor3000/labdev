@@ -27,7 +27,7 @@ export default function Home() {
                         <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="single-contact-one-inner">
                                 <div className="thumbnail">
-                                    <img src="assets/images/contact/01.png" alt="" />
+                                    <img src="assets/images/contact/contacto1.png" alt="" />
                                 </div>
                                 <div className="content">
                                     <div className="icone">
@@ -47,7 +47,7 @@ export default function Home() {
                         <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="single-contact-one-inner">
                                 <div className="thumbnail">
-                                    <img src="assets/images/contact/02.png" alt="" />
+                                    <img src="assets/images/contact/contacto2.png" alt="" />
                                 </div>
                                 <div className="content">
                                     <div className="icone">
@@ -67,7 +67,7 @@ export default function Home() {
                         <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="single-contact-one-inner">
                                 <div className="thumbnail">
-                                    <img src="assets/images/contact/03.png" alt="" />
+                                    <img src="assets/images/contact/contacto3.png" alt="" />
                                 </div>
                                 <div className="content">
                                     <div className="icone">
@@ -120,7 +120,7 @@ export default function Home() {
                             <div className="rts-contact-fluid rts-section-gap">
                                 <div className="rts-title-area contact-fluid text-center mb--50">
                                     <p className="pre-title">Contáctanos</p>
-                                    <h2 className="title">Needs Help? Let’s Get in Touch</h2>
+                                    <h2 className="title">¿Necesitas ayuda? Pongámonos en contacto</h2>
                                 </div>
                                 <div className="form-wrapper">
                                     <div id="form-messages" />
@@ -129,19 +129,20 @@ export default function Home() {
                                             <input
                                                 type="text"
                                                 name="name"
-                                                placeholder="Your Name"
+                                                placeholder="Nombre y Apellido"
                                                 required=""
                                             />
                                             <input
                                                 type="email"
                                                 name="email"
-                                                placeholder="Email Address"
+                                                placeholder="Correo Electrónico"
                                                 required=""
                                             />
                                         </div>
-                                        <input type="text" name="subject" placeholder="Your Subject" />
+                                        <input type="text" name="subject" placeholder="Nombre EMPRESA" />
+                                        <input type="text" name="subject" placeholder="Asunto" />
                                         <textarea
-                                            placeholder="Type Your Message"
+                                            placeholder="Tu mensaje"
                                             name="message"
                                             defaultValue={""}
                                         />
