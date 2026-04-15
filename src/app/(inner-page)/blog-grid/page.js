@@ -326,7 +326,7 @@ export default function Home() {
                                 </div>
                                 <div className="wized-body">
                                     <h5 className="title" style={{color:"#1D2539"}}>Necesitas ayuda. Tenemos la solución que necesitas.?</h5>
-                                    <Link className="rts-btn btn-primary" target='blank' href="https://api.whatsapp.com/send?phone=+56936533800&text=Quiero%20informaci%C3%B3n">
+                                    <Link className="rts-btn btn-primary" href="/contacto">
                                         Contáctanos
                                     </Link>
                                 </div>

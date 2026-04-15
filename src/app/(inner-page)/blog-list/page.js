@@ -322,7 +322,7 @@ export default function Home() {
                                 </div>
                                 <div className="wized-body">
                                     <h5 className="title">Need Help? We Are Here To Help You</h5>
-                                    <Link className="rts-btn btn-primary" href="contactus.html">
+                                    <Link className="rts-btn btn-primary" href="/contacto">
                                         Contact Us
                                     </Link>
                                 </div>
