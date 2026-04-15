@@ -58,7 +58,7 @@ function GalleryOne() {
                                                         />
                                                     </div>
                                                     <Link href={'/project/Business-solution'}>
-                                                        <h4 className="title">Lapdev</h4>
+                                                        <h4 className="title">Lapdev </h4>
                                                     </Link>
                                                     <span>Proyectos tecnologícos de alto impacto</span>
                                                     <p className="disc">
