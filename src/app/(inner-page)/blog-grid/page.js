@@ -302,7 +302,7 @@ export default function Home() {
                             </div> */}
                             {/* single wized End */}
                             {/* single wized start */}
-                            <div className="rts-single-wized">
+                          {/*   <div className="rts-single-wized">
                                 <div className="wized-header">
                                     <h5 className="title">Enlaces</h5>
                                 </div>
@@ -315,7 +315,7 @@ export default function Home() {
                                         
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* single wized End */}
                             {/* single wized start */}
                             <div className="rts-single-wized contact" style={{backgroundColor:"#f2f2f2"}}>
