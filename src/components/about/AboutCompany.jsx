@@ -89,7 +89,7 @@ function AboutCompany() {
                                                         </div>
                                                         <a
                                                             className="rts-btn btn-primary-2 color-h-black"
-                                                            href="#"
+                                                            href="/contacto"
                                                         >
                                                             Contáctanos
                                                         </a>
@@ -146,7 +146,7 @@ function AboutCompany() {
                                                         </div>
                                                         <a
                                                             className="rts-btn btn-primary-2 color-h-black"
-                                                            href="#"
+                                                            href="/contacto"
                                                         >
                                                             Contact Us
                                                         </a>
@@ -203,7 +203,7 @@ function AboutCompany() {
                                                         </div>
                                                         <a
                                                             className="rts-btn btn-primary-2 color-h-black"
-                                                            href="#"
+                                                            href="/contacto"
                                                         >
                                                             Contáctanos
                                                         </a>
@@ -260,7 +260,7 @@ function AboutCompany() {
                                                         </div>
                                                         <a
                                                             className="rts-btn btn-primary-2 color-h-black"
-                                                            href="#"
+                                                            href="/contacto"
                                                         >
                                                             Contáctanos
                                                         </a>
@@ -317,7 +317,7 @@ function AboutCompany() {
                                                         </div>
                                                         <a
                                                             className="rts-btn btn-primary-2 color-h-black"
-                                                            href="#"
+                                                            href="/contacto"
                                                         >
                                                             Contáctanos
                                                         </a>
@@ -374,7 +374,7 @@ function AboutCompany() {
                                                         </div>
                                                         <a
                                                             className="rts-btn btn-primary-2 color-h-black"
-                                                            href="#"
+                                                            href="/contacto"
                                                         >
                                                             Contáctanos
                                                         </a>
