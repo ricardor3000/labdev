@@ -35,7 +35,7 @@ export default function Home() {
                                     </div>
                                     <div className="info">
                                         <span>Teléfono</span>
-                                        <Link href={'tel:+18475555555'}>
+                                        <Link href={'tel:+56936533804'}>
                                             <h5>+56 9 3653 3804</h5>
                                         </Link>
                                     </div>
@@ -55,7 +55,7 @@ export default function Home() {
                                     </div>
                                     <div className="info">
                                         <span>Correo electrónico</span>
-                                        <Link href={'mailto:someone@example.com'}>
+                                        <Link href={'mailto:contacto@lapdev.cl'}>
                                             <h5>contacto@lapdev.cl</h5>
                                         </Link>
                                     </div>

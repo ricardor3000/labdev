@@ -32289,3 +32289,156 @@ p.disc {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.lapdev-modal-dialog {
+  max-width: 760px;
+}
+
+.lapdev-modal-content {
+  border: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
+}
+
+.lapdev-modal-content .modal-header {
+  padding: 28px 32px 18px;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  border-bottom: none;
+}
+
+.lapdev-modal-content .modal-header h3 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 0 0 8px;
+  font-weight: 700;
+}
+
+.lapdev-modal-content .modal-header p {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 15px;
+  margin: 0;
+}
+
+.lapdev-modal-content .btn-close {
+  filter: invert(1);
+  opacity: 1;
+}
+
+.lapdev-modal-content .modal-body {
+  padding: 32px;
+  background: #fff;
+}
+
+.lapdev-modal-content .form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+.lapdev-input.form-control {
+  min-height: 52px;
+  border-radius: 12px;
+  border: 1px solid #dbe1ea;
+  padding: 12px 16px;
+  font-size: 15px;
+  box-shadow: none;
+}
+
+.lapdev-input.form-control:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+}
+
+textarea.lapdev-input.form-control {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.lapdev-submit-btn.btn {
+  min-height: 52px;
+  padding: 0 22px;
+  border-radius: 12px;
+  border: none;
+  background: #2563eb;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+}
+
+.lapdev-submit-btn.btn:hover,
+.lapdev-submit-btn.btn:focus,
+.lapdev-submit-btn.btn:active {
+  background: #1d4ed8 !important;
+  color: #fff !important;
+}
+
+.lapdev-close-btn.btn {
+  min-height: 52px;
+  padding: 0 22px;
+  border-radius: 12px;
+}
+
+.lapdev-social-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.lapdev-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid #dbe1ea;
+  border-radius: 999px;
+  background: #f8fafc;
+  color: #0f172a;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.lapdev-social-link:hover {
+  background: #0f172a;
+  color: #fff;
+  border-color: #0f172a;
+}
+
+.lapdev-modal-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .lapdev-modal-content .modal-header {
+    padding: 22px 20px 16px;
+  }
+
+  .lapdev-modal-content .modal-header h3 {
+    font-size: 24px;
+  }
+
+  .lapdev-modal-content .modal-body {
+    padding: 20px;
+  }
+
+  .lapdev-modal-actions {
+    flex-direction: column;
+  }
+
+  .lapdev-close-btn.btn,
+  .lapdev-submit-btn.btn {
+    width: 100%;
+  }
+}
