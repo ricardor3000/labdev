@@ -51,7 +51,7 @@ function TeamOne() {
                                     <div className="team-image-area">
                                         <Link href={'/team-details'}>
                                             <img
-                                                src="assets/images/team/tm/01.jpg"
+                                                src="assets/images/team/tm/adolfoTeam.png"
                                                 alt="Business_Team_single"
                                             />
                                             <div className="team-social">
@@ -74,12 +74,13 @@ function TeamOne() {
                                     </div>
                                 </div>
                             </SwiperSlide>
+                            
                             <SwiperSlide>
                                 <div className="team-single-one-start">
                                     <div className="team-image-area">
                                         <Link href={'/team-details'}>
                                             <img
-                                                src="assets/images/team/tm/02.jpg"
+                                                src="assets/images/team/tm/09.jpg"
                                                 alt="Business_Team_single"
                                             />
                                             <div className="team-social">
@@ -96,18 +97,19 @@ function TeamOne() {
                                     </div>
                                     <div className="single-details">
                                         <Link href={'/team-details'}>
-                                            <h5 className="title">Ricardo Dodriguez</h5>
+                                            <h5 className="title">Natali Vergara</h5>
                                         </Link>
-                                        <p>Devs</p>
+                                        <p>Diseñadora</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
+
                             <SwiperSlide>
                                 <div className="team-single-one-start">
                                     <div className="team-image-area">
                                         <Link href={'/team-details'}>
                                             <img
-                                                src="assets/images/team/tm/03.jpg"
+                                                src="assets/images/team/tm/01.jpg"
                                                 alt="Business_Team_single"
                                             />
                                             <div className="team-social">
@@ -124,18 +126,19 @@ function TeamOne() {
                                     </div>
                                     <div className="single-details">
                                         <Link href={'/team-details'}>
-                                            <h5 className="title">Beckett Hayden</h5>
+                                            <h5 className="title">Ricardo Rodriguez</h5>
                                         </Link>
-                                        <p>Deputy Manager</p>
+                                        <p>Desarrollador</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
+                            
                             <SwiperSlide>
                                 <div className="team-single-one-start">
                                     <div className="team-image-area">
                                         <Link href={'/team-details'}>
                                             <img
-                                                src="assets/images/team/tm/04.jpg"
+                                                src="assets/images/team/tm/08.jpg"
                                                 alt="Business_Team_single"
                                             />
                                             <div className="team-social">
@@ -152,40 +155,13 @@ function TeamOne() {
                                     </div>
                                     <div className="single-details">
                                         <Link href={'/team-details'}>
-                                            <h5 className="title">Julian Wyat</h5>
+                                            <h5 className="title">Daniela Araya</h5>
                                         </Link>
-                                        <p>Finance Manager</p>
+                                        <p>Jefa de Proyectos</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="team-single-one-start">
-                                    <div className="team-image-area">
-                                        <Link href={'/team-details'}>
-                                            <img
-                                                src="assets/images/team/tm/04.jpg"
-                                                alt="Business_Team_single"
-                                            />
-                                            <div className="team-social">
-                                                <div className="main">
-                                                    <i className="fal fa-plus" />
-                                                </div>
-                                                <div className="team-social-one">
-                                                    <i className="fab fa-youtube" />
-                                                    <i className="fab fa-twitter" />
-                                                    <i className="fab fa-instagram" />
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                    <div className="single-details">
-                                        <Link href={'/team-details'}>
-                                            <h5 className="title">Julian Wyat</h5>
-                                        </Link>
-                                        <p>Finance Manager</p>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
+                           
                         </Swiper>
                     </div>
                 </div>
