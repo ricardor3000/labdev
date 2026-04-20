@@ -76,7 +76,7 @@ function ServiceOne() {
                       Creamos Soluciones Digitales que Transforman Negocios
                     </h3>
                   </div>
-                  <div className="cta-left">
+                  <div className="cta-right">
                     <Link className="rts-btn btn-white" href="/contacto">
                       Contáctanos
                     </Link>
