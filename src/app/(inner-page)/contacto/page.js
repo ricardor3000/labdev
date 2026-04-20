@@ -75,7 +75,7 @@ export default function Home() {
                                     </div>
                                     <div className="info">
                                         <span>Oficina</span>
-                                        <Link href={'#'}>
+                                        <Link href={'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.8296100935268!2d-70.6050486876818!3d-33.453745473277046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf96a2e950af%3A0x135e3959b6b3f185!2sAv.%20Ricardo%20Lyon%203521%2C%20Of.%2002%2C%207770562%20%C3%91u%C3%B1oa%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1776705690076!5m2!1ses-419!2scl'}>
                                             <h5>Av. Apoquindo 6410</h5>
                                         </Link>
                                     </div>
