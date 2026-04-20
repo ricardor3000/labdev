@@ -53,9 +53,9 @@ function HeaderOne() {
                             <div className="col-lg-6 d-xl-block d-none">
                                 <div className="left">
                                     <div className="mail">
-                                        <Link href={'/about-us'}>
+                                        <a href="mailto:contacto@lapdev.cl">
                                             <i className="fal fa-envelope" /> contacto@lapdev.cl
-                                        </Link>
+                                        </a>
                                     </div>
                                     <div className="working-time">
                                         <p>
@@ -74,18 +74,13 @@ function HeaderOne() {
                                             <Link href={'/blog-grid'}>Blog</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/contactus'}>Contacto</Link>
+                                            <Link href={'/contacto'}>Contacto</Link>
                                         </li>
                                     </ul>
                                     <ul className="social-wrapper-one">
-                                        <li>
+                                         <li>
                                             <Link href={'#'}>
-                                                <i className="fab fa-facebook-f" />
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href={'#'}>
-                                                <i className="fab fa-twitter" />
+                                                <i className="fab fa-linkedin" />
                                             </Link>
                                         </li>
                                         <li>
@@ -94,8 +89,13 @@ function HeaderOne() {
                                             </Link>
                                         </li>
                                         <li>
+                                            <Link href={'#'}>
+                                                <i className="fab fa-facebook-f" />
+                                            </Link>
+                                        </li>
+                                        <li>
                                             <Link className="mr--0" href={'#'}>
-                                                <i className="fab fa-linkedin-in" />
+                                                <i className="fab fab fa-whatsapp" />
                                             </Link>
                                         </li>
                                     </ul>

@@ -32288,99 +32288,115 @@ p.disc {
   background: #F6F6F6;
 }
 
+
+
+  
 /*# sourceMappingURL=style.css.map */
 
+
+
+/* =========================================================
+   LAPDEV MODAL
+========================================================= */
 
 .lapdev-modal-dialog {
   max-width: 760px;
 }
 
 .lapdev-modal-content {
-  border: 0;
-  border-radius: 20px;
+  border: 0 !important;
+  border-radius: 22px !important;
   overflow: hidden;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
+  background: #ffffff;
+  box-shadow: 0 30px 80px rgba(15, 23, 42, 0.22);
 }
 
-.lapdev-modal-content .modal-header {
-  padding: 28px 32px 18px;
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-  border-bottom: none;
+.lapdev-modal-header {
+  border: 0 !important;
+  padding: 0 !important;
+  background: #de0b0b;
+}
+
+.lapdev-modal-header-content {
+  width: 100%;
+  padding: 34px 34px 26px;
+}
+
+.lapdev-badge {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .lapdev-modal-content .modal-header h3 {
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.2;
-  margin: 0 0 8px;
-  font-weight: 700;
+  margin: 0 0 10px;
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 1.15;
+  font-weight: 800;
 }
 
 .lapdev-modal-content .modal-header p {
+  margin: 0;
+  max-width: 560px;
   color: rgba(255, 255, 255, 0.82);
   font-size: 15px;
-  margin: 0;
+  line-height: 1.7;
 }
 
 .lapdev-modal-content .btn-close {
   filter: invert(1);
   opacity: 1;
+  box-shadow: none !important;
+  margin: 20px 20px 0 0 !important;
 }
 
-.lapdev-modal-content .modal-body {
-  padding: 32px;
-  background: #fff;
+.lapdev-modal-body {
+  padding: 34px !important;
+  background: #ffffff;
 }
 
-.lapdev-modal-content .form-label {
+.lapdev-label {
   display: block;
+  margin-bottom: 9px;
+  color: #0f172a;
   font-size: 14px;
   font-weight: 700;
-  color: #0f172a;
-  margin-bottom: 8px;
 }
 
 .lapdev-input.form-control {
-  min-height: 52px;
-  border-radius: 12px;
-  border: 1px solid #dbe1ea;
-  padding: 12px 16px;
+  min-height: 54px;
+  border: 1px solid #d8e1ec !important;
+  border-radius: 14px !important;
+  background: #f8fafc !important;
+  color: #0f172a !important;
   font-size: 15px;
-  box-shadow: none;
+  padding: 12px 16px !important;
+  box-shadow: none !important;
+  transition: all 0.2s ease;
+}
+
+.lapdev-input.form-control::placeholder {
+  color: #94a3b8 !important;
 }
 
 .lapdev-input.form-control:focus {
-  border-color: #2563eb;
-  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+  border-color: #2563eb !important;
+  background: #ffffff !important;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12) !important;
 }
 
-textarea.lapdev-input.form-control {
+.lapdev-textarea.form-control {
   min-height: 140px;
   resize: vertical;
-}
-
-.lapdev-submit-btn.btn {
-  min-height: 52px;
-  padding: 0 22px;
-  border-radius: 12px;
-  border: none;
-  background: #2563eb;
-  font-weight: 700;
-  font-size: 15px;
-  color: #fff;
-}
-
-.lapdev-submit-btn.btn:hover,
-.lapdev-submit-btn.btn:focus,
-.lapdev-submit-btn.btn:active {
-  background: #1d4ed8 !important;
-  color: #fff !important;
-}
-
-.lapdev-close-btn.btn {
-  min-height: 52px;
-  padding: 0 22px;
-  border-radius: 12px;
+  padding-top: 14px !important;
 }
 
 .lapdev-social-links {
@@ -32388,49 +32404,99 @@ textarea.lapdev-input.form-control {
   gap: 12px;
   flex-wrap: wrap;
   margin-top: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 .lapdev-social-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 44px;
+  min-height: 42px;
   padding: 0 16px;
-  border: 1px solid #dbe1ea;
   border-radius: 999px;
+  border: 1px solid #d8e1ec;
   background: #f8fafc;
-  color: #0f172a;
-  text-decoration: none;
+  color: #0f172a !important;
+  text-decoration: none !important;
   font-size: 14px;
   font-weight: 600;
   transition: all 0.2s ease;
 }
 
 .lapdev-social-link:hover {
-  background: #0f172a;
-  color: #fff;
   border-color: #0f172a;
+  background: #0f172a;
+  color: #ffffff !important;
+  transform: translateY(-1px);
+}
+
+.lapdev-form-note {
+  margin-bottom: 24px;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .lapdev-modal-actions {
   display: flex;
-  gap: 12px;
   justify-content: flex-end;
+  gap: 12px;
   flex-wrap: wrap;
 }
 
-@media (max-width: 768px) {
-  .lapdev-modal-content .modal-header {
-    padding: 22px 20px 16px;
+.lapdev-close-btn.btn {
+  min-height: 52px;
+  padding: 0 22px;
+  border-radius: 14px !important;
+  border: 1px solid #cbd5e1 !important;
+  background: #ffffff !important;
+  color: #0f172a !important;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: none !important;
+}
+
+.lapdev-close-btn.btn:hover {
+  background: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+.lapdev-submit-btn.btn {
+  min-height: 52px;
+  padding: 0 22px;
+  border: 0 !important;
+  border-radius: 14px !important;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+  color: #ffffff !important;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: 0 14px 28px rgba(37, 99, 235, 0.22) !important;
+}
+
+.lapdev-submit-btn.btn:hover,
+.lapdev-submit-btn.btn:focus,
+.lapdev-submit-btn.btn:active {
+  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%) !important;
+  color: #ffffff !important;
+  transform: translateY(-1px);
+}
+
+.lapdev-submit-btn.btn:disabled {
+  opacity: 0.7;
+  transform: none;
+}
+
+@media (max-width: 767px) {
+  .lapdev-modal-header-content {
+    padding: 26px 20px 20px;
   }
 
   .lapdev-modal-content .modal-header h3 {
-    font-size: 24px;
+    font-size: 25px;
   }
 
-  .lapdev-modal-content .modal-body {
-    padding: 20px;
+  .lapdev-modal-body {
+    padding: 22px !important;
   }
 
   .lapdev-modal-actions {
@@ -32446,93 +32512,3 @@ textarea.lapdev-input.form-control {
 
 
 
-/* =========================
-   MODAL LAPDEV CUSTOM
-========================= */
-
-.lapdev-modal-content {
-  border: none;
-  border-radius: 18px;
-  overflow: hidden;
-  background: #ffffff;
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.2);
-}
-
-.lapdev-modal-content .modal-header {
-  background: linear-gradient(135deg, #DE0B0B, #DE0B0B);
-  padding: 30px;
-  border: none;
-}
-
-.lapdev-modal-content .modal-header h3 {
-  color: #ffffff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.lapdev-modal-content .modal-header p {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.lapdev-modal-content .btn-close {
-  filter: invert(1);
-}
-
-.lapdev-modal-content .modal-body {
-  padding: 30px;
-}
-
-/* Inputs */
-
-.lapdev-input.form-control {
-  border-radius: 10px;
-  border: 1px solid #d0d7de;
-  height: 50px;
-}
-
-textarea.lapdev-input.form-control {
-  height: auto;
-  min-height: 120px;
-}
-
-.lapdev-input:focus {
-  border-color: #007bff;
-  box-shadow: none;
-}
-
-/* Botón principal */
-
-.lapdev-submit-btn {
-  background: linear-gradient(135deg, #007bff, #0056b3);
-  border: none;
-  color: white !important;
-  font-weight: 600;
-  padding: 12px 20px;
-  border-radius: 10px;
-}
-
-.lapdev-submit-btn:hover {
-  background: linear-gradient(135deg, #0056b3, #004099);
-}
-
-/* Botón cerrar */
-
-.lapdev-close-btn {
-  border-radius: 10px;
-  padding: 12px 20px;
-}
-
-/* Sociales */
-
-.lapdev-social-link {
-  border-radius: 20px;
-  border: 1px solid #ddd;
-  padding: 8px 16px;
-  text-decoration: none;
-  color: #333;
-}
-
-.lapdev-social-link:hover {
-  background: #000;
-  color: #fff;
-}

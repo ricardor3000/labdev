@@ -89,13 +89,13 @@ function TechnicalDiagnosisModal({ show, handleClose }) {
       show={show}
       onHide={onClose}
       centered
-      size="lg"
       backdrop="static"
       dialogClassName="lapdev-modal-dialog"
       contentClassName="lapdev-modal-content"
     >
-      <Modal.Header closeButton>
-        <div>
+      <Modal.Header closeButton className="lapdev-modal-header">
+        <div className="lapdev-modal-header-content">
+          <span className="lapdev-badge">Diagnóstico Técnico</span>
           <h3>¿Tienes un desafío técnico?</h3>
           <p>
             Analizamos tu arquitectura y te entregamos una hoja de ruta preliminar
@@ -104,7 +104,7 @@ function TechnicalDiagnosisModal({ show, handleClose }) {
         </div>
       </Modal.Header>
 
-      <Modal.Body>
+      <Modal.Body className="lapdev-modal-body">
         {status.message && (
           <Alert variant={status.type} className="mb-4">
             {status.message}
@@ -115,7 +115,7 @@ function TechnicalDiagnosisModal({ show, handleClose }) {
           <Row className="g-3">
             <Col md={6}>
               <Form.Group controlId="contactName">
-                <Form.Label>Nombre de contacto</Form.Label>
+                <Form.Label className="lapdev-label">Nombre de contacto</Form.Label>
                 <Form.Control
                   className="lapdev-input"
                   type="text"
@@ -130,7 +130,7 @@ function TechnicalDiagnosisModal({ show, handleClose }) {
 
             <Col md={6}>
               <Form.Group controlId="phone">
-                <Form.Label>Teléfono</Form.Label>
+                <Form.Label className="lapdev-label">Teléfono</Form.Label>
                 <Form.Control
                   className="lapdev-input"
                   type="text"
@@ -145,7 +145,7 @@ function TechnicalDiagnosisModal({ show, handleClose }) {
 
             <Col md={6}>
               <Form.Group controlId="email">
-                <Form.Label>Mail</Form.Label>
+                <Form.Label className="lapdev-label">Mail</Form.Label>
                 <Form.Control
                   className="lapdev-input"
                   type="email"
@@ -160,7 +160,7 @@ function TechnicalDiagnosisModal({ show, handleClose }) {
 
             <Col md={6}>
               <Form.Group controlId="companyName">
-                <Form.Label>Nombre de la empresa</Form.Label>
+                <Form.Label className="lapdev-label">Nombre de la empresa</Form.Label>
                 <Form.Control
                   className="lapdev-input"
                   type="text"
@@ -175,9 +175,9 @@ function TechnicalDiagnosisModal({ show, handleClose }) {
 
             <Col md={12}>
               <Form.Group controlId="requirement">
-                <Form.Label>Requerimiento o consulta</Form.Label>
+                <Form.Label className="lapdev-label">Requerimiento o consulta</Form.Label>
                 <Form.Control
-                  className="lapdev-input"
+                  className="lapdev-input lapdev-textarea"
                   as="textarea"
                   rows={5}
                   name="requirement"
@@ -223,6 +223,10 @@ function TechnicalDiagnosisModal({ show, handleClose }) {
             >
               Whatsapp
             </a>
+          </div>
+
+          <div className="lapdev-form-note">
+            Te responderemos con una orientación inicial y próximos pasos sugeridos.
           </div>
 
           <div className="lapdev-modal-actions">

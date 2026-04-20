@@ -61,15 +61,15 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                             {/* title End */}
                             <div className="wrapper">
                                 {/* single */}
-                                <div className="single">
-                                    <i className="fas fa-phone-alt" />
-                                    <Link href="#">+56 9 3653 3804</Link>
+                               <div className="single">
+                                  <i className="fas fa-phone-alt" />
+                                  <a href="tel:+56936533804">+56 9 3653 3804</a>
                                 </div>
                                 {/* single ENd */}
                                 {/* single */}
-                                <div className="single">
-                                    <i className="fas fa-envelope" />
-                                    <Link href="#">contacto@lapdev.cl</Link>
+                               <div className="single">
+                                  <i className="fas fa-envelope" />
+                                  <a href="mailto:contacto@lapdev.cl">contacto@lapdev.cl</a>
                                 </div>
                                 {/* single ENd */}
                                 {/* single */}
@@ -81,24 +81,24 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                 {/* single */}
                                 <div className="single">
                                     <i className="fas fa-map-marker-alt" />
-                                    <Link href="#">Av. Apoquindo 6410, oficina 212, Las Condes, Santiago, Chile</Link>
+                                    <Link target='blank' href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.5991691101904!2d-70.56685688755269!3d-33.40762009521125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf07a0efeec9%3A0x8f3a6aa8900fe03!2sAv.%20Apoquindo%206410%2C%20Oficina%20212%2C%207550000%20Las%20Condes%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1776705571005!5m2!1ses-419!2scl">Av. Apoquindo 6410, oficina 212, Las Condes, Santiago, Chile</Link>
                                 </div>
                                 <div className="single">
                                     <i className="fas fa-map-marker-alt" />
-                                    <Link href="#">Av. Ricardo Lyon 3521, Of. 02 Ñuñoa, Santiago, Chile</Link>
+                                    <Link target='blank' href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.8296100935268!2d-70.6050486876818!3d-33.453745473277046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf96a2e950af%3A0x135e3959b6b3f185!2sAv.%20Ricardo%20Lyon%203521%2C%20Of.%2002%2C%207770562%20%C3%91u%C3%B1oa%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1776705690076!5m2!1ses-419!2scl">Av. Ricardo Lyon 3521, Of. 02 Ñuñoa, Santiago, Chile</Link>
                                 </div>
                                 {/* single ENd */}
                             </div>
                             <div className="social-wrapper-two menu">
                                 <Link href="#">
-                                    <i className="fab fa-facebook-f" />
-                                </Link>
-                                <Link href="#">
-                                    <i className="fab fa-twitter" />
+                                    <i className="fab fa-linkedin" />
                                 </Link>
                                 <Link href="#">
                                     <i className="fab fa-instagram" />
                                 </Link>
+                                <Link href="#">
+                                    <i className="fab fa-facebook-f" />
+                                </Link>     
                                 <Link href="#">
                                     <i className="fab fa-whatsapp" />
                                 </Link>
