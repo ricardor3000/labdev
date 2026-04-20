@@ -90,7 +90,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                 {/* single ENd */}
                             </div>
                             <div className="social-wrapper-two menu">
-                                <Link href="#">
+                                <Link target='blank' href={'https://www.linkedin.com/company/lapdev/'}>
                                     <i className="fab fa-linkedin" />
                                 </Link>
                                 <Link href="#">

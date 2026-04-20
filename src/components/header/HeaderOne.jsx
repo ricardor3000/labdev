@@ -79,7 +79,7 @@ function HeaderOne() {
                                     </ul>
                                     <ul className="social-wrapper-one">
                                          <li>
-                                            <Link href={'#'}>
+                                            <Link target='blank' href={'https://www.linkedin.com/company/lapdev/'}>
                                                 <i className="fab fa-linkedin" />
                                             </Link>
                                         </li>
@@ -122,7 +122,7 @@ function HeaderOne() {
                                             <i className="far fa-search" />
                                         </button>
                                         <Link
-                                            href={'#'}
+                                            href={'/contacto'}
                                             className="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn"
                                         >
                                             Contáctanos

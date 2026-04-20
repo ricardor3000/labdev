@@ -115,7 +115,7 @@ function BusinessGoalOne() {
                                                         <iframe
                                                             width="560"
                                                             height="315"
-                                                            src="https://www.youtube.com/embed/6stlCkUDG_s"
+                                                            src="https://www.youtube.com/embed/KNo_qEJkGEE?si=Izi0pUHsd5L6OFN3"
                                                             title="YouTube video player"
                                                             frameBorder="0"
                                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
