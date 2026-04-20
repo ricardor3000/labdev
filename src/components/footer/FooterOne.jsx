@@ -219,7 +219,16 @@ function FooterOne() {
                         <div className="row">
                             <div className="col-12">
                                 <div className="text-center">
-                                    <p>FINBIZ - Copyright 2022. All rights reserved.</p>
+                                    <p>
+                                      <a
+                                        href="https://laparadoja.cl/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                      >
+                                        laparadoja.cl
+                                      </a>{" "}
+                                      - Copyright 2026. Todos los derechos reservados.
+                                    </p>
                                 </div>
                             </div>
                         </div>

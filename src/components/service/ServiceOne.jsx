@@ -77,7 +77,7 @@ function ServiceOne() {
                     </h3>
                   </div>
                   <div className="cta-right">
-                    <Link className="rts-btn btn-white" href="/contact">
+                    <Link className="rts-btn btn-white" href="/contacto">
                       Contáctanos
                     </Link>
                   </div>
