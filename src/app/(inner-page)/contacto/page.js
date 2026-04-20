@@ -1,10 +1,10 @@
-"use client"
+"use client";
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import HeaderOne from "@/components/header/HeaderOne";
-import BackToTop from "@/components/BackToTop";
-import FooterOne from "@/components/footer/FooterOne";
-import Breadcrumb from "@/components/Breadcrumb";
+import HeaderOne from "../../../components/header/HeaderOne";
+import BackToTop from "../../../components/BackToTop";
+import FooterOne from "../../../components/footer/FooterOne";
+import Breadcrumb from "../../../components/Breadcrumb";
 
 export default function Home() {
     const breadcrumbs = [
