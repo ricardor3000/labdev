@@ -138,7 +138,7 @@ function FooterOne() {
                                         <p className="day">Domingos</p>
                                         <p className="time">Day Off</p>
                                     </div> */}
-                                    <Link href={'/contact0'} className="rts-btn btn-primary contact-us">
+                                    <Link href={'/contacto'} className="rts-btn btn-primary contact-us">
                                         Contáctanos
                                     </Link>
                                 </div>

@@ -30,7 +30,7 @@ function BusinessGoalFour() {
                                         Estrategia, Arquitectura y <br /> Ejecución con Estándar Corporativo
                                     </h2>
                                 </div>
-                                <Link href={'#'} className="rts-btn btn-primary-5">
+                                <Link href={'/capacidades'} className="rts-btn btn-primary-5">
                                     Ver todas nuestras capacidades → <i className="fal fa-arrow-right" />
                                 </Link>
                             </div>
