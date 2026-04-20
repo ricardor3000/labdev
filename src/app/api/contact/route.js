@@ -61,7 +61,7 @@ export async function POST(request) {
 
     await transporter.sendMail({
       from: process.env.MAIL_FROM || process.env.SMTP_USER,
-      to: "contacto@lapdev.cl",
+      to: "ricardo@laparadoja.cl",
       replyTo: email,
       subject: `Nuevo lead web - ${companyName}`,
       html: htmlContent,

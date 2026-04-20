@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../../public/assets/css/vendor/bootstrap.min.css";
 import "../../public/assets/css/plugins/swiper.min.css";
 import "../../public/assets/css/plugins/fontawesome-5.css";
 import "../../public/assets/css/plugins/animate.min.css";

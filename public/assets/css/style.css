@@ -32442,3 +32442,97 @@ textarea.lapdev-input.form-control {
     width: 100%;
   }
 }
+
+
+
+
+/* =========================
+   MODAL LAPDEV CUSTOM
+========================= */
+
+.lapdev-modal-content {
+  border: none;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.2);
+}
+
+.lapdev-modal-content .modal-header {
+  background: linear-gradient(135deg, #DE0B0B, #DE0B0B);
+  padding: 30px;
+  border: none;
+}
+
+.lapdev-modal-content .modal-header h3 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.lapdev-modal-content .modal-header p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.lapdev-modal-content .btn-close {
+  filter: invert(1);
+}
+
+.lapdev-modal-content .modal-body {
+  padding: 30px;
+}
+
+/* Inputs */
+
+.lapdev-input.form-control {
+  border-radius: 10px;
+  border: 1px solid #d0d7de;
+  height: 50px;
+}
+
+textarea.lapdev-input.form-control {
+  height: auto;
+  min-height: 120px;
+}
+
+.lapdev-input:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+/* Botón principal */
+
+.lapdev-submit-btn {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  border: none;
+  color: white !important;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+.lapdev-submit-btn:hover {
+  background: linear-gradient(135deg, #0056b3, #004099);
+}
+
+/* Botón cerrar */
+
+.lapdev-close-btn {
+  border-radius: 10px;
+  padding: 12px 20px;
+}
+
+/* Sociales */
+
+.lapdev-social-link {
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #333;
+}
+
+.lapdev-social-link:hover {
+  background: #000;
+  color: #fff;
+}
