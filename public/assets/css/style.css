@@ -32513,3 +32513,56 @@ p.disc {
 
 
 
+/* MOBILE FIX - márgenes laterales reales */
+@media (max-width: 767px) {
+  
+  .mobile-padding {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  /* Mejora lectura del texto */
+  .mobile-padding .disc {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 24px;
+  }
+
+  /* Título más cómodo en mobile */
+  .mobile-padding .title {
+    font-size: 28px;
+    line-height: 1.3;
+    margin-bottom: 18px;
+  }
+
+  .mobile-padding .pre-title {
+    margin-bottom: 10px;
+  }
+
+  /* Espaciado de los checks */
+  .mobile-padding .about-success-wrapper {
+    margin-top: 20px;
+    row-gap: 10px;
+  }
+
+  .mobile-padding .single {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .mobile-padding .details {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+
+  /* Bloque founder */
+  .mobile-padding .about-founder-wrapper {
+    margin-top: 30px !important;
+    row-gap: 20px;
+  }
+
+}
+
