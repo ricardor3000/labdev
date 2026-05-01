@@ -32687,3 +32687,18 @@ p.disc {
   }
 }
 
+
+
+@media (max-width: 767px) {
+
+  /* separa las columnas */
+  .contact-one .col-lg-4 {
+    margin-bottom: 30px;
+    padding-top: 70px;
+  }
+
+  .contact-one .col-lg-8 {
+    margin-top: 20px;
+  }
+
+}
