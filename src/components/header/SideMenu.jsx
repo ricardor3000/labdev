@@ -164,27 +164,27 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                     </Link>
                                     <ul className={`submenu ${openMenu === 2 ? 'mm-collapse mm-show' : 'mm-collapse'}`}>
                                         <li>
-                                            <Link href={'/desarrollo-web'}>Desarrollo Web (Next.js / React)</Link>
+                                            <Link href={'/service-details/desarrollo-web'}>Desarrollo Web (Next.js / React)</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/backend-apis'}>Backend & APIs</Link>
+                                            <Link href={'/service-details/backend-apis'}>Backend & APIs</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/apps-mobile'}>Apps Mobile</Link>
+                                            <Link href={'/service-details/apps-mobile'}>Apps Mobile</Link>
                                         </li>
                                         <li className="mobile-menu-link">
-                                            <Link href={'/ux-ui'}>UX/UI</Link>
+                                            <Link href={'/service-details/ux-ui'}>UX/UI</Link>
                                         </li>
                                          <li className="mobile-menu-link">
-                                            <Link href={'/devops'}>DevOps & Cloud</Link>
+                                            <Link href={'/service-details/devops'}>DevOps & Cloud</Link>
                                         </li>
                                          <li className="mobile-menu-link">
-                                            <Link href={'/soporte'}>Mantenimiento / Soporte</Link>
+                                            <Link href={'/service-details/soporte'}>Mantenimiento / Soporte</Link>
                                         </li>
                                     </ul>
                                 </li>
                                 <li className="menu-item">
-                                    <Link className="menu-link" href="#" onClick={() => toggleMenu(3)}>
+                                    <Link className="menu-link" href="/blog-grid" onClick={() => toggleMenu(3)}>
                                         Blog
                                     </Link>
                                     {/* <ul className={`submenu ${openMenu === 3 ? 'mm-collapse mm-show' : 'mm-collapse'}`}>
