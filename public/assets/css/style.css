@@ -32566,3 +32566,124 @@ p.disc {
 
 }
 
+
+
+
+
+
+@media (max-width: 767px) {
+
+  /* 🔥 Padding lateral REAL */
+  .feature-mobile-padding {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  /* Quitar paddings raros del template */
+  .feature-mobile-padding .pl--30 {
+    padding-left: 0 !important;
+  }
+
+  /* Título */
+  .feature-mobile-padding .feature-title {
+    font-size: 26px;
+    line-height: 1.3;
+    margin-bottom: 16px;
+  }
+
+  /* Texto */
+  .feature-mobile-padding p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  /* Espaciado */
+  .feature-mobile-padding .feature-one-wrapper {
+    margin-top: 24px;
+  }
+
+  /* Lista */
+  .feature-mobile-padding .single-feature-one {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .feature-mobile-padding .single-feature-one p {
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  /* Imagen */
+  .feature-left-area {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+  }
+
+  .feature-left-area img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .map-mobile-padding {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .map-mobile-padding .mapdetails-inner-one {
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 35px;
+  }
+
+  .map-mobile-padding .single-wized {
+    margin-bottom: 30px;
+  }
+
+  .map-mobile-padding .title {
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 16px;
+  }
+
+  .map-mobile-padding .details p,
+  .map-mobile-padding .details a {
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  .map-mobile-padding .number {
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 18px;
+  }
+
+  .map-mobile-padding .time-header,
+  .map-mobile-padding .headoffice {
+    margin-top: 22px;
+  }
+
+  .map-iframe-mobile {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 45px;
+  }
+
+  .map-iframe-mobile iframe {
+    width: 100%;
+    height: 360px;
+    display: block;
+  }
+}
+
