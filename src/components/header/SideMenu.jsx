@@ -235,22 +235,22 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                             </ul>
                         </nav>
                         <div className="social-wrapper-two menu mobile-menu">
+                            <Link  href={'https://www.linkedin.com/company/lapdev/'}>
+                                 <i className="fab fa-linkedin" />
+                            </Link>
+                            <Link href="#">
+                                 <i className="fab fa-instagram" />
+                            </Link>
                             <Link href="#">
                                 <i className="fab fa-facebook-f" />
                             </Link>
                             <Link href="#">
-                                <i className="fab fa-twitter" />
-                            </Link>
-                            <Link href="#">
-                                <i className="fab fa-instagram" />
-                            </Link>
-                            <Link href="#">
-                                <i className="fab fa-whatsapp" />
+                                <i className="fab fab fa-whatsapp" />
                             </Link>
                             {/* <Link href="#"><i class="fab fa-linkedin"></i></Link> */}
                         </div>
                         <Link
-                            href="#"
+                            href="/contacto"
                             className="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btnmenu"
                         >
                             Contáctanos
