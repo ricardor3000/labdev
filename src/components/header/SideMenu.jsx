@@ -109,11 +109,11 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                     <div className="body-mobile d-block d-xl-none">
                         <nav className="nav-main mainmenu-nav">
                             <ul className="mainmenu metismenu" id="mobile-menu-active">
-                                <li className="has-droupdown menu-item">
+                                <li className="menu-item">
                                     <Link className="menu-link" href="#" onClick={() => toggleMenu(1)}>
-                                        Home
+                                        Inicio
                                     </Link>
-                                    <ul className={`submenu ${openMenu === 1 ? 'mm-collapse mm-show' : 'mm-collapse'}`} >
+                                   {/*  <ul className={`submenu ${openMenu === 1 ? 'mm-collapse mm-show' : 'mm-collapse'}`} >
                                         <li>
                                             <ul>
                                                 <Link href="#0" className="tag">
@@ -151,37 +151,43 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                                 </li>
                                             </ul>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
-                                <li className="menu-item">
+                               {/*  <li className="menu-item">
                                     <Link className="menu-link" href={'/about-us'}>
-                                        About Us
+                                        Servicios
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li className="has-droupdown menu-item">
-                                    <Link className="menu-link" href="#" onClick={() => toggleMenu(2)}>
-                                        Services
+                                    <Link className="menu-link" href="/servicios" onClick={() => toggleMenu(2)}>
+                                        Servicios
                                     </Link>
                                     <ul className={`submenu ${openMenu === 2 ? 'mm-collapse mm-show' : 'mm-collapse'}`}>
                                         <li>
-                                            <Link href={'/our-service'}>Service 1</Link>
+                                            <Link href={'/desarrollo-web'}>Desarrollo Web (Next.js / React)</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/service-2'}>Service 2</Link>
+                                            <Link href={'/backend-apis'}>Backend & APIs</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/service-3'}>Service 3</Link>
+                                            <Link href={'/apps-mobile'}>Apps Mobile</Link>
                                         </li>
                                         <li className="mobile-menu-link">
-                                            <Link href={'/service-details'}>Service Details</Link>
+                                            <Link href={'/ux-ui'}>UX/UI</Link>
+                                        </li>
+                                         <li className="mobile-menu-link">
+                                            <Link href={'/devops'}>DevOps & Cloud</Link>
+                                        </li>
+                                         <li className="mobile-menu-link">
+                                            <Link href={'/soporte'}>Mantenimiento / Soporte</Link>
                                         </li>
                                     </ul>
                                 </li>
-                                <li className="has-droupdown menu-item">
+                                <li className="menu-item">
                                     <Link className="menu-link" href="#" onClick={() => toggleMenu(3)}>
-                                        Pages
+                                        Blog
                                     </Link>
-                                    <ul className={`submenu ${openMenu === 3 ? 'mm-collapse mm-show' : 'mm-collapse'}`}>
+                                    {/* <ul className={`submenu ${openMenu === 3 ? 'mm-collapse mm-show' : 'mm-collapse'}`}>
                                         <li className="mobile-menu-link">
                                             <Link href={'/project'}>Project</Link>
                                         </li>
@@ -203,9 +209,9 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                         <li className="mobile-menu-link">
                                             <Link href={'/404'}>404 Page</Link>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
-                                <li className="has-droupdown menu-item">
+                              {/*   <li className="has-droupdown menu-item">
                                     <Link className="menu-link" href="#" onClick={() => toggleMenu(4)}>
                                         Blog
                                     </Link>
@@ -220,10 +226,10 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                             <Link href={'/blog-details-default'}>Blog Details</Link>
                                         </li>
                                     </ul>
-                                </li>
+                                </li> */}
                                 <li className="menu-item menu-item">
-                                    <Link className="menu-link" href="/contactus">
-                                        Contact
+                                    <Link className="menu-link" href="/contacto">
+                                        Contacto
                                     </Link>
                                 </li>
                             </ul>
@@ -247,7 +253,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                             href="#"
                             className="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btnmenu"
                         >
-                            Get Quote
+                            Contáctanos
                         </Link>
                     </div>
                 </div>
