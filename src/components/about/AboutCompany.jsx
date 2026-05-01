@@ -10,7 +10,7 @@ function AboutCompany() {
             <div className="rts-about-our-company-h2 eight rts-section-gap" id="about">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 mt_sm--30">
+                        <div className="col-12 mt_sm--30 about-company-mobile-padding">
                             <div className="title-area about-company">
                                 <span>SECTORES ESTRATÉGICOS</span>
                                 <h2 className="title">

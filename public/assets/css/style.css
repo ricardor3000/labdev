@@ -32702,3 +32702,143 @@ p.disc {
   }
 
 }
+
+
+
+
+@media (max-width: 767px) {
+
+  /* 🔥 margen lateral REAL */
+  .about5-mobile-padding {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  /* título */
+  .about5-mobile-padding .title {
+    font-size: 28px;
+    line-height: 1.3;
+    margin-bottom: 18px;
+  }
+
+  /* texto */
+  .about5-mobile-padding .disc {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+
+  /* check list */
+  .about5-mobile-padding .item-check-inner {
+    margin-top: 20px;
+  }
+
+  .about5-mobile-padding .single-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  /* columnas de checks → stack */
+  .about5-mobile-padding .item-check-inner {
+    display: block;
+  }
+
+  /* imagen */
+  .thumbnail-about-six {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 30px;
+  }
+
+  .thumbnail-about-six img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
+
+
+@media (max-width: 767px) {
+  .about-company-mobile-padding {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .about-company-mobile-padding .title-area.about-company {
+    text-align: left;
+  }
+
+  .about-company-mobile-padding .title-area.about-company .title {
+    font-size: 28px;
+    line-height: 1.3;
+    margin-bottom: 18px;
+  }
+
+  .about-company-mobile-padding .about-company-wrapper > .disc {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 26px;
+  }
+
+  .about-company-mobile-padding .contoler-company {
+    display: block !important;
+  }
+
+  .about-company-mobile-padding .button-area {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-bottom: 28px;
+  }
+
+  .about-company-mobile-padding .nav-tabs,
+  .about-company-mobile-padding .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .about-company-mobile-padding .nav-link {
+    width: 100%;
+    text-align: left;
+    white-space: normal;
+    line-height: 1.4;
+  }
+
+  .about-company-mobile-padding .tab-content-wrapper {
+    width: 100%;
+  }
+
+  .about-company-mobile-padding .rts-tab-content-one img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .about-company-mobile-padding .rts-tab-content-one .disc {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .about-company-mobile-padding .check-area {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .about-company-mobile-padding .check-area .disc {
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .about-company-mobile-padding .rts-btn {
+    margin-top: 20px;
+  }
+}
