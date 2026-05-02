@@ -32842,3 +32842,70 @@ p.disc {
     margin-top: 20px;
   }
 }
+
+
+
+@media (max-width: 767px) {
+
+  /* 🔥 padding lateral contenido principal */
+  .service-mobile-padding {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  /* imagen */
+  .service-mobile-padding .thumbnail img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* títulos */
+  .service-mobile-padding .title {
+    font-size: 26px;
+    line-height: 1.3;
+    margin-bottom: 16px;
+  }
+
+  /* párrafos */
+  .service-mobile-padding .disc {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+  }
+
+  /* separación entre secciones */
+  .service-mobile-padding .service-detials-step-2 {
+    margin-top: 28px !important;
+  }
+
+  /* 🔥 SIDEBAR */
+
+  .service-sidebar-mobile {
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+    margin-top: 40px;
+  }
+
+  /* eliminar padding raro del template */
+  .service-sidebar-mobile.pl--50 {
+    padding-left: 22px !important;
+  }
+
+  /* widgets */
+  .service-sidebar-mobile .rts-single-wized {
+    margin-bottom: 24px;
+  }
+
+  /* listas */
+  .service-sidebar-mobile .single-categories li {
+    padding: 10px 0;
+  }
+
+  /* botón */
+  .service-sidebar-mobile .rts-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+}

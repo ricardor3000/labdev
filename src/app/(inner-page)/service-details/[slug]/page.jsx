@@ -36,7 +36,7 @@ export default async function ServiceDetailsPage({ params }) {
       <div className="rts-service-details-area rts-section-gap">
         <div className="container">
           <div className="row">
-            <div className="col-xl-8 col-md-12 col-sm-12 col-12">
+            <div className="col-xl-8 col-md-12 col-sm-12 col-12 service-mobile-padding">
               <div className="service-detials-step-1">
                 <div className="thumbnail">
                   <img
@@ -67,7 +67,7 @@ export default async function ServiceDetailsPage({ params }) {
               ))}
             </div>
 
-            <div className="col-xl-4 col-md-12 col-sm-12 col-12 mt_lg--60 pl--50 pl_md--0 pl-lg-controler pl_sm--0">
+            <div className="col-xl-4 col-md-12 col-sm-12 col-12 mt_lg--60 pl--50 pl_md--0 pl-lg-controler pl_sm--0 service-sidebar-mobile">
               <div className="rts-single-wized Categories service">
                 <div className="wized-header">
                   <h5 className="title">Categoría</h5>
