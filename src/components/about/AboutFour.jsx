@@ -6,7 +6,7 @@ function AboutFour() {
             <div className="rts-about-area rts-section-gap about-home-seven" id="about">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 about-four-image-mobile">
                             <div className="thumbnail">
                                 <img src="assets/images/about/main/nosotros2.png" className='shadow-lg' style={{borderRadius:20}} alt="about_image" />
                                 <img
@@ -20,7 +20,7 @@ function AboutFour() {
                                 </div> */}
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 about-four-mobile-padding">
                             <div className="text-start home-seven-about">
                                 <p className="pre-title">MÁS QUE CÓDIGO, CONSTRUIMOS PRODUCTOS</p>
                                 <h3 className="title">

@@ -228,6 +228,11 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                                     </ul>
                                 </li> */}
                                 <li className="menu-item menu-item">
+                                    <Link className="menu-link" href="/nosotros">
+                                        Nosotros
+                                    </Link>
+                                </li>
+                                <li className="menu-item menu-item">
                                     <Link className="menu-link" href="/contacto">
                                         Contacto
                                     </Link>
