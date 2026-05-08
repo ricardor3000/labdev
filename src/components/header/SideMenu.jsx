@@ -110,7 +110,7 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                         <nav className="nav-main mainmenu-nav">
                             <ul className="mainmenu metismenu" id="mobile-menu-active">
                                 <li className="menu-item">
-                                    <Link className="menu-link" href="#" onClick={() => toggleMenu(1)}>
+                                    <Link className="menu-link" href="/" onClick={() => toggleMenu(1)}>
                                         Inicio
                                     </Link>
                                    {/*  <ul className={`submenu ${openMenu === 1 ? 'mm-collapse mm-show' : 'mm-collapse'}`} >
