@@ -36,38 +36,44 @@ function BannerOne() {
       <div>
         <style jsx global>{`
           .rts-banner-one {
-            position: relative;
+            position: relative !important;
             overflow: hidden;
           }
 
-          .rts-banner-one::before {
-            content: "";
+          .banner-dark-overlay {
             position: absolute;
             inset: 0;
-            background: rgba(0, 0, 0, 0.25);
-            z-index: 1;
+            background: rgba(0, 0, 0, 0.20);
+            z-index: 4;
             pointer-events: none;
           }
 
           .rts-banner-one .swiper,
           .rts-banner-one .animation-img {
             position: relative;
-            z-index: 2;
+            z-index: 3;
           }
 
           .rts-banner-one .banner-one-inner {
             position: relative;
-            z-index: 3;
+            z-index: 4;
+          }
+
+          .rts-banner-one .shape-img {
+            position: relative;
+            z-index: 4;
           }
 
           @media (max-width: 767px) {
-            .rts-banner-one::before {
-              background: rgba(0, 0, 0, 0.35);
+            .banner-dark-overlay {
+              background: rgba(0, 0, 0, 0.2);
             }
           }
         `}</style>
 
         <div className="rts-banner-area rts-banner-one" id="banner">
+          <div className="banner-dark-overlay" />
+
           <div className="swiper mySwiper banner-one">
             <Swiper
               modules={[Navigation, EffectFade, Scrollbar, A11y, Autoplay]}
@@ -93,7 +99,7 @@ function BannerOne() {
                     <span>Desarrollo web & </span> apps a medida
                   </p>
 
-                  <h1 className={mobileTitleClasses}>
+                  <h1 className={mobileTitleClasses} style={{lineHeight:"80px"}} >
                     <span>Impulsamos tu negocio</span>{" "}
                     <br className="hidden md:block" />
                     con tecnología que escala{" "}
@@ -131,7 +137,7 @@ function BannerOne() {
                     reales.
                   </p>
 
-                  <h1 className={mobileTitleClasses}>
+                  <h1 className={mobileTitleClasses} style={{lineHeight:"80px"}}>
                     Desarrollo Web y Apps <span>con tecnología</span>{" "}
                     <br className="hidden md:block" />
                     de alto rendimiento
@@ -167,7 +173,7 @@ function BannerOne() {
                     <span>Tu idea merece una</span> ejecución profesional
                   </p>
 
-                  <h1 className={mobileTitleClasses}>
+                  <h1 className={mobileTitleClasses} style={{lineHeight:"80px"}}>
                     Transformamos ideas <span>en productos digitales</span>{" "}
                     <br className="hidden md:block" />
                     que venden
