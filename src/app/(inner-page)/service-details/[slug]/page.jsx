@@ -6,6 +6,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FooterOne from "@/components/footer/FooterOne";
 import Services from "@/data/Services.json";
 
+import ServiceSectionsTabs from "@/components/service/ServiceSectionsTabs";
+
+
 export async function generateStaticParams() {
   return Services.map((service) => ({
     slug: service.slug,
@@ -32,40 +35,32 @@ export default async function ServiceDetailsPage({ params }) {
     <div>
       <HeaderOne />
       <Breadcrumb title={service.title} breadcrumbs={breadcrumbs} />
-
       <div className="rts-service-details-area rts-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-xl-8 col-md-12 col-sm-12 col-12 service-mobile-padding">
               <div className="service-detials-step-1">
-                <div className="thumbnail">
-                  <img
-                    className="shadow-lg"
-                    style={{borderRadius:20}}
-                    src={`/assets/images/service/${service.image}`}
-                    alt={service.title}
-                  />
-                </div>
-              </div>
+                  <div className="service-summary mb--30">
+                
+                    <h5 className="disc pb-4">
+                      {service.summary}
+                    </h5>
+                  </div>
 
-              {service.sections.map((section, index) => (
-                <div
-                  key={index}
-                  className={`service-detials-step-2 ${index > 0 ? "mt--40" : "mt--30"}`}
-                >
-                  <h4 className="title">{section.title}</h4>
-
-                  {section.paragraphs.map((paragraph, pIndex) => (
-                    <p
-                      key={pIndex}
-                      className={`disc ${pIndex === 0 ? "mb--25" : ""}`}
-                    >
-                      {paragraph}
-                    </p>
-                  ))}
+                  <div className="thumbnail">
+                    <img
+                      className="shadow-lg"
+                      style={{ borderRadius: 20, marginBottom: 35 }}
+                      src={`/assets/images/service/${service.image}`}
+                      alt={service.title}
+                    />
+                  </div>
                 </div>
-              ))}
+
+             <ServiceSectionsTabs sections={service.sections} />
             </div>
+
+           {/*  SIDEBAR MODULO SERVICIOS DETALLADAOS INICIA ACA */}
 
             <div className="col-xl-4 col-md-12 col-sm-12 col-12 mt_lg--60 pl--50 pl_md--0 pl-lg-controler pl_sm--0 service-sidebar-mobile">
               <div className="rts-single-wized Categories service">
@@ -101,7 +96,7 @@ export default async function ServiceDetailsPage({ params }) {
               </div>
 
                {/* single wizered start */}
-                <div className="rts-single-wized contact" style={{backgroundColor:"#f2f2f2"}}>
+            {/*     <div className="rts-single-wized contact" style={{backgroundColor:"#f2f2f2"}}>
                     <div className="wized-header">
                         <a href="#">
                             <img src="/assets/images/logo/lapDevLogo20266.svg" alt="Business_logo" width={180} />
@@ -113,7 +108,7 @@ export default async function ServiceDetailsPage({ params }) {
                             Contáctanos
                         </Link>
                     </div>
-                </div>
+                </div> */}
                 {/* single wizered End */}
             </div>
           </div>

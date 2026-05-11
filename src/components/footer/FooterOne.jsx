@@ -225,7 +225,7 @@ function FooterOne() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                       >
-                                        laparadoja.cl
+                                        lapdev.cl
                                       </a>{" "}
                                       - Copyright 2026. Todos los derechos reservados.
                                     </p>

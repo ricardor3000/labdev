@@ -12,6 +12,7 @@ import AboutCompany from "@/components/about/AboutCompany";
 import ContactTwo from "@/components/contactform/ContactTwo";
 import ContactFormThree from "@/components/contactform/ContactFormThree";
 import ContactFormFour from "@/components/contactform/ContactFormFour";
+import AboutTwo from "@/components/about/AboutTwo";
 
 export default function Home() {
     const breadcrumbs = [
@@ -23,6 +24,7 @@ export default function Home() {
         <div className="">
             <HeaderOne />
             {/* <Breadcrumb title="Nuestros Servicios" breadcrumbs={breadcrumbs} /> */}
+             <AboutTwo />
              <AboutFive />
              <ServiceOne />
              <AboutCompany />
