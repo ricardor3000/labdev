@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
@@ -20,6 +21,15 @@ function BannerOne() {
   const handleClose = () => {
     setShowModal(false);
   };
+
+  const mobileTitleClasses =
+    "title !text-[34px] !leading-[1.05] !font-extrabold !tracking-[-0.03em] md:!text-[64px] md:!leading-[1.12] md:!font-bold md:!tracking-normal";
+
+  const preTitleClasses =
+    "pre-title !text-sm !leading-tight !font-semibold md:!text-base md:!leading-normal";
+
+  const paragraphClasses =
+    "disc banner-para !text-[15px] !leading-[1.35] !font-medium md:!text-base md:!leading-relaxed md:!font-normal";
 
   return (
     <ErrorBoundary>
@@ -46,18 +56,25 @@ function BannerOne() {
             >
               <SwiperSlide>
                 <div className="banner-one-inner text-start px-4 md:px-0">
-                  <p className="pre-title">
+                  <p className={preTitleClasses}>
                     <span>Desarrollo web & </span> apps a medida
                   </p>
-                  <h1 className="title">
-                    <span>Impulsamos tu negocio</span> <br />
-                    con tecnología que escala <br /> tu empresa
+
+                  <h1 className={mobileTitleClasses}>
+                    <span>Impulsamos tu negocio</span>{" "}
+                    <br className="hidden md:block" />
+                    con tecnología que escala{" "}
+                    <br className="hidden md:block" />
+                    tu empresa
                   </h1>
-                  <p className="disc banner-para">
-                    En Lapdev diseñamos y desarrollamos plataformas web y aplicaciones modernas,
-                    <br />
+
+                  <p className={paragraphClasses}>
+                    En Lapdev diseñamos y desarrollamos plataformas web y
+                    aplicaciones modernas,
+                    <br className="hidden md:block" />
                     optimizadas para rendimiento, escalabilidad y conversión.
                   </p>
+
                   <a
                     href="#"
                     onClick={handleOpen}
@@ -65,6 +82,7 @@ function BannerOne() {
                   >
                     Solicitar Diagnóstico Técnico
                   </a>
+
                   <img
                     className="shape-img one"
                     src="assets/images/banner/shape/01.png"
@@ -75,18 +93,25 @@ function BannerOne() {
 
               <SwiperSlide>
                 <div className="banner-one-inner text-start px-4 md:px-0">
-                  <p className="pre-title">
-                    <span>Arquitectura moderna. Código limpio.</span> Resultados reales.
+                  <p className={preTitleClasses}>
+                    <span>Arquitectura moderna. Código limpio.</span> Resultados
+                    reales.
                   </p>
-                  <h1 className="title">
-                    Desarrollo Web y Apps <span>con tecnología</span> <br />
+
+                  <h1 className={mobileTitleClasses}>
+                    Desarrollo Web y Apps <span>con tecnología</span>{" "}
+                    <br className="hidden md:block" />
                     de alto rendimiento
                   </h1>
-                  <p className="disc banner-para">
-                    Creamos experiencias digitales rápidas, seguras y escalables utilizando Next.js y React.
-                    <br />
-                    Desde MVP hasta plataformas complejas, llevamos tu producto al siguiente nivel.
+
+                  <p className={paragraphClasses}>
+                    Creamos experiencias digitales rápidas, seguras y escalables
+                    utilizando Next.js y React.
+                    <br className="hidden md:block" />
+                    Desde MVP hasta plataformas complejas, llevamos tu producto
+                    al siguiente nivel.
                   </p>
+
                   <a
                     href="#"
                     onClick={handleOpen}
@@ -94,6 +119,7 @@ function BannerOne() {
                   >
                     Solicitar Diagnóstico Técnico
                   </a>
+
                   <img
                     className="shape-img one"
                     src="assets/images/banner/shape/01.png"
@@ -104,18 +130,23 @@ function BannerOne() {
 
               <SwiperSlide>
                 <div className="banner-one-inner text-start px-4 md:px-0">
-                  <p className="pre-title">
+                  <p className={preTitleClasses}>
                     <span>Tu idea merece una</span> ejecución profesional
                   </p>
-                  <h1 className="title">
-                    Transformamos ideas <span>en productos digitales</span> <br />
+
+                  <h1 className={mobileTitleClasses}>
+                    Transformamos ideas <span>en productos digitales</span>{" "}
+                    <br className="hidden md:block" />
                     que venden
                   </h1>
-                  <p className="disc banner-para">
-                    Desarrollamos páginas web y aplicaciones diseñadas para convertir usuarios en clientes.
-                    <br />
-                    Nos enfocamos en experiencia, velocidad y la estrategia digital.
+
+                  <p className={paragraphClasses}>
+                    Desarrollamos páginas web y aplicaciones diseñadas para
+                    convertir usuarios en clientes.
+                    <br className="hidden md:block" />
+                    Nos enfocamos en experiencia, velocidad y estrategia digital.
                   </p>
+
                   <a
                     href="#"
                     onClick={handleOpen}
@@ -123,6 +154,7 @@ function BannerOne() {
                   >
                     Solicitar Diagnóstico Técnico
                   </a>
+
                   <img
                     className="shape-img one"
                     src="assets/images/banner/shape/01.png"
@@ -139,6 +171,7 @@ function BannerOne() {
               src="assets/images/banner/shape/02.png"
               alt="banner_business"
             />
+
             <img
               className="shape-img three"
               src="assets/images/banner/shape/03.png"
