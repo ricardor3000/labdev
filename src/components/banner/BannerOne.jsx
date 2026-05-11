@@ -34,6 +34,39 @@ function BannerOne() {
   return (
     <ErrorBoundary>
       <div>
+        <style jsx global>{`
+          .rts-banner-one {
+            position: relative;
+            overflow: hidden;
+          }
+
+          .rts-banner-one::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.25);
+            z-index: 1;
+            pointer-events: none;
+          }
+
+          .rts-banner-one .swiper,
+          .rts-banner-one .animation-img {
+            position: relative;
+            z-index: 2;
+          }
+
+          .rts-banner-one .banner-one-inner {
+            position: relative;
+            z-index: 3;
+          }
+
+          @media (max-width: 767px) {
+            .rts-banner-one::before {
+              background: rgba(0, 0, 0, 0.35);
+            }
+          }
+        `}</style>
+
         <div className="rts-banner-area rts-banner-one" id="banner">
           <div className="swiper mySwiper banner-one">
             <Swiper
@@ -85,7 +118,7 @@ function BannerOne() {
 
                   <img
                     className="shape-img one"
-                    src="assets/images/banner/shape/01.png"
+                    src="/assets/images/banner/shape/01.png"
                     alt="banner_business"
                   />
                 </div>
@@ -122,7 +155,7 @@ function BannerOne() {
 
                   <img
                     className="shape-img one"
-                    src="assets/images/banner/shape/01.png"
+                    src="/assets/images/banner/shape/01.png"
                     alt="banner_business"
                   />
                 </div>
@@ -157,7 +190,7 @@ function BannerOne() {
 
                   <img
                     className="shape-img one"
-                    src="assets/images/banner/shape/01.png"
+                    src="/assets/images/banner/shape/01.png"
                     alt="banner_business"
                   />
                 </div>
@@ -168,13 +201,13 @@ function BannerOne() {
           <div className="animation-img">
             <img
               className="shape-img two"
-              src="assets/images/banner/shape/02.png"
+              src="/assets/images/banner/shape/02.png"
               alt="banner_business"
             />
 
             <img
               className="shape-img three"
-              src="assets/images/banner/shape/03.png"
+              src="/assets/images/banner/shape/03.png"
               alt="banner_business"
             />
           </div>
