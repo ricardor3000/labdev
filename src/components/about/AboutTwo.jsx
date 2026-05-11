@@ -176,7 +176,7 @@ function AboutTwo({ service }) {
             <div className="row service-conclusion-row">
               <div className="col-12">
                 <div className="title-area about-company service-conclusion-box">
-                  <h6 className="title">{conclusionSection.title}</h6>
+                 {/*  <h6 className="title">{conclusionSection.title}</h6> */}
 
                   {conclusionSection.paragraphs.map((paragraph, index) => (
                     <p className="disc" key={index}>
