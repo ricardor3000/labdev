@@ -153,7 +153,7 @@ function AboutTwo({ service }) {
 
                           <Link
                             className="rts-btn btn-primary-2 color-h-black"
-                            href={`/service-details/${service.slug}`}
+                            href="https://reuniones.clientify.com/#/AdolfoAliste/lapdev" target="blank"
                           >
                             Solicitar reunión de diagnóstico
                           </Link>
