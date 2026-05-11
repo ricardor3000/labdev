@@ -19,7 +19,7 @@ function CaseSix() {
             <div className="col-lg-6">
               <div className="thumbnail-progress-7">
                 <img
-                  src="/assets/images/business-goal/05.png"
+                  src="/assets/images/business-goal/devs.png"
                   alt="progress"
                 />
               </div>
@@ -87,7 +87,7 @@ function CaseSix() {
                 </div>
 
                 <Link
-                  href="https://api.whatsapp.com/send?phone=+56936533800&text=Quiero%20informaci%C3%B3n"
+                  href="https://api.whatsapp.com/send?phone=+56936533804&text=Quisiera%20m%C3%A1s%20informaci%C3%B3n%20de%20los%20servicios%20Lapdev"
                   target="_blank"
                   className="rts-btn btn-primary-5"
                 >
