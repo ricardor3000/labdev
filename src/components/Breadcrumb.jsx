@@ -6,7 +6,7 @@ const Breadcrumb = ({ title, breadcrumbs }) => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 breadcrumb-1">
-                        <h1 className="title">{title}</h1>
+                        <h2 className="title">{title}</h2>
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div className="bread-tag">
