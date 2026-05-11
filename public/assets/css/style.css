@@ -15881,7 +15881,7 @@ body.home-eleven #menu-btn:hover {
   color: #1C2539;
 }
 .rts-btn.btn-primary-5 {
-  background: var(--color-primary-5);
+  background: var(--color-primary);
   color: #fff;
 }
 .rts-btn.btn-primary-5.six {
@@ -19645,7 +19645,7 @@ body.thirteen-body .title-area span {
   contain: "";
   height: 235.7px;
   width: 213.54px;
-  background-image: url(../images/about/shape/04.png);
+  background-image: url(../images/about/shape/02.png);
   background-repeat: no-repeat;
   animation: jump-2 5s linear infinite;
   z-index: -1;

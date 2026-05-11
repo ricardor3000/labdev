@@ -190,7 +190,7 @@ function TechnicalDiagnosisModal({ show, handleClose }) {
             </Col>
           </Row>
 
-          <div className="lapdev-social-links">
+        {/*   <div className="lapdev-social-links">
             <a
               href="https://www.linkedin.com"
               target="_blank"
@@ -223,7 +223,7 @@ function TechnicalDiagnosisModal({ show, handleClose }) {
             >
               Whatsapp
             </a>
-          </div>
+          </div> */}
 
           <div className="lapdev-form-note">
             Te responderemos con una orientación inicial y próximos pasos sugeridos.
