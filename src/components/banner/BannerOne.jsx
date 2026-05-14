@@ -23,13 +23,13 @@ function BannerOne() {
   };
 
   const mobileTitleClasses =
-    "title !text-[34px] !leading-[1.05] !font-extrabold !tracking-[-0.03em] md:!text-[64px] md:!leading-[1.12] md:!font-bold md:!tracking-normal";
+    "title banner-mobile-title !text-[34px] !leading-[1.02] !font-extrabold !tracking-[-0.03em] md:!text-[64px] md:!leading-[1.12] md:!font-bold md:!tracking-normal";
 
   const preTitleClasses =
-    "pre-title !text-sm !leading-tight !font-semibold md:!text-base md:!leading-normal";
+    "pre-title banner-mobile-pretitle !text-sm !leading-[1.1] !font-semibold md:!text-base md:!leading-normal";
 
   const paragraphClasses =
-    "disc banner-para !text-[15px] !leading-[1.35] !font-medium md:!text-base md:!leading-relaxed md:!font-normal";
+    "disc banner-para banner-mobile-paragraph !text-[15px] !leading-[1.28] !font-medium md:!text-base md:!leading-relaxed md:!font-normal";
 
   return (
     <ErrorBoundary>
@@ -43,7 +43,7 @@ function BannerOne() {
           .banner-dark-overlay {
             position: absolute;
             inset: 0;
-            background: rgba(0, 0, 0, 0.20);
+            background: rgba(0, 0, 0, 0.2);
             z-index: 4;
             pointer-events: none;
           }
@@ -56,17 +56,66 @@ function BannerOne() {
 
           .rts-banner-one .banner-one-inner {
             position: relative;
-            z-index: 4;
+            z-index: 5;
           }
 
           .rts-banner-one .shape-img {
             position: relative;
-            z-index: 4;
+            z-index: 5;
           }
 
           @media (max-width: 767px) {
             .banner-dark-overlay {
               background: rgba(0, 0, 0, 0.2);
+            }
+
+            .rts-banner-one .banner-one-inner {
+              padding-top: 95px !important;
+              padding-bottom: 85px !important;
+            }
+
+            .rts-banner-one .banner-mobile-pretitle {
+              line-height: 1.05 !important;
+              margin-bottom: 14px !important;
+            }
+
+            .rts-banner-one .banner-mobile-title {
+              font-size: 34px !important;
+              line-height: 1.06 !important;
+              letter-spacing: -0.03em !important;
+              margin-bottom: 28px !important;
+            }
+
+            .rts-banner-one .banner-mobile-paragraph {
+              line-height: 1.25 !important;
+              margin-bottom: 24px !important;
+            }
+
+            .rts-banner-one .banner-mobile-button {
+              margin-bottom: 35px !important;
+            }
+          }
+
+          @media (max-width: 480px) {
+            .rts-banner-one .banner-one-inner {
+              padding-top: 105px !important;
+              padding-bottom: 95px !important;
+            }
+
+            .rts-banner-one .banner-mobile-title {
+              font-size: 32px !important;
+              line-height: 1.04 !important;
+              margin-bottom: 26px !important;
+            }
+
+            .rts-banner-one .banner-mobile-paragraph {
+              font-size: 14px !important;
+              line-height: 1.22 !important;
+              margin-bottom: 24px !important;
+            }
+
+            .rts-banner-one .banner-mobile-button {
+              margin-bottom: 40px !important;
             }
           }
         `}</style>
@@ -99,7 +148,7 @@ function BannerOne() {
                     <span>Desarrollo web & </span> apps a medida
                   </p>
 
-                  <h1 className={mobileTitleClasses} style={{lineHeight:"80px"}} >
+                  <h1 className={mobileTitleClasses}>
                     <span>Impulsamos tu negocio</span>{" "}
                     <br className="hidden md:block" />
                     con tecnología que escala{" "}
@@ -117,7 +166,7 @@ function BannerOne() {
                   <a
                     href="#"
                     onClick={handleOpen}
-                    className="rts-btn btn-primary color-h-black"
+                    className="rts-btn btn-primary color-h-black banner-mobile-button"
                   >
                     Solicitar Diagnóstico Técnico
                   </a>
@@ -137,7 +186,7 @@ function BannerOne() {
                     reales.
                   </p>
 
-                  <h1 className={mobileTitleClasses} style={{lineHeight:"80px"}}>
+                  <h1 className={mobileTitleClasses}>
                     Desarrollo Web y Apps <span>con tecnología</span>{" "}
                     <br className="hidden md:block" />
                     de alto rendimiento
@@ -154,7 +203,7 @@ function BannerOne() {
                   <a
                     href="#"
                     onClick={handleOpen}
-                    className="rts-btn btn-primary color-h-black"
+                    className="rts-btn btn-primary color-h-black banner-mobile-button"
                   >
                     Solicitar Diagnóstico Técnico
                   </a>
@@ -173,7 +222,7 @@ function BannerOne() {
                     <span>Tu idea merece una</span> ejecución profesional
                   </p>
 
-                  <h1 className={mobileTitleClasses} style={{lineHeight:"80px"}}>
+                  <h1 className={mobileTitleClasses}>
                     Transformamos ideas <span>en productos digitales</span>{" "}
                     <br className="hidden md:block" />
                     que venden
@@ -189,7 +238,7 @@ function BannerOne() {
                   <a
                     href="#"
                     onClick={handleOpen}
-                    className="rts-btn btn-primary color-h-black"
+                    className="rts-btn btn-primary color-h-black banner-mobile-button"
                   >
                     Solicitar Diagnóstico Técnico
                   </a>
