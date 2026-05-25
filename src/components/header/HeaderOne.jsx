@@ -84,17 +84,17 @@ function HeaderOne() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href={'#'}>
+                                            <Link target='blank' href={'https://www.instagram.com/lapdev.cl/'}>
                                                 <i className="fab fa-instagram" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href={'#'}>
+                                            <Link target='blank' href={'https://www.facebook.com/profile.php?id=61589530333669'}>
                                                 <i className="fab fa-facebook-f" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link className="mr--0" href={'#'}>
+                                            <Link target='blank' className="mr--0" href={'https://api.whatsapp.com/send/?phone=%2B56936533804&text=Tengo%20un%20proyecto%20tecnol%C3%B3gico,%20Agendemos%20una%20reuni%C3%B3n%20para%20evaluarlo.&type=phone_number&app_absent=0'}>
                                                 <i className="fab fab fa-whatsapp" />
                                             </Link>
                                         </li>

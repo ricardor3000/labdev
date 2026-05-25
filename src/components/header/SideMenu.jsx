@@ -240,16 +240,16 @@ function SideMenu({ isSidebarOpen, toggleSidebar }) {
                             </ul>
                         </nav>
                         <div className="social-wrapper-two menu mobile-menu">
-                            <Link  href={'https://www.linkedin.com/company/lapdev/'}>
+                            <Link target='blank'  href={'https://www.linkedin.com/company/lapdev/'}>
                                  <i className="fab fa-linkedin" />
                             </Link>
-                            <Link href="#">
+                            <Link target='blank' href="https://www.instagram.com/lapdev.cl/">
                                  <i className="fab fa-instagram" />
                             </Link>
-                            <Link href="#">
+                            <Link target='blank' href="https://www.facebook.com/profile.php?id=61589530333669">
                                 <i className="fab fa-facebook-f" />
                             </Link>
-                            <Link href="#">
+                            <Link target='blank' href="https://api.whatsapp.com/send/?phone=%2B56936533804&text=Tengo%20un%20proyecto%20tecnol%C3%B3gico,%20Agendemos%20una%20reuni%C3%B3n%20para%20evaluarlo.&type=phone_number&app_absent=0">
                                 <i className="fab fab fa-whatsapp" />
                             </Link>
                             {/* <Link href="#"><i class="fab fa-linkedin"></i></Link> */}
